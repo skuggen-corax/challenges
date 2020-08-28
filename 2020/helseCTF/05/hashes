@@ -1,0 +1,21 @@
+eryn8:{SSHA}D5ib9O54UpNSic7bKdfdsTflYV08Vyxh
+chad42:{SSHA}0qtkHffbHZQRUzZf9Nd3bb2jy8OCPmi0
+lena53:{SHA}NRRUJt0f0DGr5f9Ism+TBBqIMM4=
+waly57:{SSHA}aDWXPm3LH4NkoczVV8Xe8LC3lIyOuu1j
+simone9:{SSHA}YdNtd2V9w5SmluV2GJdmg/ACsNeY5WtM
+sysadmin:{SSHA}QfH/xTIe7OfIjw2AtfkPgzNaPDsxw4dO
+
+
+target weakest hash: SHA
+"lena53:{SHA}NRRUJt0f0DGr5f9Ism+TBBqIMM4=" > testhash
+sudo john -w=/root/rockyou.txt testhash
+
+easterbunny      (lena53)
+1g 0:00:00:00 DONE (2020-04-07 11:09) 100.0g/s 8932Kp/s 8932Kc/s 8932KC/s edgar2..dymond1
+Use the "--show --format=Raw-SHA1" options to display all of the cracked passwords reliably
+Session completed
+
+❯ echo -n lena53:easterbunny | md5sum
+386ea985fea4ea456ee23d9490fee748  -
+
+korrekt

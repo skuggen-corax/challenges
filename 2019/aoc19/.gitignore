@@ -1,0 +1,6 @@
+data/*
+.vscode/settings.json
+.vscode/launch.json
+# day 9: leaned heavily on https://github.com/rijuvenator/advent19/blob/master/puzzle9.py
+09_sensor_boost.py
+__pycache__/*

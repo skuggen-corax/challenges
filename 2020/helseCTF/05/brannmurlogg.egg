@@ -1,0 +1,6 @@
+brannmurlogg
+
+echo -n "ldap://172.23.0.1" | md5sum
+8b8a5b7c4eac59bc1fd1088ca1a532d8  -
+
+riktig

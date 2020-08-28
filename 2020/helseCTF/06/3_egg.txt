@@ -1,0 +1,2 @@
+zpas = 'pPWYOIMkvqTKwlQg6gcsLDroFTopa0P1'
+EGG = 'EGG{946ad89061dc82d12249d3195853c685}'

@@ -1,0 +1,10 @@
+egg ohm resistor colors:
+
+brun brun rød			sort grønn rød		sort grønn rød		brun brun grønn		brun sort lilla		sort grønn brun
+112						052					052					115					107					051
+
+brun sort gul			sort grønn rød		brun brun gul		sort grønn brun		brun brun sort		sort oransj oransj
+104						052					114					051					110					033
+
+
+112 052 052 115 107 051 104 052 114 051 110 033

