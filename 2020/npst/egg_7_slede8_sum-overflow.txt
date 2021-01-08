@@ -1,0 +1,85 @@
+LES r0
+LES r2
+SETT r8, r0 ; catch overflow
+SETT r9, r2 ; catch overflow
+PLUSS r0, r2   ; r0 = r0+r1 % 256
+
+SETT r1, 1     ; to inc/dec
+SETT r3, 0x30  ; to add for ascii
+SETT r7, 0     ; reserved for print
+
+; get overflow
+SETT r10, 4 ; shifter
+HSKIFT r8, r10
+HSKIFT r9, r10
+PLUSS r8, r9
+HSKIFT r8, r10 ; r8 angir nå overflow-bit
+
+SETT r5, r0 ; catch underflow in r11
+SETT r12, 0x1
+OG r5, r12
+
+SETT r12, 0    ; count 50s (as we will r-shift)
+SETT r11, 0    ; count 5s (as we will r-shift)
+SETT r15, 50  ; to sub50 (as we will r-shift)
+SETT r14, 5   ; to sub5 (as we will r-shift)
+SETT r13, 0
+
+HSKIFT r0, r1 ; shift all bits 1 to the right, make space for overflow-bit
+
+ME r8, r1
+BHOPP START100  ; hopp uten overflow
+SETT r10, 0x80  ; 1000 0000
+ELLER r0, r10   ; legg inn overflow-bit
+
+START100:
+ME r0, r15
+BHOPP ME100 ; hvis tallet er mindre enn 100
+
+LOOP3:
+ME r0, r15
+BHOPP SKRIV100
+PLUSS r12, r1
+MINUS r0, r15
+HOPP LOOP3
+
+SKRIV100:
+SETT r7, r12
+PLUSS r7, r3
+SKRIV r7
+HOPP START10
+
+ME100:
+PLUSS r13, r1 ; husk at det ikke var noe 100-siffer
+
+START10:
+ME r0, r14
+BHOPP ME10 ; hvis rest-tallet er mindre enn 10
+
+LOOP2:
+ME r0, r14
+BHOPP SKRIV10
+PLUSS r11, r1
+MINUS r0, r14
+HOPP LOOP2
+
+SKRIV10:
+SETT r7, r11
+PLUSS r7, r3
+SKRIV r7
+HOPP SKRIV1
+
+ME10:
+ME r13, r1
+BHOPP SKRIV10 ; selv om tallet er mindre enn 10, må vi fortsatt skrive 0 siden det finnes et 100-siffer
+
+SKRIV1:
+VSKIFT r0,r1 ; make space for underflow bit
+ELLER r0, r5 ; add underflow
+SETT r7, r0
+PLUSS r7, r3
+SKRIV r7
+
+STOPP
+
+EGG{ba92ae3a9af1a157703ca83d9a9fb11d}

@@ -1,0 +1,61 @@
+LES r0
+LES r1
+PLUSS r0, r1   ; r0 = r0+r1 % 256
+SETT r1, 1.    ; to inc/dec
+SETT r3, 0x30  ; to add for ascii
+SETT r7, 0     ; print
+SETT r12, 0    ; count 100s
+SETT r11, 0    ; count 10s
+SETT r15, 100  ; to sub100
+SETT r14, 10   ; to sub10
+SETT r13, 0    ; remeber if there were any hundreds, so we dont forget any middle zeroes
+
+START100:
+ME r0, r15 ; mindre enn 100?
+BHOPP ME100
+
+LOOP100:
+ME r0, r15
+BHOPP SKRIV100
+PLUSS r12, r1
+MINUS r0, r15
+HOPP LOOP100
+
+SKRIV100:
+SETT r7, r12
+PLUSS r7, r3
+SKRIV r7
+HOPP START10
+
+ME100: ; mindre enn 100.
+PLUSS r13, r1 ; husk at det ikke var noe 100-siffer
+
+START10:
+ME r0, r14
+BHOPP ME10 ; hvis rest-tallet er mindre enn 10
+
+LOOP10:
+ME r0, r14
+BHOPP SKRIV10
+PLUSS r11, r1
+MINUS r0, r14
+HOPP LOOP10
+
+SKRIV10:
+SETT r7, r11
+PLUSS r7, r3
+SKRIV r7
+HOPP SKRIV1
+
+ME10:
+ME r13, r1
+BHOPP SKRIV10 ; selv om tallet er mindre enn 10, må vi fortsatt skrive 0 siden det finnes et 100-siffer
+
+SKRIV1:
+SETT r7, r0
+PLUSS r7, r3
+SKRIV r7
+
+STOPP
+
+PST{++AndKissesWillBeAwardedToYou}

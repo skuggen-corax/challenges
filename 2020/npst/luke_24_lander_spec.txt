@@ -1,0 +1,70 @@
+https://slede8.npst.no/#N4Igzg9grgTgxgUwMIQCYJALhAZQKIAqBABDAIwAMANMRQB4UA6AdvkaWWTfWS2yeQBM3OgGYKxANzEAhmGZkAtMWYBPYgBcAlswDmfQgLKiRFAJxTZ8ssWUzmGmQBsnxAEaqNCMAfbkArCIAYkGWGjBQCCzRzAQAqgBKxE7eLPFJcM5wdGmJxJlOcKox6cTQGgAOUBp8BADyAAoNMQXZmCwAsnikwqQAbMSWdMQAtjqoMAjECMzMmjIwugg1zABCABKNDaRuEBBgK-g9NDAAHEPEBxQwk9Oz84vLLBtbybv7K5tNxABmOtnEGIwd4HdqsQzHDj+XwCAAsJ0oLC+2z+zGyMScII0YP4kPITHBfnhUJiqLaLAShESLSyqjB0hgolsxGKzAZ-mZFUmADcAHSsrqkEykaFrZG-f4CgCSADk4jghSdRbiYIFaHRBJ1uoylZZUFofj8WWVdMQuQg+eoADzETVi15k1kwxXqkIUqkJGIsR04iE62ju9Je5jlKrYvgAaQSUoAahxBJY5ApiOJI9G4+QmdIkzYPF4fMw07GODYixnOGWepZgXsDjEcFHi+ReKxG+WWw306RYZZMbWVpXm4OK62u4zLNysTFKUHC3OWCkwGCADJ4BUwBPSVPMVfrzeaCCOVwpPQaAAWAH5g7uq1uJBV9iwbxvLA+wO5PKk58+yLCn2uOD-HcAPIIDn33HJvxA39-3XGDgLgsCQKzFkYh-Hs7zNHleTfWDANfbC3w-fM0OgpDELw0DKIwrCLWISDKPg9DGPIkUCLo1QrygxDLHEB4lhWdCwgWATiK-FjeIkKBCgk6RpLgMSCxYSRmLZVSVLIyiBjkwpiAADRiDSKLUzSTOM58AHZLHk1C5yM-DMKceBlKE6QnIUvNxLMwCXNM+yqIQ0hzjc+B6MM9SItM58LBChSnWYGdqWYEAqBAHQwywEBxEEABBcQKFOChBCKigKBCErirKvB8sK4rKrwPAKtKvAABFxF-GqmooFqWq6lqkE6urSqQJAuqQVYQAAXyAA
+
+oppgulp:
+
+Spec DEFINITIONS ::= BEGIN
+AutopilotOppgulp ::= SEQUENCE {
+	leftThruster BOOLEAN,
+	rightThruster BOOLEAN,
+	verticalThruster BOOLEAN
+}
+END
+
+
+{
+  "leftThruster":true,
+  "rightThruster":false,
+  "verticalThruster":false
+}
+
+
+input:
+
+Spec DEFINITIONS ::= BEGIN
+    Position ::= SEQUENCE {
+	x INTEGER(0..255),
+	y INTEGER(0..255)
+}
+
+Target ::= SEQUENCE {
+	upperLeftCorner Position,
+	lowerRightCorner Position
+}
+
+AutopilotFode ::= SEQUENCE {
+	currPos Position,
+	prevPos Position,
+	target Target
+}
+END
+
+{
+  "currPos":{"x":255, "y":254},
+  "prevPos":{"x":238, "y":237},
+  "target":{"upperLeftCorner":{"x":221, "y":220},
+            "lowerRightCorner":{"x":204, "y":203}}
+}
+
+der:
+3029					init
+3008 020200FF 			x
+	 020200FE 			y
+3008 020200EE			prev.x (ikke alltid?)
+	 020200ED			prev.y (ikke alltid?)
+3014 3008	020200DD
+			020200DC
+	 3008 	020200CC 
+			020200CB 
+
+3029
+3008 02020080 	x
+	 020200C8 	y
+3008 02020080	p.x
+	 020200C8	p.y
+3014    ; bytes 13?
+	 3008	02020080	ul.x
+	 		020200C8	ul.y
+	 3008 	02020080 	lr.x
+	 		020200C8	lr.y
+
+PST{MerryChristmasYaFilthyAlgorithm}

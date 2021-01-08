@@ -1,0 +1,158 @@
+rec1value PS-PDU ::= {
+  pSHeader {
+    li-psDomainId { 0 4 2 2 0 5 1 14 },
+    lawfulInterceptionIdentifier '70656E6777796E'H,
+    authorizationCountryCode "NO",
+    communicationIdentifier {
+      networkIdentifier {
+        operatorIdentifier '53414E54454C'H
+      }
+    },
+    sequenceNumber 587923
+  },
+  payload cCPayloadSequence : {
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '634B40044F5241484005'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '6B5241560A'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6C414D0A04'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6C45560440510442514A4A4150044A4B410443E79C5D1B'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '6E4508045741044C41560A'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '1B1B04'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6E414304574156044D4A43414A04504D4A430A04'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6E4143045741560446455641040E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '6B4D08044E414304474B545D0B54455750415004544557574B5640415004494D50500452414004414A0442414D480A04'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '66564504404150044648410457484540404150'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '4E4143415616'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '1B1B'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6041500442514A4F4150044D4F4F410A0A0A'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '0A0A0A0452414A5004484D5050040A0A'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '401D471712474742'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '4CE7821B'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '1245171C'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '10161C15'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '46101C42'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '1B1B1B1B'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '4015104046121D1040454541'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6C524504574156044E41430454E78119'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '60415004574F45480452E782564104414A0451514D400A04'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '664D4A4041575056414F4F4A455454414A04494D4A0442514A4F4156044D4F4F41'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6B43044C524504434B405004574F45480440415004434EE79C5641044941431B'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '60510449E781045045044940110445520451514D4003414A04574B4904484B53415647455741044C415C044B4304484143434104504D48044041500452454A484D43410A'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '774F4EE79C4A4A415605'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '6041500442514A4F4156044D4F4F41040A0A0A'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '734C4B4B54570A0471514D40414A04574F51484841045750455650410449414004471D470C0A0A0A0D'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '0A0A0A044B430457485150504104494140040C0A0A0A0D104517'H
+    },
+    {
+      payloadDirection toTarget,
+      cCContents undefinedCC : '736D6A050470454F4F0A'H
+    },
+    {
+      payloadDirection fromTarget,
+      cCContents undefinedCC : '714A404156044B43044D4A4A0A'H
+    }
+  }
+}
+
+634B40044F52414840056B5241560A6C414D0A046C45560440510442514A4A4150044A4B410443E79C5D1B6E4508045741044C41560A1B1B046E414304574156044D4A43414A04504D4A430A040E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E6E4143045741560446455641040E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E6B4D08044E414304474B545D0B54455750415004544557574B5640415004494D50500452414004414A0442414D480A04665645044041500446484104574845404041504E41434156161B1B6041500442514A4F4150044D4F4F410A0A0A0A0A0A0452414A5004484D5050040A0A401D4717124747424CE7821B1245171C10161C1546101C421B1B1B1B4015104046121D10404545416C524504574156044E41430454E7811960415004574F45480452E782564104414A0451514D400A04664D4A4041575056414F4F4A455454414A04494D4A0442514A4F4156044D4F4F416B43044C524504434B405004574F45480440415004434EE79C5641044941431B60510449E781045045044940110445520451514D4003414A04574B4904484B53415647455741044C415C044B4304484143434104504D48044041500452454A484D43410A774F4EE79C4A4A4156056041500442514A4F4156044D4F4F41040A0A0A734C4B4B54570A0471514D40414A04574F51484841045750455650410449414004471D470C0A0A0A0D0A0A0A044B430457485150504104494140040C0A0A0A0D104517736D6A050470454F4F0A714A404156044B43044D4A4A0A
+
+FromHex
+XOR 24
+...
+c9c36ccf-6a38-4281-b48f-d14db694d4a3
+
+
+PST{md5(c9c36ccf-6a38-4281-b48f-d14db694d4a3)}
+PST{0ae06caf767ac7ebce290cfc57be6a6f}

@@ -1,0 +1,180 @@
+setup:
+  ; r0 temp input
+  ; r1 temp input
+  ; r2 til tmp read
+  ; SETT r3, 0x0 ; current.x
+  ; SETT r4, 0x0 ; current.y
+  ; SETT r5, 0x0 ; prev.x
+  ; SETT r6, 0x0 ; prev.y
+  
+  ; SETT r7, 0 ; ulc.x
+  ; SETT r8, 0 ; ulc.y
+  ; SETT r9, 0 ; lrc.x
+  
+  SETT r10, 0x0
+  SETT r11, 0x1
+  ; r12 til temp print
+  
+  ; SETT r13, 0x0 ; l-booster?
+  ; SETT r14, 0x0 ; r-booster?
+  ; SETT r15, 0x0 ; v-booster?
+
+main:
+  TUR les
+  TUR calcx
+  TUR calcy
+  TUR output
+  STOPP
+
+calcx:
+  ME r3, r7  ; x mindre enn target
+  BHOPP rboost
+  
+  SE r3, r9 ; x st0rre enn target
+  BHOPP lboost
+
+  ; forskjell r3, vs r5
+  SE r3, r5
+  BHOPP stor3
+  
+  ; hvis r5 større enn r3
+  SETT r0, r5
+  MINUS r0, r3
+  SE r0, r10
+  BHOPP rboost
+  HOPP ikke_vfart
+
+  stor3:
+  ; hvis r3 større enn r5
+  SETT r0, r3
+  MINUS r0, r5
+  SE r0, r10
+  BHOPP lboost
+
+  ikke_vfart:
+  SETT r13, 0x0 ; l-booster
+  SETT r14, 0x0 ; r-booster
+  HOPP fincx 
+
+  rboost:
+    SETT r0, r7
+    MINUS r0, r3
+
+    SETT r13, r11
+    SETT r14, r10
+    HOPP fincx
+
+  lboost:
+    SETT r0, r3
+    MINUS r0, r9
+
+    SETT r13, r10
+    SETT r14, r11
+
+  fincx:
+  RETUR
+
+calcy:
+  ME r4, r6 ; på vei opp?
+  BHOPP fincy
+
+  MINUS r4, r6
+  SETT r6, 0x1
+  SE r4, r6 ; (diff y og prev.y) < 1 (vertical hastighet)
+  BHOPP boostv
+  
+  SETT r1, r8
+  MINUS r1, r4
+  SE r0, r1
+  BHOPP boostv
+
+  RETUR
+  
+  boostv:
+  SETT r15, 0x1
+  RETUR
+
+  fincy:
+  SETT r15, 0
+  RETUR
+
+les_neste:
+  LES r2
+  SETT r12, 0x30
+  ULIK r2, r12
+  BHOPP fin_les_neste   ; noe feil?
+  
+  LES r0 ; get bytes
+  
+  les_loop:    
+    ; henter x og y til r0 og r1
+    les_loop_x:
+      LES r2
+      MEL r2, r11 ; hvis 0 eller 1 betyr det at neste byte er verdien (asn1) (hvis 2, fortsett)
+      BHOPP save_x
+      HOPP les_loop_x
+    save_x:
+      LES r2
+      SETT r0, r2
+
+    les_loop_y:
+      LES r2 
+      MEL r2, r11 ; hvis 0 eller 1 betyr det at neste byte er verdien (asn1) (hvis 2, fortsett)
+      BHOPP save_y
+      HOPP les_loop_y
+    save_y:
+      LES r2
+      SETT r1, r2
+
+    fin_les_neste:
+  RETUR
+
+les:
+  LES r2 ; 30
+  LES r2 ; bytes total (0x29)
+
+  TUR les_neste ; hent current x,y
+  SETT r3, r0
+  SETT r4, r1
+
+  TUR les_neste ; hent prev. x,y
+  SETT r5, r0
+  SETT r6, r1
+
+  LES r2        ; target.30 (targetbox)
+  LES r2        ; target.bytes 13 ?
+
+  TUR les_neste ; hent ulc x,y
+  SETT r7, r0
+  SETT r8, r1
+
+  TUR les_neste ; hent lrc x,y
+  SETT r9, r0
+  ; SETT r12, r1 ; what to use this for ?
+  RETUR
+
+output:
+  SETT r12, 0x30
+  SKRIV r12       ; asn1 30
+  SETT r12, 0x09
+  SKRIV r12       ; asn1 bytes - 09
+  
+  SKRIV r11       ; 01
+  SKRIV r11       ; 01
+  SKRIV r13       ; bool-rboost
+  
+  SKRIV r11       ; 01
+  SKRIV r11       ; 01
+  SKRIV r14       ; bool lboost
+  
+  SKRIV r11       ; 01
+  SKRIV r11       ; 01
+  SKRIV r15       ; bool vboost
+  
+  RETUR
+
+; PST{MerryChristmasYaFilthyAlgorithm}
+
+https://npst.no/temmelig-hemmelig/3545c4054b7fb20d387bbdd1f3d2aec8/
+
+https://slede8.npst.no#N4Igzg9grgTgxgUwMIQCYJALnAgLlAB0wB0A7AAnIG5yYAGc3BAWwPIEtSCpczKaYARkYs2nbrwrVaAJkbsANo1a0EAQ1R9pAZQCiAFX20AzABpydAB4MacWDASlcAOktaaew7QAs5qzfI7GAcnZwBPd3JPIxgAVj9raQIHADdXSOjaADYEgOSENIipDIMYgHY-aSgFOHSpD1LaAA5Kmmraov4oxpgATlbyBXg6yi1MoTpcsZ7BQQTBSKE5XEURFWTOSVH67q8hMwtEmgUAWgAjCAgwJhgAfhK9wV9DgJhzy+uEO4eYwXiX6Qpd5XG73UhkZhqTgkKT6ACqACVBggwFp4Ui4Goam5YYjAli4J1yOjyNBcBIxvoAPIABRpZDImOxMMoAFldCZzDAyl1LORmJxUA5yI4KLg1DAAOZ4LQAIQAErSabQLiCtNNObRetI+dc6MEECLSGKJdKtuQFUrBqrrgydgAzCAwMAAawAVggFEoYAcUmBaLENT6uYGpJa6eRrk7jOqdgALFLsf1xSO4AAfBqNFB90z2kwDWlZAEkAHJw7S0fM5qR6StcwR0OWKiMwG3m5vK9gul0IAD6KXtEskWijPpZ0gTSZMqYzwtFBZrPSrMakxbLFfoIaDVYbTatCjbdsoXZ7-cHMFw4-GggO-mkpzbX1zv2ed4EwM+MC0HfI9s4cD5I8VQ+S8tEocYqzKMDyDXcs6xMIDwJmA4hAWKQkMeZ4Jmgn8-1IACgIPEDxwwmJl2g2CNyrXpEN2X4UN3dC6NoJ56zQrQ8IA8cEQMRE7SZQlx3ZHwuSyJIAFPyBSBB2FJAgCDBShw2VTiikLUs4JgLCsmfbJ5iDbTpAAClQdh7XtcgwlJSVyHyQoAEpyAAHnIYQjOki92CZcg4zUa52ElOM8HsvcIzbFJY1IliuSadT12inxt3rULlXCoCePRSLyHCq8Zn+Kw0MoDK+PBKRVNyx58q0YqETtBQUV7UgUSYccABldA3GRdKWBJjEbKQ4VaosAGlZHrLqw1wzhe3qsBGuaw0ulICBDXtGSFEU8gtHaqjpDNbKwiYVFiikWaZsuIhKG2K6J0cG5yD5CAbKslZvQYJ6WOgs6FAu3tLBIq6dtkaC2V0VqxpY4QaEnf0GE9eqYFc7K8DCRH0Fwcg1AxprPgOpgRURjzTMccgjL80hBEcoyYfIGRzEdC8wDwXAQqYpSfzANRpL+kHyB-b7fpxG7Oe5-7eaBmAJpuqLN2B0qboFiACF7MIAcoCW5F59lwcltiJ0TWGRS9L4kbOFG0bwTHsYWvHDRNon2BJsmwApqmabp38nVwJncBZ3nlMjLm+yJG7+Yan6lZV6CReDtXyA13nry5CboLwmaGpxlrqt42rStmtqOtkaQ+u2wvJekM5DpRRgIHFJQjKsGRelZtE8TOzPDWhu7AnsbvLFMIlxhQ-qZaw9jcSRduba7pxbNSZwHoH7r-nobqck++X47LuRpa6cUpTwZw+tJ-ezQuSxWfV7fd7301D8ro7XOMcgwVbyeM+nnzu-aRfB56CpKzdRaBvN+yI5od1urPIYcBf7dX6IAnY14PZCGkAAd18hjXAEByBQCZowOMU4GYv2zplUqZIJAVV+B7KwJcazDQREWAAaixHe0saDk2ELQmWghqHWBonQhhzClg33YS7YQD9q4nAsPw66UR6FMMhiIiwhU5GCMUbvGgdAVHaHkUIm8SjVSnFbCBLKOi1GoSUVosYuj1FsOUdY8xTwDGXCUERNUJ1wI2IsRo+xAiFHeLsVYvxejYjOIgEoFIh4PHkBqiAUwIBxA8CwCAPqMgsh9ToGUOgMhsl0DoAAEXybk2YvQMlZJyTkgpTRil-D6jwspNTYi5MqboJoDSck8IAGLNLyZ0poIAAC+QA

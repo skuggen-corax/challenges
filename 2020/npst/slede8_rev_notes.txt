@@ -1,0 +1,26 @@
+HEADER:     2E534C45 444538
+
+SETT r0:    01 xx      NESTE BYTE er VERDIEN
+SETT r1:    11 xx
+SETT r2:    21 xx
+SETT r15:   F1 xx   
+
+STOPP       0000
+
+OG          05 xx
+ELLER       15 xx
+XELLER      25 xx
+VSKIFT      35 xx
+HSKIFT      45 xx
+PLUSS       55 xx         NESTE BYTE er 0xFRA TIL ( PLUSS r3, r2 => 55 23) 
+MINUS       65 xx         NESTE BYTE er 0xFRA TIL ( MINUS r3, r2 => 65 23) 
+
+LIK rA, rB  07 xx
+ULIK rA, rB 17 xx
+ME rA, rB   27 xx
+MEL rA, rB  37 xx
+SE rA, rB   47 xx
+SEL rA, rB  57 xx    0xFRA TIL
+
+HOPP        28/E8 xx
+BHOPP       29/E9 xx

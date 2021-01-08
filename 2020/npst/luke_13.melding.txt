@@ -1,0 +1,10 @@
+'                                                                                                                                                                                 XX   ', 
+' XXXX    XXXX  XXXXX    XX    XXXX  X   X  XXXXX   XXX   X   X  X   X         XXXXX  X       XXX    XXX          XXXXX   XXXX          XXXX  X   X  XXXXX   XXX   X   X  X   X  X  X  ', 
+' X   X  X        X     X  X  X      XX  X  X      X   X  X   X  X   X         X      X      X   X  X   X           X    X             X      XX  X  X      X   X  X   X  X   X     X  ', 
+' X   X  X        X     X     X      X X X  X      X   X  X  X   X   X         X      X      X   X  X               X    X             X      X X X  X      X   X  X  X   X   X     X  ', 
+' XXXX    XXX     X    X       XXX   X  XX  XXX    X   X  XXX     X X          XXX    X      X   X  X XXX           X     XXX           XXX   X  XX  XXX    X   X  XXX     X X       X ', 
+' X          X    X     X         X  X   X  X      XXXXX  X  X     X           X      X      XXXXX  X   X           X        X             X  X   X  X      XXXXX  X  X     X       X  ', 
+' X          X    X     X  X      X  X   X  X      X   X  X   X    X           X      X      X   X  X   X           X        X             X  X   X  X      X   X  X   X    X       X  ', 
+' X      XXXX     X      XX   XXXX   X   X  XXXXX  X   X  X   X    X    XXXXX  X      XXXXX  X   X   XXX   XXXXX  XXXXX  XXXX   XXXXX  XXXX   X   X  XXXXX  X   X  X   X    X    X  X  ', '                                                                                                                                                                                 XX   ', '                                                                                                                                                                                      ']
+
+PST{SNEAKY_FLAG_IS_SNEAKY}

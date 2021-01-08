@@ -1,0 +1,42 @@
+; siden vi vet at alle tall er mellom 0 og 255, 
+; kan vi bruke en array[0x0..0xFF] til å ta vare på 
+; hvor mange av hvert tall vi har sett.
+
+SETT r1, 1 ; inc og LAST/LAGR på 0x100->0x1FF
+LES r15    ; N
+
+; lese inn alt
+lesloop: 
+  LES r0          
+  LAST r2
+  PLUSS r2, r1
+  LAGR r2
+  PLUSS r14, r1
+  ULIK r14,r15
+  BHOPP lesloop
+
+; klar til skriv, begynn på "array"[0]
+SETT r0, 0
+
+; skriv alt
+skrivloop: 
+  LAST r2
+  ME r2, r1 ; flere tall i array[r0] ?
+  BHOPP neste
+  skriv: 
+    SKRIV r0
+    MINUS r2, r1
+    SEL r2, r1
+    BHOPP skriv
+  neste:
+    PLUSS r0, r1
+    ULIK r0, r10
+    BHOPP skrivloop
+; trenger visst ikke gi STOPP siden vi avslutter på bunnen (og minnet er fullt av \x00\x00 fra før)
+
+EGG{a34ae56d455e16b08cfe07f585ed44d9}
+
+generate input (js):
+"ff" + new Array(0xff).fill(0xff).map(x => (~~(Math.random()*x)).toString(16).padStart(2, "0")).join("")
+
+https://slede8.npst.no#N4Igzg9grgTgxgUwMIQCYJALhAZQKIAqBABDAIwA0xZxA3MQJYB2cxEA5sQDICCOBAel4BxAErEADgFPiABgAeZWbIC0APgVkAYloA6TLnhykyAVmIW6xAHL799ADYIwCRkybEAhg4Au+p2AOEBASmMT6FobGMLKWcZYR3HwkMABMiQAKXACqONGpVOSJIuJpmTl5JgAshWSJ2VwAkgDS1RTkpokAQgASAPIZGcQBQSF2TPQA1g6eMMQ+DA7EYJMwDABuVABGCOwAnu6SMrogszCeeycA2rIAuvr4RKSyVLLj9Ctr616++p8bo1C4Q8SX4pHSIIAsnhwbUrAAzJwwVw+bxLBheGDnPZXGK3YgAfm6-UGxCYzh8CES-3WYUSFhwzVEjQAas96cRIY1rLlYSYOfguHyiiCLL0BkMaYlyWBKZgOVlctEXvzRcQGi1nrU3mrxaSaYCQBQQMwJFAfFgQPD4Z4tp5ZKh4bIEAA2F0IVAATi2VQAHHBZPDUJ44KgqrIqp7-QBmLa+6O+0yJl2pX2yaNVOBkTwIeEBrbKUye6MAdhLqZ2CE9CC2O1kW09nmTW3hZE9TrILpLWZdYdMnhdWc9qFSqBdPuzpgLjejqDMnk9ntScAHCBL0Y9niq-bgJc9bqXs9S9q2ZDgnv7WxdVRLjsr0bI8NMRbD0c8qGjcF9CCqs6-GfHW882jF1PCLDNv1kEsqmPVBTBLX0qjMBsu1A+ESzjVBfQ-dBfVSdcvwDF14W3Et7VbTwwM9KCXQvQDxxXOAXRA3MCxdMwlAQaNTHhJd40HX8EAdPDUgQL911kHi3zMN0EDIR1TFSQdmNPLY-xA1J5JdUwv09M8dmHUwIzUm9PHk9AqirVJZF9Jsm3w+1RyqLZUjja1TATVInWrKoB1kOAdMUxt93k39TCw7tEFkLyyF9YjfRIpNiLk7D0NSdsQxHFz939Ko3VkF1nQU0cvwUtyrzIfSuyLc8aq9aN4WvWNnJLJ1oxA9cvQLL8lNSfDy33IcixbT9oq2EAAF8gA

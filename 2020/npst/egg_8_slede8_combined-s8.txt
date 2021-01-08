@@ -1,0 +1,127 @@
+SETT r11, 0x1 ; 1
+HOPP SEG1       ; 0x92
+
+UNPACKED: 
+XELLER r10, r10
+SETT r11, 0x1 ; 1
+HOPP SEG5                                   ; 0x25
+
+CIPHER:
+.DATA 113,129,181,16,218,188,253,86,209,32,103,204,126,15,8,157,242,108,248,161,24,157,6,0,157,16,235
+
+SEG5:
+SETT r7, 0x1a           ; 26 iterasjoner
+XELLER r8, r8
+FINN CIPHER             ; 0x0A
+LES r2
+
+LOOP2:
+LES r5
+TUR FUNK1               ; 0x5B
+PLUSS r2, r5
+LAST r9
+PLUSS r0, r11
+XELLER r9, r2
+ELLER r8, r9
+MINUS r7, r11           ; reduser teller
+ULIK r7, r10            ; ferdig?
+SETT r2, r5
+BHOPP LOOP2              ; 0x2D
+TUR FUNK1               ; 0x5B
+LAST r9
+XELLER r9, r2
+ELLER r8, r9
+LIK r8, r10
+BHOPP PRINTCORRECT      ; 0x55
+FINN ASCIIFAIL          ; 0x8A
+TUR FUNK2               ; 0x69
+STOPP
+
+PRINTCORRECT:
+FINN ASCIIRIKTIG        ; 0x7B
+TUR FUNK2               ; 0x69
+STOPP
+
+FUNK1:
+SETT r3, r2
+SETT r4, 0x3 ; 3
+VSKIFT r2, r4
+SETT r4, 0x5 ; 5
+HSKIFT r3, r4
+ELLER r2, r3
+RETUR
+
+FUNK2:
+XELLER r10, r10
+SETT r11, 0x1        ; 1
+LOOP3:
+LAST r2
+LIK r2, r10
+BHOPP RETURNF1      ; 0x79
+SKRIV r2
+PLUSS r0, r11
+HOPP LOOP3          ; 0x6D
+RETURNF1:
+RETUR
+
+ASCIIRIKTIG:
+.DATA 0x43, 0x6f, 0x72, 0x72, 0x65, 0x63, 0x74, 0x61, 0x6d, 0x75, 0x6e, 0x64, 0x6f, 0x21, 0x0
+
+ASCIIFAIL:
+.DATA 0x46, 0x65, 0x69, 0x6c, 0x20, 0x3a, 0x28, 0x0
+
+SEG1:
+SETT r3, 0x99 ; 153
+HOPP SEG2           ; 0xB0
+
+SEG3:
+SETT r3, 0x41       ; xor-key
+HOPP SEG4           ; 0x9C
+
+;0x0
+
+SEG4: 
+SETT r0, 0x92       ; FINN SEG1 ; setter adressen for last til 0x92
+SETT r4, r0         ; setter antall bytes som skal xores, start med 0x4
+FINN UNPACKED         ; 0x04 KAN LEGGE IN PACKED?
+LOOP1:
+LAST r2
+XELLER r2, r3
+NOPE                ; LAGR r2
+PLUSS r0, r11
+ULIK r0, r4
+BHOPP LOOP1         ; 0xA2
+HOPP UNPACKED         ; 0x04
+
+SEG2:
+HOPP SEG3       ; 0x97
+
+PACKED:
+.DATA 100,235,240,64,25,67,48,192,244,81,155,253,188,23,144,97,38,141,63,78,73,220,179,45,185,224,89,220,71,65,220,81,170,48,91,100,201,226,65,71,67,71,68,251,68,20,19,69,72,20,241,100,104,84,217,36,246,86,230,99,68,152,67,251,68,69,72,100,104,84,217,70,233,24,68,226,73,219,71,65,65,242,70,219,71,65,65,115,67,0,66,116,3,0,68,4,2,84,115,74,65,100,235,240,64,69,67,70,227,216,70,87,67,20,241,153,71,74,65,2,46,51,51,36,34,53,32,44,52,47,37,46,96,65,7,36,40,45,97,123,105,65,49,153,8,11
+
+
+'''
+krypto:
+
+bearbeiding av forrige tall FUNK1()
+    bitOR(vshift(3), hshift(5))
+
+pluss nyt tall med bearbeidet tall
+
+r9 = xor cipher med nevnte sum
+
+bitOR(xor-resultat med r8)
+
+vi ønsker at r8 skal holde seg 0
+da må r9 også få 0 som resuiltat av x0r
+altså vil vi at summen av bnearbeidet tall og nytt tall skal være lik gjeldende cipher
+
+cipher:     0x71,0x81,0xb5,0x10,0xda,0xbc,0xfd,0x56,0xd1,0x20,0x67,0xcc,0x7e,0x0f,0x08,0x9d,0xf2,0x6c,0xf8,0xa1,0x18,0x9d,0x06,0x00,0x9d,0x10,0xeb
+
+gammelt:    0x45,0x47,0x47,0x7b,0x35,0x31,0x33,0x64,0x33,0x38,0x5f,0x6d,0x61,0x73,0x74,0x65,0x72,0x5f,0x72,0x65,0x76,0x65,0x72,0x73,0x65,0x72
+bearbeidet: 0x2a,0x3a,0x3a,0xdb,0xa9,0x89,0x99,0x23,0x99,0xc1,0xfa,0x6b,0x0b,0x9b,0xa3,0x2b,0x93,0xfa,0x93,0x2b,0xb3,0x2b,0x93,0x9b,0x2b,0x93
+nytt_tall   0x47,0x47,0x7b,0x35,0x31,0x33,0x64,0x33,0x38,0x5f,0x6d,0x61,0x73,0x74,0x65,0x72,0x5f,0x72,0x65,0x76,0x65,0x72,0x73,0x65,0x72,0x7D
+
+korrekt input:  4547477b3531336433385f6d61737465725f72657665727365727d
+from_hex:       EGG{513d38_master_reverser}
+'''

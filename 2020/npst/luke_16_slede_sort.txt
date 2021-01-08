@@ -1,0 +1,57 @@
+; Første byte med føde er et tall N som representerer
+; antallet påfølgende bytes med føde.
+; de påfølgende verdiene representerer en liste med verdier.
+; skriv ut verdiene i lista sortert i stigende rekkefølge
+
+; Eksempel: 06112233445566 => 112233445566
+; Eksempel: 06665544332211 => 112233445566
+
+; OBS: Implementasjonen kan ikke benytte mer enn (24* N^2 + 5000) skritt.
+; OBS: Du kan endre maks antall skritt lokalt ved å skrive localStorage.setItem('🚲', 10000000)
+
+;SETT r10, 0   ; 0
+SETT r11, 1    ; 1
+SETT r1, 1
+
+LES r15
+
+
+LOOP:
+LES r0         ; N
+LAST r2
+PLUSS r2, r11
+LAGR r2
+PLUSS r14, r11
+LIK r14,r15
+BHOPP PRELOOP2
+HOPP LOOP
+
+
+PRELOOP2:
+SETT r0, 0
+
+LOOP2:
+LAST r2
+SEL r2, r11
+BHOPP SKRIV
+PLUSS r0, r11
+HOPP LOOP2
+
+SLUTT:
+STOPP
+
+SKRIV:
+SKRIV r0
+MINUS r2, r11
+MINUS r14, r11
+LIK r14, r10
+BHOPP SLUTT
+SEL r2, r11
+BHOPP SKRIV
+
+PLUSS r0, r11
+HOPP LOOP2
+
+https://slede8.npst.no#N4Igzg9grgTgxgUwMIQCYJALhAbgAQBiAHzGAC4J4BGAnhXgLYKp4BmR6eCMXZeZAQwA2QvADk8kBnhgIADrLAIAdhVkwAOsvwDVwoQj5yAp+yEBzFZ1oUwjZmw4IAdFvycTZy8s4A3bqgAliqUsgoISqrc3FzKeEKB5JRMLP4wQdyu2pIA1jCBvnhQfGkZypSB8YmCkhAwanyV5IHenLI5OQheCFpueACiOUoMcghCmHgADABsAIyzAEwLAMzLACxrAKyb09N4ALwAfHjzS6sb27t9g8Oj41O709sbq0vzB8enK+tbO9O92QA8gAhADKEwAkiMDEw9GAAFYQcpxHK6PCBDqUKgqOj0Jg8FRxAAUCzWACpxAA9BZ4ADUeE2kyZAEpcvkyGQsvgQeC8AARKB4VFxKyyRgCIZ4XSCERswIc+IQVFCEoOYxy-yKuDCUFkOoCSzOJRkCEUBhEgDkgF4NwBNexaADQnJnOlkAnCg-oAFU9Mlmk0dkzwQfwky0Hu9vtmjtmQeDJzDXp9MCj8eUWgAMv1Qb7NgCM4DAQAFTAZrMyQOxyt4fBiDMAQVBSYWWkL6YAqqDszAFo7k7N6wBxABKMmbylbHa7szWvfmGYhAGlfTPk7nlMCABJFwt4QtD-rpguFsdbws7w9FvPj-cX48l5ThpP+qYA28Le-phtNhPp0ez-vrqeO6gguQ4QgAai27aduW-5aEBeBvgCoLtt696NtuyGgRB6HYeB5ZaAAshCYgdn+kZESRZHJjOFHKOmi7LrOoaAdueAoW23o-uRfZaJubEgWBkFpuO0Fds+vHKAhb4gPaICBMocjFFgIALLMywLAAHJMyyaVpCACAAnAgVCzKgWlwAA7NMCAIIZlmGQICwCKgrCaawmyzAgawINMTILJM5kzFQqAOTsVDrMsHmoJscCzJp0xrFQIAAL5AA
+
+PST{youtu.be/k4RRi_ntQc8}

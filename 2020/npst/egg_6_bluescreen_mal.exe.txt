@@ -1,0 +1,18 @@
+inc ebp
+inc edi
+inc edi
+jnp $+0x7a
+cmp [esi],dh
+pop edi
+insd
+popad
+arpl [eax+0x69],bp
+outsb
+inc ebp
+pop edi
+arpl [edi+0x64],bp
+inc ebp
+jb $+0x7f
+
+assembles to: 0x4547477B7838365F6D616368696E455F636F6445727D  
+unhex: EGG{x86_machinE_codEr}

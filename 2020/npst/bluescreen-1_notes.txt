@@ -1,0 +1,37 @@
+# Bluescreen ("alle flagg"): ASM notes 
+
+Koden setter sannsynligvis opp et DPMI software interrupt
+
+https://en.wikipedia.org/wiki/DOS_Protected_Mode_Interface
+http://www.techhelpmanual.com/615-int_31h_0504h__allocate_linear_memory_block.html
+http://www.delorie.com/djgpp/doc/dpmi/api/310504.html
+
+Parametre:
+    AX    0504H
+    EBX   desired linear address or 0
+    ECX   size of block, in bytes (must not be 0)
+    EDX   flags:  bit 0: 1=create committed pages
+                        0=create uncommitted pages
+                    1-31: (reserved; should be 0)
+
+mov ax,504h         ; 1284                          (Allocate Linear Memory Block)
+mov ebx,13371337h   ; 322376503                     (desired address) [ikke page aligned?]
+xor ecx,ecx         ; 
+dec ecx             ; 0xFFFFFFFF / 4294967295 / -1  (size of block in bytes) [for stort?]
+mov edx,1           ; 1                             (committed pages/in RAM)
+int 31h             ; syscall 31h
+
+kallet ville sannsynligvis gitt error fra listen:
+
+ax error codes:
+8001H	unsupported function (16-bit host)
+8012H	linear memory unavailable
+8013H	physical memory unavailable
+8014H	backing store unavailable
+8016H	handle unavailable
+8021H	invalid value (ECX = 0)
+8025H	invalid linear address (EBX not page aligned)
+
+mest sannsynlig 8025H, evt 8012H eller 8013H?
+
+http://www.syndex.org/kernels/386/dpmi-specs/api/errors.html
