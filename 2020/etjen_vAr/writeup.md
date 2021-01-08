@@ -301,6 +301,19 @@ T    A    P    D    A    N    C    E
 
 translate to latin letter, switch order of columns. the big hint is the five letters on the first line almost makes out FUTHA, which is similar to futhark. chang the order of columns and read out row by row.
 
+excel/numbers
+=>
+F	U	T	H	A
+R	K	R	U	N
+E	R	E	R	I
+N	T	E	R	E
+S	S	A	N	T
+=>
+FUTHARKRUNERERINTERESSANT
+=>
+FUTHARK RUNER ER INTERESSANT
+
+
 ## 3.1.4_sharing_secrets_k=2, k=3, k=4: LØST k=9 avhenger av løsninger på andre oppgaver
 
 bruker pythonskript fra wikipedia for å løse shamir, og putter inn hintene fra scoreboard --secret-shares
