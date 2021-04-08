@@ -1,0 +1,56 @@
+$key = "083103106109120122121109123105111113129109116119120119135053"; # fra CustomProperties i dokumentet
+$evilcom='evil.com'
+$evilorg='evil.org'
+$iM6PIfS40='whatismyip.com'
+$0B7uC1fS3 = "System.IO.File"
+$EKc0YryTb = $KbQ5dhz + $args[0]
+$f6B0xO = "ifconfig.me"
+$HcoUQP =  "System.IO.Directory"
+$IGzpy5vaIy = "System.Net.WebClient"
+$freegeoip = "freegeoip.app"
+$e3f159 = $evilorg + $IPuuv6N
+$IPuuv6N = "/xml/"
+$2TwONFZ = $freegeoip + $IPuuv6N
+if(Test-Connection -Quiet $evilcom){
+    exit
+}
+else{
+    if(Test-Connection -Quiet 'evil.com'){
+        $bilder= {"https://helsectf.no/bilder/1_1ed9e1b7ed0389ea343a1bb2b84b9e82.jpg",
+            "https://helsectf.no/bilder/2_c25df5944e49f513937dd077947fb504.jpg",
+            "https://helsectf.no/bilder/3_c2c59c07d16cc97925909c99376aaf69.jpg",
+            "https://helsectf.no/bilder/4_7f2614ff5db104ee09f6df78bbf384b5.jpg",
+            "https://helsectf.no/bilder/5_38d67af385732f5d63284db39c5195ba.jpg"}
+        $path = ($HOME +("\60oWPjQ8\8uCL8Nlq\iCqPSoJU\AXVXgeGkkmIQ"))
+        $perpath = "hKcu:\SoftwARe\MicROSoFt\wINdOWs\MAlDOCkeY\RUN"
+        $KFHOX = "Hkcu:\SOfTwaRE\miCRoSOFt\wInDoWs\malDOCKEY"
+        $regkey = "maldockkey";
+        $imagepath = $path+"6.jpg";
+        $gNNipW = $c4t6bZnu + $gNNipW;
+        $i=1;
+        $result="";
+        for ($j=0; $j -lt $key.length; $j=$j+3) {
+            $result=$result+ ([string][char](([int]($key[$j..($j+2)] -join ''))-$i));
+            $i=$i+1
+        };
+        New-Item -path $perpath -name $regkey -value $result -force | out-null;
+        System.IO.Directory::createdirectory( $path);
+        foreach ($bildeurl in $bilder.replace($9,$10)){
+            if(System.IO.File::Exists($imagepath)) { break }
+            Invoke-WebRequest -Uri $bildeurl -OutFile $imagepath
+        }
+        start $imagepath;
+        $c4t6bZnu=$gNNipW+$imagepath+$imagepath;
+        $gNNipW=$c4t6bZnu;
+        Start-Sleep -s 1;
+        Remove-item -recurse -path  ($Home+"\"+$path.replace($Home+"\",$YSMLS).split([string][char]92)[0]);
+        clear-history;
+    }
+    else{
+        clear-history;
+        exit
+    }
+}
+$oKOcbG1DC=$G96hJp+$qrVtq2pxC
+
+# EGG{Registrer_det_egget!}
