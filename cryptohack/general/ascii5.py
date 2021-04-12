@@ -1,8 +1,9 @@
-from pwn import remote
-import json
-from Crypto.Util.number import bytes_to_long, long_to_bytes
 import base64
 import codecs
+import json
+
+from Crypto.Util.number import bytes_to_long, long_to_bytes
+from pwn import remote
 
 r = remote('socket.cryptohack.org', 13377) #, level = 'debug')
 
